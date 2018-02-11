@@ -1,0 +1,108 @@
+@import "foundation";
+@import "settings";
+
+
+/*Secciones de la página:
+  1.-Seccion Principal
+  2.-Habilidades
+  3.-Proyectos
+  4.-Premios
+  5.-Contacto y Redes Sociales*/
+
+
+/*Inicio de Seccion Principal*/
+.hero-section {
+  border: solid black 5px;
+  height: 70vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: right;
+}
+.boton{
+  color: white;
+  position: absolute;
+  top: 1rem;
+  left: auto;
+  right: 1rem;
+  margin-right:0px;
+}
+.logo{
+  width: 3rem;
+  height:3rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+.hero-section .hero-section-text h1{
+  font-size: 7vh;
+}
+@media only screen and (min-width: 1080px){
+  .hero-section .hero-section-text h1{
+    position: absolute;
+    top: 27vh;
+    left: auto;
+    right: 30vh;
+    font-size: 10vh;
+  }
+}
+/*Fin de Seccion Principal*/
+
+/*Inicio de Segunda Seccion: Skills*/
+.Frase1{
+  margin-left: 5vh;
+  margin-right: 5vh;
+  margin-top: 10vh;
+  color: white;
+}
+.Skills{
+  margin-top: 20vh;
+  margin-left: 5vh;
+  color: white;
+  border: solid 1px black;
+  background: black;
+  width: 30vh;
+  height: 30vh;
+}
+.Skills h1{
+  margin-left: 6vh;
+  margin-right: 0vh;
+  margin-top: 0vh;
+}
+.Skills ul li{
+  margin-top: 2vh;
+  margin-left: 6vh;
+}
+.Frase1 p{
+  margin-top: 3vh;
+  font-size: 2vh;
+}
+.Frase1 a{
+  font-size: 3.5vh;
+  color: white;
+}
+/*Fin de la Segunda Seccion*/
+
+/*Inicio Tercera Sección: */
+.Frase2{
+  margin-left: 6vh;
+  margin-top: 5vh;
+  color: white;
+}
+.Imagen{
+
+}
+.im{
+  color: white;
+  background-image:url("img/descarga.jpg");
+}
