@@ -1,6 +1,4 @@
-@import "foundation";
-@import "settings";
-
+@import "scss/app";
 
 /*Secciones de la página:
   1.-Seccion Principal
@@ -9,10 +7,9 @@
   4.-Awards
   5.-Contacto y Redes Sociales*/
 
-
 /*Inicio de Seccion Principal*/
 .hero-section {
-  border: solid black 5px;
+  background-color: black;
   height: 70vh;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -25,13 +22,45 @@
           justify-content: center;
   text-align: right;
 }
-.boton{
+#particles-js{
+  height: 70vh;
+  width: 100%;
+  background: black;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  z-index: 0.5;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: right;
+}
+.boton .button{
   color: white;
   position: absolute;
-  top: 1rem;
+  top: 5vh;
   left: auto;
-  right: 1rem;
+  right: 5vh;
   margin-right:0px;
+  width: 13vh;
+  height: 5vh;
+  opacity: 1;
+}
+.boton .button:hover{
+  color: white;
+  position: absolute;
+  top: 5vh;
+  left: auto;
+  right: 5vh;
+  margin-right:0px;
+  width: 13vh;
+  background-color: #4286f4;
+  height: 5vh;
+  opacity: 1;
 }
 .logo{
   width: 3rem;
@@ -64,7 +93,7 @@
   margin-left: 5vh;
   margin-right: 5vh;
   margin-top: 10vh;
-  color: white;
+  color: black;
 }
 .Skills{
   margin-top: 20vh;
@@ -90,7 +119,7 @@
 }
 .Frase1 a{
   font-size: 3.5vh;
-  color: white;
+  color: black;
 }
 /*Fin de la Segunda Seccion*/
 
@@ -217,14 +246,10 @@
 /*Inicio Cuarta Seccion: Awards*/
 t{
   font-size: 5vh;
-  color: white;
+  color: black;
+  font-weight: bold;
   margin-left: 13vh;
 }
-
-
-
-
-
 
 
 

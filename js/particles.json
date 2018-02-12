@@ -1,0 +1,19 @@
+{
+  "particles":{
+    "number":{
+      "value":100
+    },
+    "shape":{
+      "type":"circle"
+    },
+    "move":{
+      "enable": true,
+      "speed":2,
+      "direction": "bottom",
+      "straight":false
+    }
+  },
+  "interactivity":{
+
+  }
+}
