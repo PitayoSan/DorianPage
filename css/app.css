@@ -298,6 +298,7 @@
     margin-left: 0vh;
     margin-right: auto;
     visibility: hidden;
+    display: none;
     -webkit-clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
     clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
   }
@@ -335,16 +336,16 @@
     left: auto;
     right: 5vh;
     width: 18vh;
-    height: 7vh;
+    height: 8vh;
     opacity: 1;
     background-color: #4286f4;
   }
   .hero-section .hero-section-text {
     color: #000000;
-    font-family: 'Julius Sans One';
     text-shadow: 1px 1px 2px #0a0a0a;
   }
   .hero-section .hero-section-text h1{
+    margin-left: 2vh;
     font-size: 7vh;
     position: absolute;
     top: 27vh;
@@ -404,11 +405,11 @@
   /*Inicio Tercera Sección: Proyectos */
   .container{
     margin-top: 0px;
-    width: 100%;
+    width: 101%;
   }
   #cs{
     margin-left: -2vh;
-    margin-top: 4vh;
+    margin-top: -15vh;
     width: 225%;
   }
   .Frase2{
@@ -523,17 +524,14 @@
     padding-top: 30vh;
     font-size: 6vh;
   }
+  .proy{
+    margin-top:25vh;
+  }
   .imagen1{
-
-  }
-  .imagen2{
-
-  }
-  .imagen3{
-
-  }
-  .imagen4{
-
+    margin-left: -16vh;
+    position: relative;
+    width: 1vh;
+    height: 1vh;
   }
   /*Fin de la Tercera seccion*/
   /*Inicio Cuarta Seccion: Awards*/
@@ -543,6 +541,13 @@
     color: black;
     font-weight: bold;
     margin-left: 13vh;
+
+  }
+  .t{
+    font-size: 5vh;
+    font-family: 'Julius Sans One';
+    color: black;
+    font-weight: bold;
 
   }
   p{
@@ -556,4 +561,8 @@
     visibility: hidden;
     display: none;
   }
+  .Tercera{
+    margin-top: 35vh;
+  }
+
 }
