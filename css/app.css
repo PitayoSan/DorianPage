@@ -2996,7 +2996,7 @@
   }
 }
 
-@media only screen and (max-width:360px) and (max-height:640px) and (orientation: portrait){
+@media only screen and (max-width:360px) and (max-height:640px){
   /*Inicio de Seccion Principal*/
   body {
     overflow-x: hidden;
@@ -3398,7 +3398,7 @@
     text-align: center;
   }
 }
-@media only screen and (max-width:375px) and (max-height:667px) and (orientation: portrait){
+@media only screen and (max-width:375px) and (max-height:667px){
   /*Inicio de Seccion Principal*/
   body {
     overflow-x: hidden;
