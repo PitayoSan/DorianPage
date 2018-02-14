@@ -7,7 +7,7 @@
 
 /*Resoluciones de Pantalla/PC*/
 
-@media only screen and (max-width: 1920px) and (max-height: 1080px) and (orientation: landscape) {
+@media only screen and (max-device-width: 1920px) and (max-device-height: 1080px) and (orientation: landscape) {
   /*Inicio de Seccion Principal*/
   body {
     overflow-x: hidden;
@@ -308,7 +308,7 @@
   }
 }
 
-@media only screen and (max-width: 1600px) and (max-height: 900px) and (orientation: landscape) {
+@media only screen and (max-device-width: 1600px) and (max-device-height: 900px) and (orientation: landscape) {
   /*Inicio de Seccion Principal*/
   body {
     overflow-x: hidden;
@@ -369,8 +369,8 @@
     top: 5vh;
     left: auto;
     right: 5vh;
-    width: 17vh;
-    height: 5vh;
+    width: 22vh;
+    height: 9vh;
     opacity: 1;
     background-color: #4286f4;
   }
@@ -614,7 +614,7 @@
   }
 }
 
-@media only screen and (max-width: 1440px) and (max-height: 1080px) and (orientation: landscape) {
+@media only screen and (max-device-width: 1440px) and (max-device-height: 1080px) and (orientation: landscape) {
   /*Inicio de Seccion Principal*/
   body {
     overflow-x: hidden;
@@ -909,7 +909,7 @@
   }
 }
 
-@media only screen and (max-width: 1366px) and (max-height: 768px) and (orientation: landscape) {
+@media only screen and (max-device-width: 1366px) and (max-device-height: 768px) and (orientation: landscape) {
   /*Inicio de Seccion Principal*/
   body {
     overflow-x: hidden;
@@ -958,11 +958,11 @@
     color: white;
     position: absolute;
     top: 5vh;
+    font-size: 1rem;
     left: auto;
     right: 5vh;
-    width: 24vh;
-    font-size: 1rem;
-    height: 6vh;
+    width: 10rem;
+    height: 4rem;
     opacity: 1;
   }
   .boton .button:hover {
@@ -971,8 +971,8 @@
     top: 5vh;
     left: auto;
     right: 5vh;
-    width: 20vh;
-    height: 6vh;
+    width: 10rem;
+    height: 4rem;
     opacity: 1;
     background-color: #4286f4;
   }
@@ -1002,11 +1002,11 @@
     border: solid 1px black;
     background: black;
     width: 62vh;
-    height: 50vh;
+    height: 55vh;
   }
   .seccion2 .grid-container-full {
     background: #f7f7f7;
-    height: 40rem;
+    height: 30rem;
   }
   .Skills h1 {
     margin-left: 6vh;
@@ -1209,7 +1209,7 @@
   }
 }
 
-@media only screen and (max-width: 1280px) and (max-height: 720px) and (orientation: landscape) {
+@media only screen and (max-device-width: 1280px) and (max-device-height: 720px) and (orientation: landscape) {
   /*Inicio de Seccion Principal*/
   body {
     overflow-x: hidden;
@@ -1260,7 +1260,7 @@
     top: 5vh;
     left: auto;
     right: 5vh;
-    width: 20vh;
+    width: 9rem;
     height: 8vh;
     opacity: 1;
   }
@@ -1270,7 +1270,7 @@
     top: 5vh;
     left: auto;
     right: 5vh;
-    width: 20vh;
+    width: 9rem;
     height: 8vh;
     opacity: 1;
     background-color: #4286f4;
@@ -1496,7 +1496,7 @@
   }
 }
 
-@media only screen and (max-width: 1024px) and (max-height: 768px) and (orientation: landscape) {
+@media only screen and (max-device-width: 1024px) and (max-device-height: 768px) and (orientation: landscape) {
   /*Inicio de Seccion Principal*/
   body {
     overflow-x: hidden;
@@ -1546,8 +1546,9 @@
     position: absolute;
     top: 5vh;
     left: auto;
+    font-size: 2rem;
     right: 5vh;
-    width: 17vh;
+    width: 9rem;
     height: 8vh;
     opacity: 1;
   }
@@ -1557,7 +1558,7 @@
     top: 5vh;
     left: auto;
     right: 5vh;
-    width: 17vh;
+    width: 9rem;
     height: 8vh;
     opacity: 1;
     background-color: #4286f4;
@@ -1782,6 +1783,296 @@
   .Tercera .grid-container-full {
     background: white;
     height: 80vh;
+    margin-top: -90vh;
+  }
+}
+
+@media only screen and (max-device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape) {
+  /*Inicio de Seccion Principal*/
+  body {
+    overflow-x: hidden;
+  }
+  .hero-section {
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: right;
+  }
+  .hero-section .prinimagen {
+    width: 70vh;
+    height: 70vh;
+    margin-left: -7vh;
+    margin-right: auto;
+    -webkit-clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
+    clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
+  }
+  #particles-js {
+    height: 70vh;
+    width: 100%;
+    background: white;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    z-index: 0.5;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: right;
+  }
+  .boton .button {
+    color: white;
+    position: absolute;
+    top: 5vh;
+    left: auto;
+    right: 5vh;
+    width: 22vh;
+    height: 9vh;
+    opacity: 1;
+  }
+  .boton .button:hover {
+    color: white;
+    position: absolute;
+    top: 5vh;
+    left: auto;
+    right: 5vh;
+    width: 22vh;
+    height: 9vh;
+    opacity: 1;
+    background-color: #4286f4;
+  }
+  .hero-section .hero-section-text {
+    color: #000000;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  .hero-section .hero-section-text h1 {
+    font-size: 8vh;
+    position: absolute;
+    top: 27vh;
+    left: auto;
+    right: 12vh;
+  }
+  /*Fin de Seccion Principal*/
+  /*Inicio de Segunda Seccion: Skills*/
+  .Frase1 {
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 10vh;
+    color: black;
+  }
+  .Skills {
+    margin-top: 20vh;
+    margin-right: 0vh;
+    color: white;
+    border: solid 1px black;
+    background: black;
+    width: 62vh;
+    height: 55vh;
+  }
+  .seccion2 .grid-container-full {
+    background: #f7f7f7;
+    height: 85vh;
+  }
+  .Skills h1 {
+    margin-left: 6vh;
+    margin-right: 0vh;
+    margin-top: 0vh;
+  }
+  .Skills ul li {
+    margin-top: 2vh;
+    margin-left: 6vh;
+  }
+  .Frase1 p {
+    margin-top: 3vh;
+    font-size: 2vh;
+  }
+  .Frase1 a {
+    font-size: 3.5vh;
+    color: black;
+  }
+  .Frase1 h5 {
+    font-size: 1.2rem;
+  }
+  /*Fin de la Segunda Seccion*/
+  /*Inicio Tercera Sección: Proyectos */
+  .Frase2 {
+    margin-left: 6vh;
+    margin-top: 5vh;
+    color: white;
+  }
+  .im, .im1, .im2, .im3 {
+    position: relative;
+    width: 1vh;
+    height: 1vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .im p {
+    padding-bottom: 0px;
+    padding-top: 34vh;
+    padding-left: 1vh;
+    color: white;
+    font-size: 4vh;
+    position: absolute;
+  }
+  #cs {
+    margin-right: auto;
+    margin-left: auto;
+    height: 40vh;
+    width: 30vh;
+    background: url("../img/tacom.png") no-repeat center top;
+    background-size: cover;
+  }
+  .ima {
+    padding-bottom: 0px;
+    padding-top: 34vh;
+    padding-left: 1vh;
+    color: white;
+    font-size: 4vh;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .im p, .im1 p, .im2 p, .im3 p {
+    padding-bottom: 0px;
+    padding-top: 34vh;
+    padding-left: 1vh;
+    color: white;
+    font-size: 4vh;
+    position: absolute;
+  }
+  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
+    transition: all .5s ease;
+    background-color: rgba(0, 0, 0, 1);
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
+    transition: all .5s ease-out;
+    background-color: rgba(0, 0, 0, 1);
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
+    transition: all .5s ease;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im .button, .im1 .button, .im2 .button, .im3 .button {
+    transition: all .5s ease-out;
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
+    transition: all .5s ease-out;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+    transition: all .5s ease-out;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+  }
+  .im .button, .im1 .button, .im2 .button, .im3 .button {
+    height: 35vh;
+    width: 5vh;
+    margin-left: 23vh;
+    margin-top: -3vh;
+    position: absolute;
+    opacity: .5;
+    z-index: 1000;
+  }
+  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
+    background-color: red;
+  }
+  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+    margin-left: -24.2vh;
+    margin-top: -3vh;
+    width: 15vh;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+  .im p, .im1 p, .im2 p, .im3 p {
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  .Proyectos p {
+    padding-bottom: 0px;
+    padding-top: 30vh;
+    font-size: 6vh;
+  }
+  /*Fin de la Tercera seccion*/
+  /*Inicio Cuarta Seccion: Awards*/
+  .t {
+    font-size: 5vh;
+    color: black;
+    font-weight: bold;
+    margin-left: 13vh;
+  }
+  /*Fin de la Cuarta Seccion*/
+  .cell a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1vh;
+  }
+  .cell b {
+    margin-left: 17%;
+    margin-right: 83%;
+    margin-top: -1vh;
+  }
+  .Tercera .cell h4 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: black;
+    text-align: center;
+  }
+  .Tercera .cell p {
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .DP {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url("../img/posada.jpg") no-repeat right top;
+  }
+  .Tercera .grid-container-full {
+    background: white;
+    height: 0vh;
     margin-top: -90vh;
   }
 }
