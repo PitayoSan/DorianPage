@@ -1,16 +1,17 @@
-/*Secciones de la página:
-  1.-Seccion Principal
-  2.-Skills
-  3.-Proyectos
-  4.-Awards
-  5.-Contacto y Redes Sociales*/
 
-/*Resoluciones de Pantalla/PC*/
+/*Resoluciones de Pantalla/Movil */
 
-@media only screen and (max-width: 1920px) and (max-height: 1080px) and (orientation: landscape) {
+@media only screen and (max-device-width:360px) and (max-device-height:640px) {
   /*Inicio de Seccion Principal*/
   body {
     overflow-x: hidden;
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    height: auto;
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
   }
   .hero-section {
     background-color: black;
@@ -32,307 +33,8 @@
     height: 70vh;
     margin-left: 0vh;
     margin-right: auto;
-    -webkit-clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
-    clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
-  }
-  #particles-js {
-    height: 70vh;
-    width: 100%;
-    background: white;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .boton .button {
-    color: white;
-    position: absolute;
-    top: 5vh;
-    left: auto;
-    right: 5vh;
-    font-size: 1.5rem;
-    width: 20vh;
-    height: 8vh;
-    opacity: 1;
-  }
-  .boton .button:hover {
-    color: white;
-    position: absolute;
-    top: 5vh;
-    left: auto;
-    right: 5vh;
-    width: 20vh;
-    height: 8vh;
-    opacity: 1;
-    background-color: #4286f4;
-  }
-  .hero-section .hero-section-text {
-    color: #000000;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 7vh;
-    position: absolute;
-    top: 27vh;
-    left: auto;
-    right: 22vh;
-    font-size: 10vh;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: 20vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
-    background: black;
-    width: 62vh;
-    height: 30vh;
-  }
-  .seccion2 .grid-container-full {
-    background: #f7f7f7;
-    height: 80vh;
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    font-size: 1.5rem;
-  }
-  .Frase1 a {
-    font-size: 3rem;
-    color: black;
-  }
-  .Frase1 h5 {
-    font-size: 2rem;
-    color: black;
-  }
-  /*Fin de la Segunda Seccion*/
-  /*Inicio Tercera Sección: Proyectos */
-  .Frase2 {
-    margin-left: 6vh;
-    margin-top: 5vh;
-    color: white;
-  }
-  .im, .im1, .im2, .im3 {
-    position: relative;
-    width: 1vh;
-    height: 1vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease
-  }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
-    width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -23.2vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
-    text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
-  }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-  .Tercera .cell .t {
-    font-size: 5rem;
-    color: black;
-    font-weight: bold;
-    margin-left: 0vh;
-  }
-  /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1vh;
-  }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
-  }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 3rem;
-    color: black;
-    margin-top: 7.5rem;
-    text-align: center;
-  }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
-    font-size: 2rem;
-  }
-  .DP {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
-    background-size: cover;
-  }
-  .Tercera .grid-container-full {
-    background: white;
-    height: 70vh;
-    margin-top: -50vh;
-  }
-  .divs .tag {
     visibility: hidden;
-  }
-  .MTV .pulse {
-    weight: 20rem;
-    height: 20rem;
-  }
-  .Tercera #MTV h4 {
-    font-weight: bold;
-    font-size: 3rem;
-    color: black;
-    margin-top: 0rem;
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 1600px) and (max-height: 900px) and (orientation: landscape) {
-  /*Inicio de Seccion Principal*/
-  body {
-    overflow-x: hidden;
-  }
-  .hero-section {
-    background-color: black;
-    height: 70vh;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .hero-section .prinimagen {
-    width: 70vh;
-    height: 70vh;
-    margin-left: 0vh;
-    margin-right: auto;
+    display: none;
     -webkit-clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
     clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
   }
@@ -344,7 +46,6 @@
     display: -ms-flexbox;
     display: flex;
     position: absolute;
-    z-index: 0.5;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
@@ -356,10 +57,11 @@
   .boton .button {
     color: white;
     position: absolute;
+    font-size: 1rem;
     top: 5vh;
     left: auto;
     right: 5vh;
-    width: 22vh;
+    width: 21vh;
     height: 9vh;
     opacity: 1;
   }
@@ -369,8 +71,8 @@
     top: 5vh;
     left: auto;
     right: 5vh;
-    width: 17vh;
-    height: 5vh;
+    width: 21vh;
+    height: 9vh;
     opacity: 1;
     background-color: #4286f4;
   }
@@ -379,639 +81,41 @@
     text-shadow: 1px 1px 2px #0a0a0a;
   }
   .hero-section .hero-section-text h1 {
-    font-size: 6vh;
-  }
-  .hero-section .hero-section-text h1 {
+    margin-left: 2vh;
+    font-size: 7vh;
     position: absolute;
     top: 27vh;
     left: auto;
-    right: 22vh;
+    right: 12.5vh;
     font-size: 10vh;
   }
   /*Fin de Seccion Principal*/
   /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: 20vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
-    background: black;
-    width: 62vh;
-    height: 40vh;
-  }
   .seccion2 .grid-container-full {
     background: #f7f7f7;
-    height: 80vh;
+    height: 160vh;
   }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    font-size: 2vh;
-  }
-  .Frase1 a {
-    font-size: 3.5vh;
-    color: black;
-  }
-  /*Fin de la Segunda Seccion*/
-  /*Inicio Tercera Sección: Proyectos */
-  .Frase2 {
-    margin-left: 6vh;
-    margin-top: 5vh;
-    color: white;
-  }
-  .im, .im1, .im2, .im3 {
-    position: relative;
-    width: 1vh;
-    height: 1vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease
-  }
-  .im p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
-    width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -24.2vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
-    text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
-  }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-  .Tercera .cell .t {
-    font-size: 4rem;
-    color: black;
-    font-weight: bold;
-    margin-left: 13vh;
-  }
-  /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1vh;
-  }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
-  }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: black;
-    text-align: center;
-  }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
-    font-size: 1rem;
-  }
-  .DP {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
-  }
-  .Tercera .grid-container-full {
-    background: white;
-    height: 90vh;
-    margin-top: -70vh;
-  }
-  .divs .tag {
-    visibility: hidden;
-  }
-  .MTV .pulse {
-    weight: 15rem;
-    height: 15rem;
-    margin-top: 0rem;
-    margin-left: rem;
-  }
-  .Tercera #MTV h4 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: black;
-    margin-top: 1rem;
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 1440px) and (max-height: 1080px) and (orientation: landscape) {
-  /*Inicio de Seccion Principal*/
-  body {
-    overflow-x: hidden;
-  }
-  .hero-section {
-    background-color: black;
-    height: 70vh;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .hero-section .prinimagen {
-    width: 70vh;
-    height: 70vh;
-    margin-left: -5vh;
-    margin-right: auto;
-    -webkit-clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
-    clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
-  }
-  #particles-js {
-    height: 70vh;
-    width: 100%;
-    background: white;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .boton .button {
-    color: white;
-    position: absolute;
-    top: 5vh;
-    left: auto;
-    right: 5vh;
-    width: 20vh;
-    height: 8vh;
-    opacity: 1;
-  }
-  .boton .button:hover {
-    color: white;
-    position: absolute;
-    top: 5vh;
-    left: auto;
-    right: 5vh;
-    width: 20vh;
-    height: 8vh;
-    opacity: 1;
-    background-color: #4286f4;
-  }
-  .hero-section .hero-section-text {
-    color: #000000;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 5rem;
-    position: absolute;
-    top: 30vh;
-    left: auto;
-    right: 10vh;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
   .Frase1 {
+    width: 200%;
     margin-left: 5vh;
     margin-right: 5vh;
     margin-top: 10vh;
     color: black;
   }
   .Skills {
-    margin-top: 20vh;
-    margin-right: 0vh;
+    margin-top: 140vh;
+    margin-left: -30vh;
+    margin-right: auto;
     color: white;
     border: solid 1px black;
     background: black;
-    width: 62vh;
-    height: 35vh;
-  }
-  .seccion2 .grid-container-full {
-    background: #f7f7f7;
-    height: 90vh;
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    font-size: 2vh;
-  }
-  .Frase1 a {
-    font-size: 3.5vh;
-    color: black;
-  }
-  /*Fin de la Segunda Seccion*/
-  /*Inicio Tercera Sección: Proyectos */
-  .Frase2 {
-    margin-left: 6vh;
-    margin-top: 5vh;
-    color: white;
-  }
-  .im, .im1, .im2, .im3 {
-    position: relative;
-    width: 1vh;
-    height: 1vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease
-  }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
-    width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -23.5vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
-    text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
-  }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-  .Tercera .cell .t {
-    font-size: 4rem;
-    color: black;
-    font-weight: bold;
-    margin-left: 0vh;
-  }
-  /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1vh;
-  }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
-  }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: black;
-    text-align: center;
-  }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
-    font-size: 1rem;
-  }
-  .DP {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
-  }
-  .Tercera .grid-container-full {
-    background: white;
-    height: 70vh;
-    margin-top: -90vh;
-  }
-  .divs .tag {
-    visibility: hidden;
-  }
-  .MTV .pulse {
-    weight: 10rem;
-    height: 10rem;
-    margin-top: 2rem;
-    margin-left: 2rem;
-  }
-  .Tercera #MTV h4 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: black;
-    margin-top: 3rem;
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 1366px) and (max-height: 768px) and (orientation: landscape) {
-  /*Inicio de Seccion Principal*/
-  body {
-    overflow-x: hidden;
-  }
-  .hero-section {
-    background-color: black;
-    height: 70vh;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .hero-section .prinimagen {
-    width: 70vh;
-    height: 70vh;
-    margin-left: 0vh;
-    margin-right: auto;
-    -webkit-clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
-    clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
-  }
-  #particles-js {
-    height: 70vh;
-    width: 100%;
-    background: white;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .boton .button {
-    color: white;
-    position: absolute;
-    top: 5vh;
-    left: auto;
-    right: 5vh;
-    width: 24vh;
-    font-size: 1rem;
-    height: 6vh;
-    opacity: 1;
-  }
-  .boton .button:hover {
-    color: white;
-    position: absolute;
-    top: 5vh;
-    left: auto;
-    right: 5vh;
-    width: 20vh;
-    height: 6vh;
-    opacity: 1;
-    background-color: #4286f4;
-  }
-  .hero-section .hero-section-text {
-    color: #000000;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 10vh;
-    position: absolute;
-    top: 30vh;
-    left: auto;
-    right: 20vh;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: 20vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
-    background: black;
-    width: 62vh;
+    width: 226%;
     height: 50vh;
   }
-  .seccion2 .grid-container-full {
-    background: #f7f7f7;
-    height: 40rem;
-  }
   .Skills h1 {
     margin-left: 6vh;
     margin-right: 0vh;
-    margin-top: 0vh;
+    margin-top: 3vh;
   }
   .Skills ul li {
     margin-top: 2vh;
@@ -1019,322 +123,58 @@
   }
   .Frase1 p {
     margin-top: 3vh;
+    margin-right: 7vh;
     font-size: 2vh;
+    font-family: 'Montserrat';
   }
   .Frase1 a {
     font-size: 3.5vh;
     color: black;
+    font-family: 'Montserrat';
   }
   .Frase1 h5 {
-    font-size: 1.5rem;
-    color: black;
-  }
-  /*Fin de la Segunda Seccion*/
-  /*Inicio Tercera Sección: Proyectos */
-  .Frase2 {
-    margin-left: 6vh;
-    margin-top: 5vh;
-    color: white;
-  }
-  .im, .im1, .im2, .im3 {
-    position: relative;
-    width: 1vh;
-    height: 1vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease
-  }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
-    width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -24.5vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
-    text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
-  }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-  .Tercera .cell .t {
-    font-size: 3rem;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-  }
-  /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1vh;
-  }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
-  }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: black;
-    text-align: center;
-  }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
     font-size: 1rem;
-  }
-  .DP {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
-  }
-  .Tercera .grid-container-full {
-    background: white;
-    height: 85vh;
-    margin-top: -50vh;
-  }
-  .divs .tag {
-    visibility: hidden;
-  }
-  .MTV .pulse {
-    weight: 10rem;
-    height: 10rem;
-    margin-top: 1rem;
-    margin-left: 2rem;
-  }
-  .Tercera #MTV h4 {
-    font-weight: bold;
-    font-size: 2rem;
+    width: 17rem;
+    text-align: justify;
     color: black;
-    margin-top: 2rem;
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 1280px) and (max-height: 720px) and (orientation: landscape) {
-  /*Inicio de Seccion Principal*/
-  body {
-    overflow-x: hidden;
-  }
-  .hero-section {
-    background-color: black;
-    height: 70vh;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .hero-section .prinimagen {
-    width: 70vh;
-    height: 70vh;
-    margin-left: 0vh;
-    margin-right: auto;
-    -webkit-clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
-    clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
-  }
-  #particles-js {
-    height: 70vh;
-    width: 100%;
-    background: white;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .boton .button {
-    color: white;
-    position: absolute;
-    top: 5vh;
-    left: auto;
-    right: 5vh;
-    width: 20vh;
-    height: 8vh;
-    opacity: 1;
-  }
-  .boton .button:hover {
-    color: white;
-    position: absolute;
-    top: 5vh;
-    left: auto;
-    right: 5vh;
-    width: 20vh;
-    height: 8vh;
-    opacity: 1;
-    background-color: #4286f4;
-  }
-  .hero-section .hero-section-text {
-    color: #000000;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    position: absolute;
-    top: 27vh;
-    left: auto;
-    right: 20vh;
-    font-size: 10vh;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: 20vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
-    background: black;
-    width: 62vh;
-    height: 45vh;
-  }
-  .seccion2 .grid-container-full {
-    background: #f7f7f7;
-    height: 80vh;
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    font-size: 2vh;
-  }
-  .Frase1 a {
-    font-size: 3.5vh;
-    color: black;
+    font-family: 'Montserrat';
   }
   /*Fin de la Segunda Seccion*/
   /*Inicio Tercera Sección: Proyectos */
+  .container {
+    margin-top: 0px;
+    width: 101%;
+  }
+  #cs {
+    margin-left: -2vh;
+    margin-top: -15vh;
+    width: 225%;
+    height: 100%;
+    background: url("../img/tacom.png") no-repeat center top;
+    background-size: cover;
+  }
   .Frase2 {
     margin-left: 6vh;
     margin-top: 5vh;
     color: white;
   }
-  .im, .im1, .im2, .im3 {
+  .ima {
+    padding-bottom: 0px;
+    padding-top: 34vh;
+    padding-left: 3vh;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 6vh;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .im {
     position: relative;
-    width: 1vh;
-    height: 1vh;
+    width: .5vh;
+    margin-top: 1vh;
+    margin-left: -1vh;
+    height: .5vh;
     -webkit-opacity: 1;
     -moz-opacity: 1;
     opacity: 1;
@@ -1344,32 +184,6 @@
     -ms-transition: all 3s ease;
     -o-transition: all 3s ease;
     transition: all 3s ease
-  }
-  .im p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
   }
   .im p, .im1 p, .im2 p, .im3 p {
     padding-bottom: 0px;
@@ -1448,183 +262,12 @@
   .im p, .im1 p, .im2 p, .im3 p {
     text-shadow: 1px 1px 2px #0a0a0a;
   }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
-  }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-  .Tercera .cell .t {
-    font-size: 3rem;
-    color: black;
-    font-weight: bold;
-    margin-left: 0vh;
-  }
-  /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1vh;
-  }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
-  }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: black;
-    text-align: center;
-  }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
-    font-size: 1rem;
-  }
-  .DP {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
-  }
-  .Tercera .grid-container-full {
-    background: white;
-    height: 70vh;
-    margin-top: -70vh;
-  }
-}
-
-@media only screen and (max-width: 1024px) and (max-height: 768px) and (orientation: landscape) {
-  /*Inicio de Seccion Principal*/
-  body {
-    overflow-x: hidden;
-  }
-  .hero-section {
-    background-color: black;
-    height: 70vh;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .hero-section .prinimagen {
-    width: 70vh;
-    height: 70vh;
-    margin-left: -7vh;
-    margin-right: auto;
-    -webkit-clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
-    clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
-  }
-  #particles-js {
-    height: 70vh;
-    width: 100%;
-    background: white;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .boton .button {
-    color: white;
-    position: absolute;
-    top: 5vh;
-    left: auto;
-    right: 5vh;
-    width: 17vh;
-    height: 8vh;
-    opacity: 1;
-  }
-  .boton .button:hover {
-    color: white;
-    position: absolute;
-    top: 5vh;
-    left: auto;
-    right: 5vh;
-    width: 17vh;
-    height: 8vh;
-    opacity: 1;
-    background-color: #4286f4;
-  }
-  .hero-section .hero-section-text {
-    color: #000000;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 8vh;
-    position: absolute;
-    top: 27vh;
-    left: auto;
-    right: 12vh;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: 20vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
-    background: black;
-    width: 62vh;
-    height: 45vh;
-  }
-  .seccion2 .grid-container-full {
-    background: #f7f7f7;
-    height: 85vh;
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    font-size: 2vh;
-  }
-  .Frase1 a {
-    font-size: 3.5vh;
-    color: black;
-  }
-  .Frase1 h5 {
-    font-size: 1.2rem;
-  }
-  /*Fin de la Segunda Seccion*/
-  /*Inicio Tercera Sección: Proyectos */
-  .Frase2 {
-    margin-left: 6vh;
-    margin-top: 5vh;
-    color: white;
-  }
-  .im, .im1, .im2, .im3 {
+  .im1 {
     position: relative;
-    width: 1vh;
-    height: 1vh;
+    width: .5vh;
+    margin-left: -3vh;
+    margin-top: -9vh;
+    height: .5vh;
     -webkit-opacity: 1;
     -moz-opacity: 1;
     opacity: 1;
@@ -1635,123 +278,85 @@
     -o-transition: all 3s ease;
     transition: all 3s ease
   }
-  .im p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
+  .im2 {
+    position: relative;
+    width: .5vh;
+    margin-top: 11vh;
+    margin-left: -3vh;
+    height: .5vh;
     -webkit-opacity: 1;
     -moz-opacity: 1;
-    filter: alpha(opacity=100);
     opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
   }
-  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
+  .im3 {
+    position: relative;
+    width: .5vh;
+    margin-top: 11vh;
+    margin-left: -1vh;
+    height: .5vh;
     -webkit-opacity: 1;
     -moz-opacity: 1;
-    filter: alpha(opacity=100);
     opacity: 1;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
-    width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -24.2vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
-    text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
   }
   .Proyectos p {
     padding-bottom: 0px;
     padding-top: 30vh;
     font-size: 6vh;
+  }
+  .proy {
+    margin-top: 45vh;
+  }
+  .imagen1 {
+    margin-left: -16vh;
+    position: relative;
+    width: 1vh;
+    height: 1vh;
   }
   /*Fin de la Tercera seccion*/
   /*Inicio Cuarta Seccion: Awards*/
   .t {
     font-size: 5vh;
+    font-family: 'Julius Sans One';
     color: black;
     font-weight: bold;
-    margin-left: 13vh;
+    text-align: center;
+  }
+  p {
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  h4 {
+    font-family: 'Julius Sans One', sans-serif;
   }
   /*Fin de la Cuarta Seccion*/
+  .divs {
+    visibility: hidden;
+    display: none;
+  }
+  .Tercera {
+    margin-top: 35vh;
+  }
+  .cell c {
+    margin-top: -100vh;
+  }
+  /*Fin de la Tercera seccion*/
+  .Tercera .cell .t {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    margin-left: 0vh;
+  }
   .cell a {
     margin-left: auto;
     margin-right: auto;
@@ -1764,7 +369,7 @@
   }
   .Tercera .cell h4 {
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: black;
     text-align: center;
   }
@@ -1782,6 +387,1229 @@
   .Tercera .grid-container-full {
     background: white;
     height: 80vh;
-    margin-top: -90vh;
+    margin-top: -40vh;
+  }
+  .MTV .pulse {
+    weight: 3rem;
+    height: 3rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+  .Tercera #MTV h4 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-device-width:412px) and (max-device-height:732px) {
+  /*Inicio de Seccion Principal*/
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    height: auto;
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .hero-section {
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: right;
+  }
+  .hero-section .prinimagen {
+    width: 70vh;
+    height: 70vh;
+    margin-left: 0vh;
+    margin-right: auto;
+    visibility: hidden;
+    display: none;
+    -webkit-clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
+    clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
+  }
+  #particles-js {
+    height: 70vh;
+    width: 100%;
+    background: white;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    z-index: 0.5;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: right;
+  }
+  .boton .button {
+    color: white;
+    position: absolute;
+    top: 5vh;
+    left: auto;
+    right: 5vh;
+    width: 21vh;
+    height: 9vh;
+    opacity: 1;
+  }
+  .boton .button:hover {
+    color: white;
+    position: absolute;
+    top: 5vh;
+    left: auto;
+    right: 5vh;
+    width: 21vh;
+    height: 9vh;
+    opacity: 1;
+    background-color: #4286f4;
+  }
+  .hero-section .hero-section-text {
+    color: #000000;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  .hero-section .hero-section-text h1 {
+    margin-left: 2vh;
+    font-size: 7vh;
+    position: absolute;
+    top: 27vh;
+    left: auto;
+    right: 7rem;
+    font-size: 10vh;
+  }
+  /*Fin de Seccion Principal*/
+  /*Inicio de Segunda Seccion: Skills*/
+  .seccion2 .grid-container-full {
+    background: #f7f7f7;
+    height: 160vh;
+  }
+  .Frase1 {
+    width: 200%;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 10vh;
+    color: black;
+  }
+  .Skills {
+    margin-top: 120vh;
+    margin-left: -34vh;
+    margin-right: auto;
+    color: white;
+    border: solid 1px black;
+    background: black;
+    width: 240%;
+    height: 50vh;
+  }
+  .Skills h1 {
+    margin-left: 6vh;
+    margin-right: 0vh;
+    margin-top: 3vh;
+  }
+  .Skills ul li {
+    margin-top: 2vh;
+    margin-left: 6vh;
+  }
+  .Frase1 p {
+    margin-top: 3vh;
+    margin-right: 7vh;
+    font-size: 2vh;
+    font-family: 'Montserrat';
+  }
+  .Frase1 a {
+    font-size: 3.5vh;
+    color: black;
+    font-family: 'Montserrat';
+  }
+  .Frase1 h5 {
+    font-size: 1rem;
+    width: 20rem;
+    text-align: justify;
+    color: black;
+    font-family: 'Montserrat';
+  }
+  /*Fin de la Segunda Seccion*/
+  /*Inicio Tercera Sección: Proyectos */
+  .container {
+    margin-top: 15vh;
+    width: 110%;
+  }
+  #cs {
+    margin-left: -2vh;
+    margin-top: -29vh;
+    width: 203%;
+    height: 100%;
+    background: url("../img/tacom.png") no-repeat center top;
+    background-size: cover;
+  }
+  .Frase2 {
+    margin-left: 6vh;
+    margin-top: 5vh;
+    color: white;
+  }
+  .ima {
+    padding-bottom: 0px;
+    padding-top: 34vh;
+    padding-left: 3vh;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 6vh;
+    height: 100%;
+    width: 125%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .im {
+    position: relative;
+    width: .5vh;
+    margin-top: 1vh;
+    margin-left: -1vh;
+    height: .5vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .im p, .im1 p, .im2 p, .im3 p {
+    padding-bottom: 0px;
+    padding-top: 34vh;
+    padding-left: 1vh;
+    color: white;
+    font-size: 4vh;
+    position: absolute;
+  }
+  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
+    transition: all .5s ease;
+    background-color: rgba(0, 0, 0, 1);
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
+    transition: all .5s ease-out;
+    background-color: rgba(0, 0, 0, 1);
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
+    transition: all .5s ease;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im .button, .im1 .button, .im2 .button, .im3 .button {
+    transition: all .5s ease-out;
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
+    transition: all .5s ease-out;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+    transition: all .5s ease-out;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+  }
+  .im .button, .im1 .button, .im2 .button, .im3 .button {
+    height: 35vh;
+    width: 5vh;
+    margin-left: 23vh;
+    margin-top: -3vh;
+    position: absolute;
+    opacity: .5;
+    z-index: 1000;
+  }
+  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
+    background-color: red;
+  }
+  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+    margin-left: -24.2vh;
+    margin-top: -3vh;
+    width: 15vh;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+  .im p, .im1 p, .im2 p, .im3 p {
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  .im1 {
+    position: relative;
+    width: .5vh;
+    margin-left: 0vh;
+    margin-top: -9vh;
+    height: .5vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .im2 {
+    position: relative;
+    width: .5vh;
+    margin-top: 11vh;
+    margin-left: 0vh;
+    height: .5vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .im3 {
+    position: relative;
+    width: .5vh;
+    margin-top: 11vh;
+    margin-left: -1vh;
+    height: .5vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .Proyectos p {
+    padding-bottom: 0px;
+    padding-top: 30vh;
+    font-size: 6vh;
+  }
+  .proy {
+    margin-top: 20vh;
+  }
+  .imagen1 {
+    margin-left: -16vh;
+    position: relative;
+    width: 1vh;
+    height: 1vh;
+  }
+  /*Fin de la Tercera seccion*/
+  /*Inicio Cuarta Seccion: Awards*/
+  .t {
+    font-size: 5vh;
+    font-family: 'Julius Sans One';
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  p {
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  h4 {
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  /*Fin de la Cuarta Seccion*/
+  .divs {
+    visibility: hidden;
+    display: none;
+  }
+  .Tercera {
+    margin-top: 35vh;
+  }
+  .cell c {
+    margin-top: -100vh;
+  }
+  /*Fin de la Tercera seccion*/
+  .Tercera .cell .t {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    margin-left: 0vh;
+  }
+  .cell a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1vh;
+  }
+  .cell b {
+    margin-left: 17%;
+    margin-right: 83%;
+    margin-top: -1vh;
+  }
+  .Tercera .cell h4 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+  }
+  .Tercera .cell p {
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .DP {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url("../img/posada.jpg") no-repeat right top;
+  }
+  .Tercera .grid-container-full {
+    background: white;
+    height: 80vh;
+    margin-top: -40vh;
+  }
+  .MTV .pulse {
+    weight: 3rem;
+    height: 3rem;
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+  }
+  .Tercera #MTV h4 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-device-width:414px) and (max-device-height:736px) {
+  /*Inicio de Seccion Principal*/
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    height: auto;
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .hero-section {
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: right;
+  }
+  .hero-section .prinimagen {
+    width: 70vh;
+    height: 70vh;
+    margin-left: 0vh;
+    margin-right: auto;
+    visibility: hidden;
+    display: none;
+    -webkit-clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
+    clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
+  }
+  #particles-js {
+    height: 70vh;
+    width: 100%;
+    background: white;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    z-index: 0.5;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: right;
+  }
+  .boton .button {
+    color: white;
+    position: absolute;
+    top: 5vh;
+    left: auto;
+    right: 5vh;
+    font-size: 1rem;
+    width: 21vh;
+    height: 9vh;
+    opacity: 1;
+  }
+  .boton .button:hover {
+    color: white;
+    position: absolute;
+    top: 5vh;
+    left: auto;
+    right: 5vh;
+    width: 21vh;
+    height: 9vh;
+    opacity: 1;
+    background-color: #4286f4;
+  }
+  .hero-section .hero-section-text {
+    color: #000000;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  .hero-section .hero-section-text h1 {
+    margin-left: 2vh;
+    font-size: 7vh;
+    position: absolute;
+    top: 27vh;
+    left: auto;
+    right: 5.5rem;
+    font-size: 10vh;
+  }
+  /*Fin de Seccion Principal*/
+  /*Inicio de Segunda Seccion: Skills*/
+  .seccion2 .grid-container-full {
+    background: #f7f7f7;
+    height: 160vh;
+  }
+  .Frase1 {
+    width: 200%;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 10vh;
+    color: black;
+  }
+  .Skills {
+    margin-top: 140vh;
+    margin-left: -34vh;
+    margin-right: auto;
+    color: white;
+    border: solid 1px black;
+    background: black;
+    width: 240%;
+    height: 50vh;
+  }
+  .Skills h1 {
+    margin-left: 6vh;
+    margin-right: 0vh;
+    margin-top: 3vh;
+  }
+  .Skills ul li {
+    margin-top: 2vh;
+    margin-left: 6vh;
+  }
+  .Frase1 p {
+    margin-top: 3vh;
+    margin-right: 7vh;
+    font-size: 2vh;
+    font-family: 'Montserrat';
+  }
+  .Frase1 a {
+    font-size: 3.5vh;
+    color: black;
+    font-family: 'Montserrat';
+  }
+  .Frase1 h5 {
+    font-size: 1rem;
+    width: 20rem;
+    text-align: justify;
+    color: black;
+    font-family: 'Montserrat';
+  }
+  /*Fin de la Segunda Seccion*/
+  /*Inicio Tercera Sección: Proyectos */
+  .container {
+    margin-top: 17vh;
+    width: 110%;
+  }
+  #cs {
+    margin-left: -2vh;
+    margin-top: -32vh;
+    width: 204%;
+    height: 100%;
+    background: url("../img/tacom.png") no-repeat center top;
+    background-size: cover;
+  }
+  .Frase2 {
+    margin-left: 6vh;
+    margin-top: 5vh;
+    color: white;
+  }
+  .ima {
+    padding-bottom: 0px;
+    padding-top: 34vh;
+    padding-left: 3vh;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 6vh;
+    height: 100%;
+    width: 125%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .im {
+    position: relative;
+    width: .5vh;
+    margin-top: .5vh;
+    margin-left: -1vh;
+    height: .5vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .im p, .im1 p, .im2 p, .im3 p {
+    padding-bottom: 0px;
+    padding-top: 34vh;
+    padding-left: 1vh;
+    color: white;
+    font-size: 4vh;
+    position: absolute;
+  }
+  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
+    transition: all .5s ease;
+    background-color: rgba(0, 0, 0, 1);
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
+    transition: all .5s ease-out;
+    background-color: rgba(0, 0, 0, 1);
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
+    transition: all .5s ease;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im .button, .im1 .button, .im2 .button, .im3 .button {
+    transition: all .5s ease-out;
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
+    transition: all .5s ease-out;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+    transition: all .5s ease-out;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+  }
+  .im .button, .im1 .button, .im2 .button, .im3 .button {
+    height: 35vh;
+    width: 5vh;
+    margin-left: 23vh;
+    margin-top: -3vh;
+    position: absolute;
+    opacity: .5;
+    z-index: 1000;
+  }
+  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
+    background-color: red;
+  }
+  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+    margin-left: -24.2vh;
+    margin-top: -3vh;
+    width: 15vh;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+  .im p, .im1 p, .im2 p, .im3 p {
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  .im1 {
+    position: relative;
+    width: .5vh;
+    margin-left: -2vh;
+    margin-top: -9.5vh;
+    height: .5vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .im2 {
+    position: relative;
+    width: .5vh;
+    margin-top: 10.5vh;
+    margin-left: -2vh;
+    height: .5vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .im3 {
+    position: relative;
+    width: .5vh;
+    margin-top: 10.5vh;
+    margin-left: -1vh;
+    height: .5vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .Proyectos p {
+    padding-bottom: 0px;
+    padding-top: 30vh;
+    font-size: 6vh;
+  }
+  .proy {
+    margin-top: 45vh;
+  }
+  .imagen1 {
+    margin-left: -16vh;
+    position: relative;
+    width: 1vh;
+    height: 1vh;
+  }
+  /*Fin de la Tercera seccion*/
+  /*Inicio Cuarta Seccion: Awards*/
+  .t {
+    font-size: 5vh;
+    font-family: 'Julius Sans One';
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  p {
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  h4 {
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  /*Fin de la Cuarta Seccion*/
+  .divs {
+    visibility: hidden;
+    display: none;
+  }
+  .Tercera {
+    margin-top: 35vh;
+  }
+  .cell c {
+    margin-top: -100vh;
+  }
+  /*Fin de la Tercera seccion*/
+  .Tercera .cell .t {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    margin-left: 0vh;
+  }
+  .cell a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1vh;
+  }
+  .cell b {
+    margin-left: 17%;
+    margin-right: 83%;
+    margin-top: -1vh;
+  }
+  .Tercera .cell h4 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+  }
+  .Tercera .cell p {
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .DP {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url("../img/posada.jpg") no-repeat right top;
+  }
+  .Tercera .grid-container-full {
+    background: white;
+    height: 80vh;
+    margin-top: -40vh;
+  }
+  .MTV .pulse {
+    weight: 3rem;
+    height: 3rem;
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+  }
+  .Tercera #MTV h4 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-device-width:375px) and (max-device-height:667px) {
+  /*Inicio de Seccion Principal*/
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    height: auto;
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .hero-section {
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: right;
+  }
+  .hero-section .prinimagen {
+    width: 70vh;
+    height: 70vh;
+    margin-left: 0vh;
+    margin-right: auto;
+    visibility: hidden;
+    display: none;
+    -webkit-clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
+    clip-path: polygon(29% 0, 100% 44%, 100% 100%, 0% 100%);
+  }
+  #particles-js {
+    height: 70vh;
+    width: 100%;
+    background: white;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: right;
+  }
+  .boton .button {
+    color: white;
+    position: absolute;
+    font-size: 1rem;
+    top: 5vh;
+    left: auto;
+    right: 5vh;
+    width: 21vh;
+    height: 9vh;
+    opacity: 1;
+  }
+  .boton .button:hover {
+    color: white;
+    position: absolute;
+    top: 5vh;
+    left: auto;
+    right: 5vh;
+    width: 21vh;
+    height: 9vh;
+    opacity: 1;
+    background-color: #4286f4;
+  }
+  .hero-section .hero-section-text {
+    color: #000000;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  .hero-section .hero-section-text h1 {
+    margin-left: 2vh;
+    font-size: 7vh;
+    position: absolute;
+    top: 27vh;
+    left: auto;
+    right: 12.5vh;
+    font-size: 10vh;
+  }
+  /*Fin de Seccion Principal*/
+  /*Inicio de Segunda Seccion: Skills*/
+  .seccion2 .grid-container-full {
+    background: #f7f7f7;
+    height: 160vh;
+  }
+  .Frase1 {
+    width: 200%;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 10vh;
+    color: black;
+  }
+  .Skills {
+    margin-top: 140vh;
+    margin-left: -30vh;
+    margin-right: auto;
+    color: white;
+    border: solid 1px black;
+    background: black;
+    width: 226%;
+    height: 50vh;
+  }
+  .Skills h1 {
+    margin-left: 6vh;
+    margin-right: 0vh;
+    margin-top: 3vh;
+  }
+  .Skills ul li {
+    margin-top: 2vh;
+    margin-left: 6vh;
+  }
+  .Frase1 p {
+    margin-top: 3vh;
+    margin-right: 7vh;
+    font-size: 2vh;
+    font-family: 'Montserrat';
+  }
+  .Frase1 a {
+    font-size: 3.5vh;
+    color: black;
+    font-family: 'Montserrat';
+  }
+  .Frase1 h5 {
+    font-size: 1rem;
+    width: 18rem;
+    text-align: justify;
+    color: black;
+    font-family: 'Montserrat';
+  }
+  /*Fin de la Segunda Seccion*/
+  /*Inicio Tercera Sección: Proyectos */
+  .container {
+    margin-top: 0px;
+    width: 101%;
+  }
+  #cs {
+    margin-left: -2vh;
+    margin-top: -15vh;
+    width: 225%;
+    height: 100%;
+    background: url("../img/tacom.png") no-repeat center top;
+    background-size: cover;
+  }
+  .Frase2 {
+    margin-left: 6vh;
+    margin-top: 5vh;
+    color: white;
+  }
+  .ima {
+    padding-bottom: 0px;
+    padding-top: 34vh;
+    padding-left: 3vh;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 6vh;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .im {
+    position: relative;
+    width: .5vh;
+    margin-top: 1vh;
+    margin-left: -1vh;
+    height: .5vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .im p, .im1 p, .im2 p, .im3 p {
+    padding-bottom: 0px;
+    padding-top: 34vh;
+    padding-left: 1vh;
+    color: white;
+    font-size: 4vh;
+    position: absolute;
+  }
+  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
+    transition: all .5s ease;
+    background-color: rgba(0, 0, 0, 1);
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
+    transition: all .5s ease-out;
+    background-color: rgba(0, 0, 0, 1);
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
+    transition: all .5s ease;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im .button, .im1 .button, .im2 .button, .im3 .button {
+    transition: all .5s ease-out;
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
+    transition: all .5s ease-out;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+    transition: all .5s ease-out;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+  }
+  .im .button, .im1 .button, .im2 .button, .im3 .button {
+    height: 35vh;
+    width: 5vh;
+    margin-left: 23vh;
+    margin-top: -3vh;
+    position: absolute;
+    opacity: .5;
+    z-index: 1000;
+  }
+  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
+    background-color: red;
+  }
+  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+    margin-left: -24.2vh;
+    margin-top: -3vh;
+    width: 15vh;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+  .im p, .im1 p, .im2 p, .im3 p {
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  .im1 {
+    position: relative;
+    width: .5vh;
+    margin-left: -3vh;
+    margin-top: -9vh;
+    height: .5vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .im2 {
+    position: relative;
+    width: .5vh;
+    margin-top: 11vh;
+    margin-left: -3vh;
+    height: .5vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .im3 {
+    position: relative;
+    width: .5vh;
+    margin-top: 11vh;
+    margin-left: -1vh;
+    height: .5vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  .Proyectos p {
+    padding-bottom: 0px;
+    padding-top: 30vh;
+    font-size: 6vh;
+  }
+  .proy {
+    margin-top: 45vh;
+  }
+  .imagen1 {
+    margin-left: -16vh;
+    position: relative;
+    width: 1vh;
+    height: 1vh;
+  }
+  /*Fin de la Tercera seccion*/
+  /*Inicio Cuarta Seccion: Awards*/
+  .t {
+    font-size: 5vh;
+    font-family: 'Julius Sans One';
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  p {
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  h4 {
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  /*Fin de la Cuarta Seccion*/
+  .divs {
+    visibility: hidden;
+    display: none;
+  }
+  .Tercera {
+    margin-top: 35vh;
+  }
+  .cell c {
+    margin-top: -100vh;
+  }
+  /*Fin de la Tercera seccion*/
+  .Tercera .cell .t {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    margin-left: 0vh;
+  }
+  .cell a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1vh;
+  }
+  .cell b {
+    margin-left: 17%;
+    margin-right: 83%;
+    margin-top: -1vh;
+  }
+  .Tercera .cell h4 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+  }
+  .Tercera .cell p {
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .DP {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url("../img/posada.jpg") no-repeat right top;
+  }
+  .Tercera .grid-container-full {
+    background: white;
+    height: 80vh;
+    margin-top: -40vh;
+  }
+  .MTV .pulse {
+    weight: 3rem;
+    height: 3rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+  .Tercera #MTV h4 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    margin-top: 1rem;
+    text-align: center;
   }
 }
