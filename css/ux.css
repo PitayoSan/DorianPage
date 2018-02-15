@@ -105,3 +105,10 @@ body{
 #target{
   margin-bottom: 4rem;
 }
+
+@media only screen and (max-device-width:414px) {
+  .Center{
+    margin-left:30%;
+    margin-right:30%;
+  }
+}
