@@ -1,0 +1,107 @@
+header{
+  display: block;
+  background: #42b3f4;
+  height: 4rem;
+  margin:auto;
+}
+body{
+  margin:auto;
+  color: black;
+}
+.Center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  height: 8rem;
+  width: 8rem;
+}
+.TdeTs{
+  color: white;
+  font-size: 2rem;
+  line-height: 4rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.Titulo{
+  margin-left: 3rem;
+  margin-top: 3rem;
+  font-size: 3rem;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.Titulo1{
+  margin-left: 3rem;
+  margin-top: 5rem;
+  font-size: 3rem;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.Titulo2{
+  margin-left: 3rem;
+  font-size: 1.9rem;
+  margin-top: 3rem;
+  font-weight: bold;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.Subtitulo{
+  margin-left: 5vh;
+  margin-right: 5vh;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+.Parrafo{
+  margin-left: 3rem;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+.Parrafo2{
+  margin-left: 5rem;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+.Parrafo3{
+  margin-left: 11rem;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+.Center1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18rem;
+  margin-left: 3rem;
+  width: 100%;
+}
+.Center2{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+.button{
+  background: #42b3f4;
+  line-height: 2.4rem;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+}
+#Wireframming{
+  margin-bottom: 3rem;
+}
+.Center3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8rem;
+  margin-left: 8rem;
+  width: 70%;
+}
+#target{
+  margin-bottom: 4rem;
+}
