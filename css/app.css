@@ -7,6 +7,114 @@
 
 /*Resoluciones de Pantalla/PC*/
 
+@media print {
+  /*Inicio de Seccion Principal*/
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    height: auto;
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .hero-section {
+    height: 2rem;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero-section .prinimagen {
+    width: 60vh;
+    height: 2rem;
+    margin-left: -19vh;
+    z-index: 0;
+    display: none;
+  }
+  .hero-section .hero-section-text {
+    color: #000000;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  .hero-section .hero-section-text h1 {
+    font-size: 5rem;
+    position: absolute;
+    z-index: 1;
+    top:0px;
+  }
+  /*Fin de Seccion Principal*/
+  /*Inicio de Segunda Seccion: Skills*/
+  .seccion2 .grid-container-full {
+    background: #f7f7f7;
+    height: 0rem;
+  }
+  .Frase1 {
+    width: 200%;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 10vh;
+    color: black;
+  }
+  .Skills {
+    margin-top: -5rem;
+    margin-left: -40rem;;
+    color: white;
+    background: black;
+    width: 100%;
+  }
+  .Skills h1 {
+    margin-left: 6vh;
+    margin-right: 0vh;
+    font-size: 2rem;
+    margin-top: 60rem;
+  }
+  .Skills ul li {
+    margin-left: 6vh;
+    font-size: 1rem;
+  }
+  .Frase1 p {
+    margin-top: 3vh;
+    width: 52rem;
+    margin-right: 7vh;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+  }
+  .Frase1 a {
+    font-size: 3rem;
+    width: 10vh;
+    color: black;
+    font-family: 'Montserrat';
+  }
+  .Frase1 h5 {
+    font-size: 1.5rem;
+    width: 52rem;
+    text-align: justify;
+    color: black;
+    font-family: 'Montserrat';
+  }
+  .divs{
+    display: none;
+  }
+  .proy{
+    display: none;
+  }
+  .Tercera{
+    display: none;
+  }
+  .footer{
+    display: none;
+  }
+}
+
+
 @media only screen and (max-device-width: 1920px) and (max-device-height: 1080px) and (orientation: landscape) {
   /*Inicio de Seccion Principal*/
   body {
