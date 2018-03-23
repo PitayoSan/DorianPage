@@ -1,0 +1,92 @@
+.seccion2 .fondo{
+  background: black;
+  height: 90vh;
+  position: absolute;
+  margin-top: 90vh;
+  width: 100%;
+  z-index: 1000;
+}
+.seccion2 .fondo .top1{
+  background: white;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  -webkit-clip-path: polygon(0% 0, 50% 40%, 100% 0%);
+  clip-path: polygon(0% 0, 50% 40%, 100% 0%);
+}
+.seccion2 .fondo .top1 a p{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 2rem;
+  font-family: Quicksand;
+}
+.seccion2 .fondo .right1{
+  background: blue;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  -webkit-clip-path: polygon(0% 0, 50% 40%, 50% 100%, 0% 100%);
+  clip-path: polygon(0% 0, 50% 40%, 50% 100%, 0% 100%);
+}
+.seccion2 .fondo .left1{
+  background: yellow;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  -webkit-clip-path: polygon(100% 0, 50% 40%, 50% 100%, 100% 100%);
+  clip-path: polygon(100% 0, 50% 40%, 50% 100%, 100% 100%);
+}
+
+.seccion2 .seccion21{
+  background: black;
+  height: 90vh;
+  position: absolute;
+  margin-top: 180vh;
+  width: 100%;
+  z-index: 1000;
+}
+.seccion2 .seccion21 .Fondo .mid{
+  background: purple;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+  clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+}
+.seccion2 .seccion21 .Fondo .triangle{
+  background: white;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+  clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+}
+
+#uno{
+  margin-top: -70vh;
+  clear: both;
+  float: right;
+}
+#margen{
+  margin-left: 20vh;
+}
+
+.divs{
+  position: absolute;
+  z-index: 1002;
+}
+body{
+  position: absolute;
+}
+
+.navbar{
+  position:  sticky;
+  z-index: 10000;
+}

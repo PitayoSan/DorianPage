@@ -918,273 +918,7 @@
 }
 
 @media only screen and (max-device-width: 1366px) and (max-device-height: 768px) and (orientation: landscape) {
-  /*Inicio de Seccion Principal*/
-  body {
-    overflow-x: hidden;
-  }
-  .hero-section {
-    background-color: white;
-    height: 90vh;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  #particles-js {
-    height: 70vh;
-    width: 100%;
-    background: white;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .hero-section .hero-section-text {
-    color: #ffffff;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 10vh;
-    position: absolute;
-    top: 17vh;
-    left: auto;
-    right: 20vh;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: 11.5vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
-    background: black;
-    width: 62vh;
-    height: 20rem;
-  }
-  .seccion2 .grid-container-full {
-    background: #f7f7f7;
-    height: 34rem;
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    font-size: 2vh;
-  }
-  .Frase1 a {
-    font-size: 3.5vh;
-    color: black;
-  }
-  .Frase1 h5 {
-    font-size: 1.5rem;
-    color: black;
-  }
-  /*Fin de la Segunda Seccion*/
-  /*Inicio Tercera Sección: Proyectos */
-  .Frase2 {
-    margin-left: 6vh;
-    margin-top: 5vh;
-    color: white;
-  }
-  .im, .im1, .im2, .im3 {
-    position: relative;
-    width: 1vh;
-    height: 1vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease
-  }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
-    width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -24.5vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
-    text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
-  }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-  .Tercera .cell .t {
-    font-size: 3rem;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-  }
-  /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1vh;
-  }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
-  }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: black;
-    text-align: center;
-  }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
-    font-size: 1rem;
-  }
-  .DP {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
-  }
-  .Tercera .grid-container-full {
-    background: white;
-    height: 85vh;
-    margin-top: -50vh;
-  }
-  .divs .tag {
-    visibility: hidden;
-  }
-  .MTV .pulse {
-    weight: 12rem;
-    height: 12rem;
-    margin-top: 0rem;
-    margin-left: 0.5rem;
-  }
-  .Tercera #MTV h4 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: black;
-    margin-top: 1.5rem;
-    text-align: center;
-  }
+
 }
 
 @media only screen and (max-device-width: 1280px) and (max-device-height: 720px) and (orientation: landscape) {
@@ -1982,41 +1716,328 @@
 
 /*Image*/
 @media only screen and (min-device-width: 767px){
+  /*Inicio de Seccion Principal*/
+  body {
+    overflow-x: hidden;
+  }
+  .hero-section {
+    background-color: white;
+    position: absolute;
+    height:100vh;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: right;
+  }
+  #particles-js {
+    height: 70vh;
+    width: 100%;
+    background: white;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    z-index: 0.5;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: right;
+  }
+  .hero-section .hero-section-text {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  .hero-section .hero-section-text h1 {
+    font-size: 10vh;
+    position: absolute;
+    top: 17vh;
+    left: auto;
+    right: 20vh;
+  }
+  /*Fin de Seccion Principal*/
+  /*Inicio de Segunda Seccion: Skills*/
+  .Frase1 {
+    color: black;
+  }
+  .Skills {
+    margin-top: 11.5vh;
+    margin-right: 0vh;
+    color: white;
+    border: solid 1px black;
+    background: black;
+    width: 62vh;
+    height: 20rem;
+  }
+  .seccion2 .grid-container-full {
+    height: 34rem;
+    width: 100%;
+    margin-top: 90vh;
+    position: absolute;
+    z-index: 1001;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .Skills h1 {
+    margin-left: 6vh;
+    margin-right: 0vh;
+    margin-top: 0vh;
+  }
+  .Skills ul li {
+    margin-top: 2vh;
+    margin-left: 6vh;
+  }
+  .Frase1{
+    width: 100%;
+    margin-top: 25vh;
+  }
+  .Frase1 p {
+    margin-top: 3vh;
+    font-size: 2vh;
+    width: 65%;
+    font-family: Quicksand;
+  }
+  .Frase1 a {
+    font-size: 3.5vh;
+    color: black;
+    width: 50%;
+    font-family: Quicksand;
+  }
+  .Frase1 h5 {
+    font-size: 1rem;
+    margin-top: -1.5vh;
+    color: black;
+    width: 50%;
+    font-family: Quicksand;
+  }
+  /*Fin de la Segunda Seccion*/
+  /*Inicio Tercera Sección: Proyectos */
+  .proy{
+    margin-top: 280vh;
+  }
+  .Frase2 {
+    color: white;
+  }
+  .im, .im1, .im2, .im3 {
+    position: relative;
+    width: 1vh;
+    height: 1vh;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease
+  }
+  #cs {
+    margin-right: auto;
+    margin-left: auto;
+    height: 40vh;
+    width: 30vh;
+    background: url("../img/tacom.png") no-repeat center top;
+    background-size: cover;
+  }
+  .ima {
+    padding-bottom: 0px;
+    padding-top: 34vh;
+    padding-left: 1vh;
+    color: white;
+    font-size: 4vh;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .im p, .im1 p, .im2 p, .im3 p {
+    padding-bottom: 0px;
+    padding-top: 34vh;
+    padding-left: 1vh;
+    color: white;
+    font-size: 4vh;
+    position: absolute;
+  }
+  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
+    transition: all .5s ease;
+    background-color: rgba(0, 0, 0, 1);
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
+    transition: all .5s ease-out;
+    background-color: rgba(0, 0, 0, 1);
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
+    transition: all .5s ease;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im .button, .im1 .button, .im2 .button, .im3 .button {
+    transition: all .5s ease-out;
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
+    transition: all .5s ease-out;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+    transition: all .5s ease-out;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+  }
+  .im .button, .im1 .button, .im2 .button, .im3 .button {
+    height: 35vh;
+    width: 5vh;
+    margin-left: 23vh;
+    margin-top: -3vh;
+    position: absolute;
+    opacity: .5;
+    z-index: 1000;
+  }
+  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
+    background-color: red;
+  }
+  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+    margin-left: -24.5vh;
+    margin-top: -3vh;
+    width: 15vh;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+  .im p, .im1 p, .im2 p, .im3 p {
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  .Proyectos p {
+    padding-bottom: 0px;
+    padding-top: 30vh;
+    font-size: 6vh;
+  }
+  /*Fin de la Tercera seccion*/
+  /*Inicio Cuarta Seccion: Awards*/
+  .Tercera .cell .t {
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  /*Fin de la Cuarta Seccion*/
+  .cell a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1vh;
+  }
+  .cell b {
+    margin-left: 17%;
+    margin-right: 83%;
+    margin-top: -1vh;
+  }
+  .Tercera .cell h4 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: black;
+    text-align: center;
+  }
+  .Tercera .cell p {
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .DP {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url("../img/posada.jpg") no-repeat right top;
+  }
+  .Tercera .grid-container-full {
+    background: white;
+    height: 100vh;
+    position: absolute;
+    margin-top: -50vh;
+  }
+  .divs .tag {
+    visibility: hidden;
+  }
+  .MTV .pulse {
+    weight: 12rem;
+    height: 12rem;
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+  }
+  .Tercera #MTV h4 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+
   .secc{
     background: purple;
+    position: absolute;
     width: 100%;
     height:100%;
+
   }
   .hero-section .secc .imagenprin {
-
     width: 75%;
     height: 100%;
     margin-left: 0vh;
     margin-right: auto;
+    position: absolute;
 
     -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
   }
-  nav{
-    position: sticky;
+  .navbar{
     height: 10vh;
     width: 100%;
-    background: white;
-    z-index: 10;
+    z-index: 1000000;
     position: fixed;
+    background: white;
+
   }
-  nav .boton .button{
+  .navbar .boton .button{
     margin-top: -3vh;
     margin-right: -2.5vh;
+
   }
-  nav .secciones{
+  .navbar .secciones{
     margin-left: 2vh;
     text-align: center;
   }
   #particles-js{
-    top: 10vh;
+    top: 0vh;
+    position: absolute;
     background: black;
-    height: 90vh;
+    height: 100vh;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -2034,8 +2055,10 @@
   }
   .hero-section .secc .nueva .hero-section-text h1{
     z-index: 9;
+    position: absolute;
     margin-top: 30vh;
   }
+
 }
 @media only screen and (max-device-width: 767px){
   .hero-section .prinimagen {
@@ -2078,10 +2101,15 @@
   .footer{
     width: 100%;
     height: 6rem;
-    margin-top: 2%;
-    margin-left:45%;
-    margin-right: 45%;
+    background: black;
+    margin-top: 50vh;
+    position: absolute;
   }
+  .footer a{
+    margin-top: 4vh;
+    margin-left: 41%;
+  }
+
   .social-icon-button {
     border-radius: 3.6rem;
     width: 3.6rem;
