@@ -4,7 +4,7 @@
   position: absolute;
   margin-top: 90vh;
   width: 100%;
-  z-index: 1000;
+  z-index: 100;
 }
 .seccion2 .fondo .top1{
   background: white;
@@ -12,49 +12,48 @@
   width: 100%;
   z-index: 1;
   position: absolute;
-  -webkit-clip-path: polygon(0% 0, 50% 40%, 100% 0%);
-  clip-path: polygon(0% 0, 50% 40%, 100% 0%);
+  -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+  clip-path: polygon(0% 0, 50% 30%, 100% 0%);
 }
 .seccion2 .fondo .top1 a p{
   width: 100%;
   height: 100%;
   text-align: center;
-  margin-top: 10vh;
-  font-size: 2rem;
+  margin-top: 4vw;
+  font-size: 2.5vw;
   font-family: Quicksand;
 }
 .seccion2 .fondo .right1{
-  background: blue;
+  background: #2B59C3;
   position: absolute;
   height: 100%;
   width: 100%;
   z-index: 2;
-  -webkit-clip-path: polygon(0% 0, 50% 40%, 50% 100%, 0% 100%);
-  clip-path: polygon(0% 0, 50% 40%, 50% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+  clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
 }
 .seccion2 .fondo .left1{
-  background: yellow;
+  background: #253C78;
   position: absolute;
   height: 100%;
   width: 100%;
   z-index: 2;
-  -webkit-clip-path: polygon(100% 0, 50% 40%, 50% 100%, 100% 100%);
-  clip-path: polygon(100% 0, 50% 40%, 50% 100%, 100% 100%);
+  -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+  clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
 }
 
 .seccion2 .seccion21{
-  background: black;
+  background: #111130;
   height: 90vh;
   position: absolute;
   margin-top: 180vh;
   width: 100%;
-  z-index: 1000;
+  z-index: 100;
 }
 .seccion2 .seccion21 .Fondo .mid{
-  background: purple;
+  background: #7D11A0;
   height: 100%;
   width: 100%;
-  z-index: 1;
   position: absolute;
   -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
   clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
@@ -63,7 +62,6 @@
   background: white;
   height: 100%;
   width: 100%;
-  z-index: 2;
   position: absolute;
   -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
   clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
@@ -82,11 +80,40 @@
   position: absolute;
   z-index: 1002;
 }
-body{
+
+.rellax{
   position: absolute;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+}
+.navbar{
+  position: fixed;
+  z-index: 1;
+  height: 4rem;
+  background: rgba(0,0,0,1);
+  width: 100%;
+}
+.navbar .boton .button{
+  margin-top: 0vh;
+  margin-right: 0vh;
+
+}
+.navbar .secciones{
+  top: 2vh;
+  margin-left: 2vw;
+  color: white;
+  font-family: Quicksand;
+  margin-top: 15vw;
+  text-align: center;
+  position: relative;
 }
 
-.navbar{
-  position:  sticky;
-  z-index: 10000;
+.prinimagen{
+  max-width: 120%;
+  max-height: 120%;
+  width: auto;
+  height: auto;
+
 }
