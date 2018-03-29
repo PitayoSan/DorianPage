@@ -1843,7 +1843,7 @@
 
   /*Inicio Tercera Sección: Proyectos */
   .proy{
-    margin-top: 280vh;
+    margin-top: 290vh;
   }
   .Frase2 {
     color: white;
@@ -1862,14 +1862,6 @@
     -o-transition: all 3s ease;
     transition: all 3s ease
   }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
   .ima {
     padding-bottom: 0px;
     padding-top: 34vh;
@@ -1882,7 +1874,7 @@
   }
   .im p, .im1 p, .im2 p, .im3 p {
     padding-bottom: 0px;
-    padding-top: 34vh;
+    padding-top: 36vh;
     padding-left: 1vh;
     color: white;
     font-size: 4vh;
@@ -1933,10 +1925,10 @@
     opacity: 0;
   }
   .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
+    height: 40vh;
     width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
+    margin-left: 31vh;
+    margin-top: -1vh;
     position: absolute;
     opacity: .5;
     z-index: 1000;
@@ -1991,12 +1983,6 @@
     color: black;
     text-align: center;
     font-size: 1rem;
-  }
-  .DP {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
   }
   .Tercera .grid-container-full {
     background: white;
