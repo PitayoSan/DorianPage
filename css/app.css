@@ -1820,7 +1820,7 @@
     margin-top: 17vw;
   }
   .Frase1 p {
-    margin-top: 2vw;
+    margin-top: 9vw;
     font-size: 1vw;
     width: 80%;
     font-family: Quicksand;
@@ -1833,7 +1833,7 @@
   }
   .Frase1 h5 {
     font-size: 2vw;
-    margin-top: -6vw;
+    margin-top: -3vw;
     color: black;
     width: 80%;
     position: absolute;
@@ -1956,55 +1956,15 @@
   }
   /*Fin de la Tercera seccion*/
   /*Inicio Cuarta Seccion: Awards*/
-  .Tercera .cell .t {
-    font-size: 3rem;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-  }
+
   /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1vh;
-  }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
-  }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: black;
-    text-align: center;
-  }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
-    font-size: 1rem;
-  }
   .Tercera .grid-container-full {
-    background: white;
-    height: 100vh;
+    height: 80vh;
     position: absolute;
-    margin-top: -50vh;
+    margin-top: -10vh;
   }
   .divs .tag {
     visibility: hidden;
-  }
-  .MTV .pulse {
-    weight: 12rem;
-    height: 12rem;
-    margin-top: 0rem;
-    margin-left: 0.5rem;
-  }
-  .Tercera #MTV h4 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: black;
-    margin-top: 1.5rem;
-    text-align: center;
   }
 
   .secc{
@@ -2111,14 +2071,10 @@
 @media only screen{
   .footer{
     width: 100%;
-    height: 9rem;
+    height: 6rem;
     background: #111130;
-    margin-top: 50vh;
+    margin-top: 65vh;
     position: absolute;
-  }
-  .footer a{
-    margin-top: 4vh;
-    margin-left: 45vw;
   }
 
   .social-icon-button {

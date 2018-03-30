@@ -21,10 +21,11 @@
   <!--Aqui comienza la seccion principal-->
   <div class="fondonav"></div>
   <nav class="navbar">
-    <a class="secciones" href="#s0">Inicio</a>
-    <a class="secciones" href="#s2">Acerca de mi</a>
-    <a class="secciones" href="#s1">Proyectos</a>
-    <a class="secciones" href="#s1">Premios</a>
+    <a class="secciones" href="index.html#s0">Inicio</a>
+    <a class="secciones" href="index.html#s2">Acerca de mi</a>
+    <a class="secciones" href="index.html#s3">Skills</a>
+    <a class="secciones" href="index.html#s4">Proyectos</a>
+    <a class="secciones" href="index.html#s5">Premios</a>
     <a href="ux.html">
       <div class="boton">
         <div class="button">UX Fundamentals</div>
@@ -42,7 +43,7 @@
           </div>
         </div>
         <div class="imagenprin">
-          <img class="prinimagen" src="img/img.png">
+          <img class="prinimagen" src="img/img.png" alt="">
         </div>
       </div>
       <div id="pback">
@@ -52,10 +53,11 @@
     </div>
 
     <!--Aqui termina la seccion principal-->
+
     <!--Aqui empieza la segunda seccion-->
-    <div class="seccion2">
+    <div class="seccion2" style="border: black solid 1px">
       <div class="fondo">
-        <div class="top1" id="s2">
+        <div class="top1">
           <a class="titulo" style="color: black">
             <p>Diseña tu propio futuro</p>
           </a>
@@ -63,11 +65,11 @@
         <div class="right1"></div>
         <div class="left1"></div>
       </div>
-      <div class="grid-container-full" style="width:100%;">
+      <div class="grid-container-full" style="width:100%; margin-top: 90vh;" id="s2">
         <div class="grid-x grid-padding-x">
-          <div class="cell large-12 medium-12 small-12">
+          <div class="cell large-12 medium-12 small-12" style="height:100vh;">
             <div class="Frase1">
-              <h5 class="subtitulo" style="color: #F2EEF4">Co-fundador de Cosmogonia. <br/>Presidente del Departamento de Arte, Región Occidental, TEC de Monterrey.</h5>
+              <h5 style="color: #F2EEF4">Co-fundador de Cosmogonia. <br/>Presidente del Departamento de Arte, Región Occidental, TEC de Monterrey.</h5>
               <p style=" text-align: justify; color: #F2EEF4">La experiencia del desarrollo de videojuegos de la mano de líderes, artistas y programadores, me ha ayudado a definir todo el proceso del game development y la prioridad de un buen flujo de trabajo y su debida planeación. Envuelto constantemente
                 con el proceso de productor, lleve a cabo las relaciones con el editor, el licenciando, y las terceras partes, actuando como una fianza entre el staff de desarrollo y el accionista mayor. Amo el game development, y la experiencia, con
                 mi cultura europea, incluyéndome en la industria de Latinoamérica, es una muy buena mezcla y sienta perfecto en cada producción en la que me involucro. Me encuentro envuelto en la educación con la mejor universidad de México, TEC de Monterrey,
@@ -76,15 +78,15 @@
                 y eventos.</p>
             </div>
           </div>
-          <div class="cell large-12 medium-12 small-12">
-            <h1 class="skill">Skills</h1>
+          <div class="cell large-12 medium-12 small-12" id="s3">
+            <h1 class="skill" >Skills</h1>
             <ul>
-              <li id="dot">Animación</li>
-              <li id="dot">Composición</li>
-              <li id="dot">Filmación</li>
-              <li id="dot">Game Design</li>
-              <li id="dot">Sound Design</li>
-              <li id="dot">Music Production</li>
+              <li>Animación</li>
+              <li>Composición</li>
+              <li>Filmación</li>
+              <li>Game Design</li>
+              <li>Sound Design</li>
+              <li>Music Production</li>
             </ul>
           </div>
         </div>
@@ -99,74 +101,100 @@
         </div>
       </div>
     </div>
-
-
-
     <!--Aqui termina la segunda seccion-->
 
     <!--Aqui empieza la tercera seccion-->
     <div class="proy">
-      <h1 id="Titulo4">Proyectos</h1>
       <div class="grid-container-full" style="height: 190vh">
-        <div class="grid-padding-x">
-          <div class="cell large-6 medium-6 small-6" style="height: 70vh; width: 50%;">
-            <div data-aos="fade-left">
-              <div class="cell large-6 small-6" style="margin-left: 35vh; margin-right: auto; height: 60vh; width:40vh;">
-                <div class="im1" style="height: 100%; width: 100%; border:1px solid black">
-                  <div class="imagen" style="position:absolute; height: 100%; width: 100%; background:url(img/posada.jpg) no-repeat center center; background-size: cover;"></div>
-                  <a href=https://moreliafilmfest.com/peliculas/dame-posada>
-                    <div class="button" style="background: url(img/ribbon.png) no-repeat center top; background-size: cover;">
-                      <p>Ver Proyecto</p>
+        <div id="s4" class="section"></div>
+        <h1 id="Titulo4" >Proyectos</h1>
+        <div class="grid-x grid-padding-x">
+          <div class="cell large-12 medium-12 small-12">
+            <div data-aos="fade">
+              <div class="grid-x grid-padding-x">
+                <div class="cell large-1 medium-1 small-1"><br /></div>
+                <div class="cell large-4 medium-4 small-4">
+                  <div class="grid-x grid-padding-x">
+                    <div class="cell large-12 medium-12 small-12">
+                      <div class="grid-x grid-padding-x">
+                        <div class="cell large-4 medium-4 small-4"></div>
+                        <div class="cell large-4 medium-4 small-4">
+                          <div class="im1" style="height: 60vh; width: 40vh;">
+                            <div class="imagen" style="position:absolute; height: 60vh; width: 40vh; background:url(img/posada.jpg) no-repeat center center; background-size: cover;"></div>
+                            <a href=https://moreliafilmfest.com/peliculas/dame-posada>
+                              <div class="button" style="background: url(img/ribbon.png) no-repeat center top; background-size: cover;">
+                                <p>Ver Proyecto</p>
+                              </div>
+                            </a>
+                            <p class="nombre" style="margin-top:15vh">Dame Posada</p>
+                          </div>
+                        </div>
+                        <div class="cell large-4 medium-4 small-4"></div>
+                      </div>
                     </div>
-                  </a>
-                  <p class="nombre" style="margin-top:15vh">Dame Posada</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="uno" class="cell large-6 medium-6 small-6" style="height: 70vh; width: 50%;">
-            <div data-aos="fade-right">
-              <div id="margen" class="cell large-6 small-6" style="margin-right: auto; height: 60vh; width:40vh;">
-                <div class="im" style="height: 100%; width: 100%;border:1px solid black">
-                  <div class="imagen" style="position:absolute; height: 100%; width: 100%; background:url(img/bitup.jpg) no-repeat center center; background-size: cover;"></div>
-                  <a href=http://www.bitupgame.com>
-                    <div class="button" style="background: url(img/ribbon.png) no-repeat center top; background-size: cover; z-index: 1000">
-                      <p>Ver Proyecto</p>
+                    <div style="width: 100%;height:20vh;"><br /></div>
+                    <div class="cell large-12 medium-12 small-12">
+                      <div class="grid-x grid-padding-x">
+                        <div class="cell large-4 medium-4 small-4"></div>
+                        <div class="cell large-4 medium-4 small-4">
+                          <div class="im2" style="height: 60vh; width: 40vh;">
+                            <div class="imagen" style="position:absolute;height: 100%; width: 100%;background:url(img/ldoe.jpg) no-repeat center left; background-size: cover"></div>
+                            <a href=http://larvagamestudios.com/portfolio/last-day-on-earth>
+                              <div class="button" style="background: url(img/ribbon.png) no-repeat center top; background-size: cover;">
+                                <p>Ver Proyecto</p>
+                              </div>
+                            </a>
+                            <p class="nombre" style="margin-top:15vh">Last Day On Earth</p>
+                          </div>
+                        </div>
+                        <div class="cell large-4 medium-4 small-4"></div>
+                      </div>
                     </div>
-                  </a>
-                  <p class="nombre" style="margin-top:15vh">BitUp</p>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell large-6 medium-6 small-6" style="height: 70vh; width: 50%;">
-            <div data-aos="fade-left">
-              <div class="cell large-6 small-6" style="margin-left: 35vh; margin-right: auto; height: 60vh; width:40vh;">
-                <div class="im2" style="height: 100%; width: 100%;border:1px solid black">
-                  <div class="imagen" style="position:absolute;height: 100%; width: 100%;background:url(img/ldoe.jpg) no-repeat center left; background-size: cover"></div>
-                  <a href=http://larvagamestudios.com/portfolio/last-day-on-earth>
-                    <div class="button" style="background: url(img/ribbon.png) no-repeat center top; background-size: cover;">
-                      <p>Ver Proyecto</p>
+                <div class="cell large-2 medium-2 small-2"><br /></div>
+                <div class="cell large-4 medium-4 small-4">
+                  <div class="grid-x grid-padding-x">
+                    <div class="cell large-12 medium-12 small-12">
+                      <div class="grid-x grid-padding-x">
+                        <div class="cell large-4 medium-4 small-4"></div>
+                        <div class="cell large-4 medium-4 small-4">
+                          <div class="im1" style="height: 60vh; width: 40vh; margin-left: -123%;">
+                            <div class="imagen" style="position:absolute; height: 100%; width: 100%; background:url(img/bitup.jpg) no-repeat center center; background-size: cover;"></div>
+                            <a href=http://www.bitupgame.com>
+                              <div class="button" style="background: url(img/ribbon.png) no-repeat center top; background-size: cover; z-index: 1000">
+                                <p>Ver Proyecto</p>
+                              </div>
+                            </a>
+                            <p class="nombre" style="margin-top:15vh">BitUp</p>
+                          </div>
+                        </div>
+                        <div class="cell large-4 medium-4 small-4"></div>
+                      </div>
                     </div>
-                  </a>
-                  <p class="nombre" style="margin-top:15vh">Last Day On Earth</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="uno" class="cell large-6 medium-6 small-6" style="height: 70vh; width: 50%;">
-            <div data-aos="fade-right">
-              <div id="margen" class="cell large-6 small-6" style="margin-right: auto; height: 60vh; width:40vh;">
-                <div class="im3" style="height: 100%; width: 100%;border:1px solid black">
-                  <div class="imagen" style="position:absolute;height: 100%; width: 100%;background:url(../img/tacom.png) no-repeat center; background-size: cover"></div>
-                  <a href=http://www.kaxanmediagroup.com/tacomastergratis/TacoMasterWeb.html>
-                    <div class="button" style="background: url(img/ribbon.png) no-repeat center top; background-size: cover;">
-                      <p>Ver Proyecto</p>
+                      <div style="width: 100%;height:20vh;"><br /></div>
+                    <div class="cell large-12 medium-12 small-12">
+                      <div class="grid-x grid-padding-x">
+                        <div class="cell large-4 medium-4 small-4"></div>
+                        <div class="cell large-4 medium-4 small-4">
+                          <div class="im3" style="height: 60vh; margin-left: -123%;  width: 40vh;">
+                            <div class="imagen" style="position:absolute; height: 100%; width: 100%;background:url(../img/tacom.png) no-repeat center; background-size: cover"></div>
+                            <a href=http://www.kaxanmediagroup.com/tacomastergratis/TacoMasterWeb.html>
+                              <div class="button" style="background: url(img/ribbon.png) no-repeat center top; background-size: cover;">
+                                <p>Ver Proyecto</p>
+                              </div>
+                            </a>
+                            <p class="nombre" style="margin-left: vh; margin-right: 7vh; margin-top: 15vh">Taco Master</p>
+                          </div>
+                        </div>
+                        <div class="cell large-4 medium-4 small-4"></div>
+                      </div>
                     </div>
-                  </a>
-                  <p class="nombre" style="margin-left: vh; margin-right: 7vh; margin-top: 15vh">Taco Master</p>
+                  </div>
                 </div>
+                <div class="cell large-1 medium-1 small-1"><br /></div>
               </div>
+
             </div>
           </div>
         </div>
@@ -204,70 +232,77 @@
     <div class="Tercera">
       <div class="grid-container-full" style="background: #111130">
         <div class="grid-x grid-padding-x">
-          <div class="cell large-12 small-12" style="margin-top: 10vh; margin-bottom:3vh;">
-            <p class="t" style="color:white">Premios:</p>
+          <div class="cell large-12 medium-12 small-12" style="margin-top: 10vh;">
+            <p class="t"  style="color: white">Premios:</p>
           </div>
-          <!--MTV Awards-->
-          <div class="cell large-4 small-4">
-            <div class="cell large-2 small-2">
-              <div class="cell" style=" width:25%;border: 1px #111130 solid; clear: both; float:left;"></div>
-              <div class="cell" style=" width:75%;float:left">
-                <div class="cell">
-                  <b class="MTV">
-                  <img class="pulse" src="img/mtv.png"/>
-                </b>
-                </div>
-                <div id="MTV" class="cell" >
-                  <h4 style="color: white">MTV Award 2012</h4>
-                  <p style="color: white">TacoMaster. Mejor juego portátil</p>
-                </div>
+          <div class="cell large-12 medium-12 small-12">
+            <div class="grid-x grid-padding-x">
+              <div class="cell large-4 medium-4 small-4">
+                <img class="pulse" alt="" style="margin: 7.5% 25% 0% 25%; width:50%; height: 70%;" src="img/mtv.png" />
+              </div>
+              <div class="cell large-4 medium-4 small-4">
+                <img class="pulse" alt="" src="img/quorum.png" style="margin: 0% 0% 0% 0%; width:100%; height: 100%" />
+              </div>
+              <div class="cell large-4 medium-4 small-4">
+                <img class="pulse" alt="" src="img/short.png" style="margin: 7.5% 15% 0% 15%; width:70%; height: 70%;" />
               </div>
             </div>
           </div>
-          <!--MTV-->
-          <!--Quorum Awards-->
-          <div class="cell large-4 small-4">
-            <div class="cell" style=" width:12.5%;border: 1px #111130 solid; clear: both; float:left;"></div>
-            <div class="cell" style="height:10vh; width:75%;float:left">
-              <div class="cell">
-                <c>
-                  <img class="pulse" src="img/quorum.png" style="margin: auto;" />
-                </c>
+          <div class="cell large-12 medium-12 small-12">
+            <div class="grid-x grid-padding-x">
+              <div class="cell large-4 medium-4 small-4">
+                <h4 style="color: white; font-family: Quicksand; margin-top: 0px;">MTV Award 2012</h4>
+                <p style="color: white; font-family: Quicksand;">TacoMaster. Mejor juego portátil</p>
               </div>
-              <div class="cell">
-                <h4 style="margin-top: 4vh; color: white;">Premio Quorum 2012</h4>
-                <p style="color: white">Dama Posada. mejor proyecto de animacion 2012 </p>
+              <div class="cell large-4 medium-4 small-4">
+                <h4 style="color: white; font-family: Quicksand; margin-top: 0px;">Premio Quorum 2012</h4>
+                <p style="color: white; font-family: Quicksand;">Dama Posada. mejor proyecto de animacion 2012 </p>
               </div>
-            </div>
-          </div>
-          <!--Quorum-->
-          <!--Short Shorts-->
-          <div class="cell large-4 small-4">
-            <div class="cell" style=" width:75%;clear: both; float:left;">
-              <div class="cell">
-                <c>
-                  <img class="pulse" src="img/short.png" />
-                </c>
-              </div>
-              <div class="cell">
-                <h4 style="margin-top: 4vh; color: white">Shorts Shorts Film Festival Mexico</h4>
-                <p style="color:white">Dame Posada, Best Animated Short Film</p>
+              <div class="cell large-4 medium-4 small-4">
+                <h4 style="color: white; font-family: Quicksand; margin-top: 0px;">Shorts Shorts Film Festival Mexico</h4>
+                <p style="color: white; font-family: Quicksand;">Dame Posada, Best Animated Short Film</p>
               </div>
             </div>
-            <div class="cell" style=" width:25%;border: 1px #111130 solid;float:left"></div>
           </div>
         </div>
       </div>
     </div>
 
     <!--Aquí termina la cuarta seccion-->
-    <div style="background: white">
-      <div class="footer">
-        <a href="https://www.facebook.com/dorian.mastin.TEC?lst=100003721907041%3A100009350091523%3A1518668139" class="social-icon-button facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i><span></span></a>
-        <a href="https://www.linkedin.com/in/dorianmastin/" class="social-icon-button twitter"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span></span></a>
-        <a href="https://plus.google.com/u/0/104178890155219756037" class="social-icon-button gplus"><i class="fab fa-google-plus-g" aria-hidden="true"></i></i><span></span></a>
+    <div class="footer" id="s5" >
+      <div class="grid-container-full">
+        <div class="grid-x grid-padding-x">
+          <div class="cell large-4 medium-4 small-4"></div>
+          <div class="cell large-4 medium-4 small-4">
+            <div class="grid-x grid-padding-x">
+              <div class="cell large-4 medium-4 small-4"></div>
+              <div class="cell large-4 medium-4 small-4">
+                <div class="grid-x grid-padding-x">
+                  <div class="cell large-4 medium-4 small-4">
+                    <a href="https://www.facebook.com/dorian.mastin.TEC?lst=100003721907041%3A100009350091523%3A1518668139" class="social-icon-button facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i><span></span></a>
+                  </div>
+                  <div class="cell large-4 medium-4 small-4">
+                    <a href="https://www.linkedin.com/in/dorianmastin/" class="social-icon-button twitter"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span></span></a>
+                  </div>
+                  <div class="cell large-4 medium-4 small-4">
+                    <a href="https://plus.google.com/u/0/104178890155219756037" class="social-icon-button gplus"><i class="fab fa-google-plus-g" aria-hidden="true"></i></i><span></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="cell large-4 medium-4 small-4"></div>
+            </div>
+          </div>
+          <div class="cell large-4 medium-4 small-4"></div>
+        </div>
       </div>
     </div>
+
+
+
+
+
+
+  </div>
   </div>
 
 
