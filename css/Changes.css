@@ -1,11 +1,12 @@
 /*Inicio de Seccion Principal*/
 body {
   overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 .hero-section {
-  background-color: white;
   position: absolute;
-  height:32%;
   width: 100%;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -37,7 +38,6 @@ body {
 #pback {
   height: 100%;
   width: 100%;
-  background: black;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -51,6 +51,9 @@ body {
   justify-content: center;
   text-align: right;
 }
+.backgroundeffect{
+  z-index: 0
+}
 .hero-section .hero-section-text {
   color: #ffffff;
   text-shadow: 1px 1px 2px #0a0a0a;
@@ -59,7 +62,6 @@ body {
   font-size: 10vh;
   position: absolute;
   vertical-align: middle;
-  top: 10%;
 }
 /*Fin de Seccion Principal*/
 /*Inicio de Segunda Seccion: Skills*/
@@ -96,13 +98,10 @@ body {
   margin-left: 6vh;
 }
 .Frase1{
-  width: 50%;
   position: absolute;
   margin-top: 17vw;
 }
 .Frase1 p {
-  font-size: 1vw;
-  width: 80%;
   font-family: Quicksand;
 }
 .Frase1 a {
@@ -112,9 +111,7 @@ body {
   font-family: Quicksand;
 }
 .Frase1 h5 {
-  font-size: 2vw;
   color: black;
-  width: 80%;
   position: absolute;
   font-family: Quicksand;
 }
@@ -122,15 +119,14 @@ body {
 
 /*Inicio Tercera Sección: Proyectos */
 .proy{
-  margin-top: 290vh;
+  margin-top: 275vh;
+  width: 100%;
 }
 .Frase2 {
   color: white;
 }
-.im, .im1, .im2, .im3 {
+.im0, .im1, .im2, .im3 {
   position: relative;
-  width: 1vh;
-  height: 1vh;
   -webkit-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
@@ -153,8 +149,6 @@ body {
 }
 .im p, .im1 p, .im2 p, .im3 p {
   padding-bottom: 0px;
-  padding-top: 36vh;
-  padding-left: 1vh;
   color: white;
   font-size: 4vh;
   position: absolute;
@@ -175,56 +169,6 @@ body {
   filter: alpha(opacity=100);
   opacity: 1;
 }
-.im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-  transition: all .5s ease;
-  -webkit-opacity: 1;
-  -moz-opacity: 1;
-  filter: alpha(opacity=100);
-  opacity: 1;
-}
-.im .button, .im1 .button, .im2 .button, .im3 .button {
-  transition: all .5s ease-out;
-  -webkit-opacity: .5;
-  -moz-opacity: .5;
-  filter: alpha(opacity=50);
-  opacity: .5;
-}
-.im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-  transition: all .5s ease-out;
-  -webkit-opacity: 1;
-  -moz-opacity: 1;
-  filter: alpha(opacity=100);
-  opacity: 1;
-}
-.im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-  transition: all .5s ease-out;
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
-  filter: alpha(opacity=0);
-  opacity: 0;
-}
-.im .button, .im1 .button, .im2 .button, .im3 .button {
-  height: 40vh;
-  width: 5vh;
-  margin-left: 31vh;
-  margin-top: -1vh;
-  position: absolute;
-  opacity: .5;
-  z-index: 1000;
-}
-.im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-  background-color: red;
-}
-.im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-  margin-left: -24.5vh;
-  margin-top: -3vh;
-  width: 15vh;
-  color: white;
-  text-align: center;
-  font-size: 2vh;
-  transform: rotate(-90deg);
-  opacity: 0;
-}
 .im p, .im1 p, .im2 p, .im3 p {
   text-shadow: 1px 1px 2px #0a0a0a;
 }
@@ -236,14 +180,11 @@ body {
 /*Fin de la Tercera seccion*/
 .hero-section .secc .nueva .hero-section-text h1{
   z-index: 9;
-  position: absolute;
-  margin-top: 30vh;
 }
 
 .seccion2 .fondo{
   background: black;
   height: 100vh;
-  position: absolute;
   margin-top: 90vh;
   width: 100%;
   z-index: 100;
@@ -253,9 +194,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: 1;
-  position: absolute;
-  -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
-  clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+
 }
 .seccion2 .fondo .top1 a p{
   width: 100%;
@@ -267,21 +206,14 @@ body {
 }
 .seccion2 .fondo .right1{
   background: #2B59C3;
-  position: absolute;
   height: 100%;
   width: 100%;
   z-index: 2;
-  -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
-  clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
 }
 .seccion2 .fondo .left1{
   background: #253C78;
-  position: absolute;
   height: 100%;
   width: 100%;
-  z-index: 2;
-  -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
-  clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
 }
 .seccion2 li{
   color: white;
@@ -300,16 +232,12 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
-  -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
-  clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
 }
 .seccion2 .seccion21 .Fondo .triangle{
   background: white;
   height: 100%;
   width: 100%;
   position: absolute;
-  -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
-  clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
 }
 
 #uno{
@@ -321,38 +249,13 @@ body {
   margin-left: 20vh;
 }
 
-.divs{
-  position: absolute;
-  z-index: 1002;
-}
 
-.rellax{
+.rellas{
   position: absolute;
   width: 100%;
+  height: 10vh;
   max-width: 100%;
   min-width: 100%;
-  width: 100%;
-}
-.navbar{
-  position: fixed;
-  z-index: 1;
-  height: 4rem;
-  background: rgba(0,0,0,1);
-  width: 100%;
-}
-.navbar .boton .button{
-  margin-top: 0vh;
-  margin-right: 0vh;
-
-}
-.navbar .secciones{
-  top: 2vh;
-  margin-left: 2vw;
-  color: white;
-  font-family: Quicksand;
-  margin-top: 15vw;
-  text-align: center;
-  position: relative;
 }
 
 .prinimagen{
@@ -360,14 +263,8 @@ body {
   height: auto;
 
 }
-.Tercera .t {
-  font-size: 3rem;
-  color: black;
-  font-weight: bold;
-  margin-left: 0vh;
-}
+
 .skill{
-  margin-top: 8vw;
   margin-left: 10vw;
   font-size: 3rem;
   font-family: Quicksand;
@@ -377,7 +274,6 @@ body {
 #Titulo4{
   text-align: center;
   font-family: Quicksand;
-  margin-bottom: 9vw;
 }
 
 .nombre{
