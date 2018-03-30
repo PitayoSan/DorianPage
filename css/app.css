@@ -2114,7 +2114,9 @@
             height: 10vh;
           }
           .footer{
+            max-width: 100%;
             width: 100%;
+            margin-left: 0vh;
             height: 9rem;
             background: #111130;
             margin-top: 530vh;
@@ -2132,7 +2134,6 @@
           .footer{
               width: 100%;
               height: 1rem;
-              margin-left: 3vh;
               margin-top: 460vh;
               background: #111130;
               position: absolute;
@@ -2492,7 +2493,9 @@
               height: 10vh;
             }
             .footer{
+              max-width: 100%;
               width: 100%;
+              margin-left: 0vh;
               height: 9rem;
               background: #111130;
               margin-top: 530vh;
@@ -2510,7 +2513,6 @@
             .footer{
                 width: 100%;
                 height: 1rem;
-                margin-left: 3vh;
                 margin-top: 460vh;
                 background: #111130;
                 position: absolute;
@@ -2878,7 +2880,9 @@
           height: 10vh;
         }
         .footer{
+          max-width: 100%;
           width: 100%;
+          margin-left: 0vh;
           height: 9rem;
           background: #111130;
           margin-top: 530vh;
@@ -2896,7 +2900,6 @@
         .footer{
             width: 100%;
             height: 1rem;
-            margin-left: 3vh;
             margin-top: 460vh;
             background: #111130;
             position: absolute;
@@ -3258,11 +3261,14 @@
         height: 10vh;
       }
       .footer{
+        max-width: 100%;
         width: 100%;
+        margin-left: 0vh;
         height: 9rem;
         background: #111130;
         margin-top: 530vh;
         position: absolute;
+      }osition: absolute;
       }
       .footer a{
         margin-top: 3vh;
@@ -3633,7 +3639,9 @@
       height: 10vh;
     }
     .footer{
+      max-width: 100%;
       width: 100%;
+      margin-left: 0vh;
       height: 9rem;
       background: #111130;
       margin-top: 530vh;
