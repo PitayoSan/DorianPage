@@ -19,7 +19,7 @@
     width: 80%;
     margin-top: 6vw;
     margin-left: 5vw;
-    font-size: 1.2rem;
+    font-size: 1vw;
   }
   .hero-section{
     height: 100vh;
@@ -284,7 +284,7 @@
       width: 80%;
       margin-top: 7vw;
       margin-left: 5vw;
-      font-size: 1rem;
+      font-size: 1vw;
     }
     .Tercera{
       margin-top: 470vh;
@@ -542,7 +542,7 @@
       margin-left: 5vw;
     }
     .Frase1 p{
-      font-size: 1rem;
+      font-size: 1vw;
       width: 80%;
       margin-top: 20vh;
       margin-left: 5vw;
@@ -806,7 +806,7 @@
     width: 80%;
     margin-top: 5vw;
     margin-left: 5vw;
-    font-size: 1rem;
+    font-size: 1vw;
   }
   .Tercera{
     margin-top: 470vh;
@@ -1065,7 +1065,7 @@
     width: 80%;
     margin-top: 6vw;
     margin-left: 5vw;
-    font-size: .9rem;
+    font-size: 1vw;
   }
   .Tercera{
     margin-top: 470vh;
@@ -1325,7 +1325,7 @@
         width: 83%;
         margin-top: 25vh;
         margin-left: 2vw;
-        font-size: .8rem;
+        font-size: 1vw;
       }
       .Tercera{
         margin-top: 470vh;
@@ -1589,7 +1589,7 @@
           width: 80%;
           margin-top: 8vw;
           margin-left: 5vw;
-          font-size: .7rem;
+          font-size: 1vw;
         }
 
         .hero-section .hero-section-text h1 {
@@ -1860,7 +1860,7 @@
             width: 80%;
             margin-top: 30vw;
             margin-left: 5vw;
-            font-size: .75rem;
+            font-size: 3vw;
           }
           .hero-section{
             height: 108vh;
@@ -2238,7 +2238,7 @@
               width: 80%;
               margin-top: 30vw;
               margin-left: 5vw;
-              font-size: .75rem;
+              font-size: 3vw;
             }
             .hero-section{
               height: 108vh;
@@ -2616,7 +2616,7 @@
           width: 80%;
           margin-top: 30vw;
           margin-left: 5vw;
-          font-size: .75rem;
+          font-size: 3vw;
         }
         .hero-section{
           height: 108vh;
@@ -2993,7 +2993,7 @@
         width: 80%;
         margin-top: 18vw;
         margin-left: 5vw;
-        font-size: .75rem;
+        font-size: 3vw;
       }
       .hero-section{
         height: 108vh;
@@ -3370,7 +3370,7 @@
       width: 80%;
       margin-top: 18vw;
       margin-left: 5vw;
-      font-size: .75rem;
+      font-size: 3vw;
     }
     .hero-section{
       height: 92vh;
@@ -4150,6 +4150,9 @@
 }
 
 @media only screen and (max-device-width: 767px){
+  body{
+    width: 100%;
+  }
   #pback {
     display:none;
     visibility: hidden;
