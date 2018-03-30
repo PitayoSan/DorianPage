@@ -1,11 +1,3 @@
-/*Secciones de la página:
-  1.-Seccion Principal
-  2.-Skills
-  3.-Proyectos
-  4.-Awards
-  5.-Contacto y Redes Sociales*/
-
-/*Resoluciones de Pantalla/PC*/
 
 @media only screen and (max-device-width: 1920px) and (max-device-height: 1080px) and (orientation: landscape) {
 
@@ -2599,7 +2591,6 @@
 }
 
 @media only screen and (max-device-width:375px) and (max-device-height:812px) {
-
         .Frase1{
           width: 100%;
         }
@@ -2629,6 +2620,16 @@
           vertical-align: middle;
           top: 0vh;
           right: 16vw;
+        }
+
+        .navbar .boton .button{
+          margin-top: 3vh;
+          margin-right: 3vh;
+          position: absolute;
+        }
+        .navbar .secciones{
+          display: none;
+          visibility: hidden;
         }
 
         .secc{
@@ -4366,7 +4367,17 @@
     visibility: hidden;
   }
   .navbar{
+    z-index: 10000;
     background: rgba(0,0,0,0);
+  }
+  .navbar .boton .button{
+    margin-top: 3vh;
+    margin-right: 3vh;
+    position: absolute;
+  }
+  .navbar .secciones{
+    display: none;
+    visibility: hidden;
   }
 
   .seccion2 .seccion21 .Fondo .mid{
