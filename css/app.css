@@ -3959,7 +3959,9 @@
     .Tercera{
       position: absolute;
       margin-top: 415vh;
-      width: 100%
+      max-width: 100%;
+      width: 100%;
+      background: #111130;
     }
     .Tercera .t {
       font-size: 2rem;
@@ -4008,7 +4010,9 @@
       height: 10vh;
     }
     .footer{
+      max-width: 100%;
       width: 100%;
+      margin-left: 0vh;
       height: 9rem;
       background: #111130;
       margin-top: 530vh;
@@ -4025,9 +4029,7 @@
     }
     .footer{
       width: 100%;
-      height: 1rem;
       margin-top: 470vh;
-      background: #111130;
       position: absolute;
     }
 
