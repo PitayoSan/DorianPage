@@ -7,126 +7,52 @@
 
 /*Resoluciones de Pantalla/PC*/
 
-@media print {
-  /*Inicio de Seccion Principal*/
-  body {
-    /*overflow-x: hidden;*/
-    max-width: 100%;
-    min-width: 100%;
-    position: absolute;
-    height: auto;
-    width: 60%;
-    padding: 0px;
-    margin: 0px;
-  }
-  .hero-section {
-    height: 2rem;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .hero-section .prinimagen {
-    width: 60vh;
-    height: 2rem;
-    margin-left: -19vh;
-    z-index: 0;
-    display: none;
-  }
-  .hero-section .hero-section-text {
-    color: #000000;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 5rem;
-    position: absolute;
-    z-index: 1;
-    top:0px;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .seccion2 .grid-container-full {
-    background: #f7f7f7;
-    height: 0rem;
-  }
-  .Frase1 {
-    width: 200%;
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: -5rem;
-    margin-left: -40rem;;
-    color: white;
-    background: black;
-    width: 100%;
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    font-size: 2rem;
-    margin-top: 60rem;
-  }
-  .Skills ul li {
-    margin-left: 6vh;
-    font-size: 1rem;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    width: 52rem;
-    margin-right: 7vh;
-    font-size: 1rem;
-    font-family: 'Montserrat';
-  }
-  .Frase1 a {
-    font-size: 3rem;
-    width: 10vh;
-    color: black;
-    font-family: 'Montserrat';
-  }
-  .Frase1 h5 {
-    font-size: 1.5rem;
-    width: 52rem;
-    text-align: justify;
-    color: black;
-    font-family: 'Montserrat';
-  }
-  .divs{
-    display: none;
-  }
-  .proy{
-    display: none;
-  }
-  .Tercera{
-    display: none;
-  }
-  .footer{
-    display: none;
-  }
-}
-
-
 @media only screen and (max-device-width: 1920px) and (max-device-height: 1080px) and (orientation: landscape) {
-  /*Inicio de Seccion Principal*/
-  body {
-    /*overflow-x: hidden;*/
+
+  .Frase1 h5{
+    margin-top: -3vw;
+    margin-left: 5vw;
   }
-  .hero-section {
-    background-color: black;
-    height: 50vh;
+  .Frase1 p{
+    margin-top: 9vw;
+    margin-left: 5vw;
+  }
+
+  .hero-section .hero-section-text h1 {
+    font-size: 10vh;
+    position: absolute;
+    vertical-align: middle;
+    top: 10%;
+    right: 7vw;
+  }
+
+  .secc{
+    background: purple;
+    position: absolute;
     width: 100%;
+    height:100%;
+
+  }
+  .hero-section .secc .imagenprin {
+    width: 75%;
+    height: 100%;
+    margin-left: 0vh;
+    margin-right: auto;
+    position: absolute;
+
+    -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+  }
+  #particles-js{
+    top: 0vh;
+    position: absolute;
+    background: rgba(0,0,0,0);
+    height: 100%;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    position: absolute;
+    z-index: 9;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
@@ -134,11 +60,14 @@
     -ms-flex-pack: center;
     justify-content: center;
     text-align: right;
+    -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
   }
-  #particles-js {
-    height: 70vh;
-    width: 100%;
-    background: white;
+  #pback{
+    top: 0vh;
+    position: absolute;
+    background: black;
+    height: 100%;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -151,788 +80,747 @@
     -ms-flex-pack: center;
     justify-content: center;
     text-align: right;
+    -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+    clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
   }
-  .hero-section .hero-section-text {
-    color: #000000;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 7vh;
+  .hero-section .secc .nueva .hero-section-text h1{
+    z-index: 9;
     position: absolute;
-    top: 27vh;
-    left: auto;
-    right: 22vh;
-    font-size: 10vh;
+    margin-top: 30vh;
   }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: 20vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
+
+  .seccion2 .fondo{
     background: black;
-    width: 62vh;
-    height: 35vh;
+    height: 100vh;
+    position: absolute;
+    margin-top: 90vh;
+    width: 100%;
+    z-index: 100;
   }
-  .seccion2 .grid-container-full {
-    background: #f7f7f7;
-    height: 80vh;
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    font-size: 1.5rem;
-  }
-  .Frase1 a {
-    font-size: 3rem;
-    color: black;
-  }
-  .Frase1 h5 {
-    font-size: 2rem;
-    color: black;
-  }
-  /*Fin de la Segunda Seccion*/
-  /*Inicio Tercera Sección: Proyectos */
-  .Frase2 {
-    margin-left: 6vh;
-    margin-top: 5vh;
-    color: white;
-  }
-  .im, .im1, .im2, .im3 {
-    position: relative;
-    width: 1vh;
-    height: 1vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease
-  }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
+  .seccion2 .fondo .top1{
+    background: white;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
+    z-index: 1;
     position: absolute;
+    -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+    clip-path: polygon(0% 0, 50% 30%, 100% 0%);
   }
-  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
-    width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -23.2vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
+  .seccion2 .fondo .top1 a p{
+    width: 100%;
+    height: 100%;
     text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
+    margin-top: 4vw;
+    font-size: 2.5vw;
+    font-family: Quicksand;
   }
-  .im p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
+  .seccion2 .fondo .right1{
+    background: #2B59C3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+    clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
   }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
+  .seccion2 .fondo .left1{
+    background: #253C78;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
   }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-  .Tercera .cell .t {
+  .seccion2 li{
+    color: white;
+    font-size: 2rem;
+    margin-left: 13vw;
+
+  }
+  .seccion2 .seccion21{
+    background: #111130;
+    height: 86vh;
+    position: absolute;
+    margin-top: 190vh;
+    width: 100%;
+    z-index: 100;
+  }
+  .seccion2 .seccion21 .Fondo .mid{
+    background: #7D11A0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+    clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+  }
+  .seccion2 .seccion21 .Fondo .triangle{
+    background: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+    clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+  }
+
+  #uno{
+    margin-top: -70vh;
+    clear: both;
+    float: right;
+  }
+  #margen{
+    margin-left: 20vh;
+  }
+
+  .divs{
+    position: absolute;
+    z-index: 1002;
+  }
+
+  .rellax{
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+  }
+  .navbar{
+    position: fixed;
+    z-index: 1;
+    height: 4rem;
+    background: rgba(0,0,0,1);
+    width: 100%;
+  }
+  .navbar .boton .button{
+    margin-top: 0vh;
+    margin-right: 0vh;
+
+  }
+  .navbar .secciones{
+    top: 2vh;
+    margin-left: 2vw;
+    color: white;
+    font-family: Quicksand;
+    margin-top: 15vw;
+    text-align: center;
+    position: relative;
+  }
+
+  .prinimagen{
+    max-width: 120%;
+    max-height: 120%;
+    width: auto;
+    height: auto;
+
+  }
+  .Tercera .t {
     font-size: 3rem;
     color: black;
+    text-align: center;
     font-weight: bold;
     margin-left: 0vh;
   }
-  /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1vh;
+  .skill{
+    margin-top: 8vw;
+    margin-left: 10vw;
+    font-size: 3rem;
+    font-family: Quicksand;
+    color: white;
   }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
-  }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: black;
-    margin-top: 7.5rem;
+
+  #Titulo4{
     text-align: center;
+    font-family: Quicksand;
+    margin-bottom: 9vw;
   }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
-    font-size: 1rem;
+
+  .nombre{
+    margin-top: 32vh;
   }
-  .DP {
-    position: absolute;
-    height: 100%;
+
+  p{
+    color: white;
+    font-family: Quicksand;
+  }
+
+  #unica{
+    margin-top: 150vh;
+  }
+
+  .seccion{
     width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
-    background-size: cover;
+    height: 10vh;
   }
-  .Tercera .grid-container-full {
-    background: white;
-    height: 70vh;
-    margin-top: -50vh;
+  .footer{
+    width: 100%;
+    height: 9rem;
+    background: #111130;
+    margin-top: 55vh;
+    position: absolute;
   }
-  .divs .tag {
-    visibility: hidden;
-  }
-  .MTV .pulse {
-    weight: 15rem;
-    height: 15rem;
-    margin-left: 2rem;
-  }
-  .Tercera #MTV h4 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: black;
-    margin-top: 0rem;
-    text-align: center;
+  .footer a{
+    margin-top: 3vh;
   }
 }
 
 @media only screen and (max-device-width: 1600px) and (max-device-height: 900px) and (orientation: landscape) {
-  /*Inicio de Seccion Principal*/
-  body {
-    /*overflow-x: hidden;*/
-  }
-  .hero-section {
-    background-color: black;
-    height: 50vh;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  #particles-js {
-    height: 70vh;
-    width: 100%;
-  }
-  .hero-section .hero-section-text {
-    color: #000000;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 6vh;
-  }
-  .hero-section .hero-section-text h1 {
-    position: absolute;
-    top: 27vh;
-    left: auto;
-    right: 22vh;
-    font-size: 10vh;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: 20vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
-    background: black;
-    width: 62vh;
-    height: 40vh;
-  }
-  .seccion2 .grid-container-full {
-    background: #f7f7f7;
-    height: 80vh;
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    font-size: 2vh;
-  }
-  .Frase1 a {
-    font-size: 3.5vh;
-    color: black;
-  }
-  /*Fin de la Segunda Seccion*/
-  /*Inicio Tercera Sección: Proyectos */
-  .Frase2 {
-    margin-left: 6vh;
-    margin-top: 5vh;
-    color: white;
-  }
-  .im, .im1, .im2, .im3 {
-    position: relative;
-    width: 1vh;
-    height: 1vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease
-  }
-  .im p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
-    width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -24.2vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
-    text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
-  }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-  .Tercera .cell .t {
-    font-size: 4rem;
-    color: black;
-    font-weight: bold;
-    margin-left: 13vh;
-  }
-  /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1vh;
-  }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
-  }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: black;
-    text-align: center;
-  }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
-    font-size: 1rem;
-  }
-  .DP {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
-  }
-  .Tercera .grid-container-full {
-    background: white;
-    height: 90vh;
-    margin-top: -70vh;
-  }
-  .divs .tag {
-    visibility: hidden;
-  }
-  .MTV .pulse {
-    weight: 15rem;
-    height: 15rem;
-    margin-top: 0rem;
-    margin-left: rem;
-  }
-  .Tercera #MTV h4 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: black;
-    margin-top: 1rem;
-    text-align: center;
-  }
+
+    .Frase1 h5{
+      margin-top: -3vw;
+      margin-left: 5vw;
+    }
+    .Frase1 p{
+      margin-top: 9vw;
+      margin-left: 5vw;
+    }
+
+    .hero-section .hero-section-text h1 {
+      font-size: 10vh;
+      position: absolute;
+      vertical-align: middle;
+      top: 10%;
+      right: 6vw;
+    }
+
+    .secc{
+      background: purple;
+      position: absolute;
+      width: 100%;
+      height:100%;
+
+    }
+    .hero-section .secc .imagenprin {
+      width: 75%;
+      height: 100%;
+      margin-left: 0vh;
+      margin-right: auto;
+      position: absolute;
+
+      -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+      clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+    }
+    #particles-js{
+      top: 0vh;
+      position: absolute;
+      background: rgba(0,0,0,0);
+      height: 100%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      z-index: 9;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: right;
+      -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+      clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+    }
+    #pback{
+      top: 0vh;
+      position: absolute;
+      background: black;
+      height: 100%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      z-index: 0.5;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: right;
+      -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+      clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+    }
+    .hero-section .secc .nueva .hero-section-text h1{
+      z-index: 9;
+      position: absolute;
+      margin-top: 30vh;
+    }
+
+    .seccion2 .fondo{
+      background: black;
+      height: 100vh;
+      position: absolute;
+      margin-top: 90vh;
+      width: 100%;
+      z-index: 100;
+    }
+    .seccion2 .fondo .top1{
+      background: white;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      position: absolute;
+      -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+      clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+    }
+    .seccion2 .fondo .top1 a p{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      margin-top: 4vw;
+      font-size: 2.5vw;
+      font-family: Quicksand;
+    }
+    .seccion2 .fondo .right1{
+      background: #2B59C3;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+      -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+      clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+    }
+    .seccion2 .fondo .left1{
+      background: #253C78;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+      -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+      clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+    }
+    .seccion2 li{
+      color: white;
+      font-size: 2rem;
+      margin-left: 13vw;
+
+    }
+    .seccion2 .seccion21{
+      background: #111130;
+      height: 86vh;
+      position: absolute;
+      margin-top: 190vh;
+      width: 100%;
+      z-index: 100;
+    }
+    .seccion2 .seccion21 .Fondo .mid{
+      background: #7D11A0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+      clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+    }
+    .seccion2 .seccion21 .Fondo .triangle{
+      background: white;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+      clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+    }
+
+    #uno{
+      margin-top: -70vh;
+      clear: both;
+      float: right;
+    }
+    #margen{
+      margin-left: 20vh;
+    }
+
+    .divs{
+      position: absolute;
+      z-index: 1002;
+    }
+
+    .rellax{
+      position: absolute;
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+    }
+    .navbar{
+      position: fixed;
+      z-index: 1;
+      height: 4rem;
+      background: rgba(0,0,0,1);
+      width: 100%;
+    }
+    .navbar .boton .button{
+      margin-top: 0vh;
+      margin-right: 0vh;
+
+    }
+    .navbar .secciones{
+      top: 2vh;
+      margin-left: 2vw;
+      color: white;
+      font-family: Quicksand;
+      margin-top: 15vw;
+      text-align: center;
+      position: relative;
+    }
+
+    .prinimagen{
+      max-width: 120%;
+      max-height: 120%;
+      width: auto;
+      height: auto;
+
+    }
+    .Tercera .t {
+      font-size: 3rem;
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      margin-left: 0vh;
+    }
+    .skill{
+      margin-top: 8vw;
+      margin-left: 10vw;
+      font-size: 3rem;
+      font-family: Quicksand;
+      color: white;
+    }
+
+    #Titulo4{
+      text-align: center;
+      font-family: Quicksand;
+      margin-bottom: 9vw;
+    }
+
+    .nombre{
+      margin-top: 32vh;
+    }
+
+    p{
+      color: white;
+      font-family: Quicksand;
+    }
+
+    #unica{
+      margin-top: 150vh;
+    }
+
+    .seccion{
+      width: 100%;
+      height: 10vh;
+    }
+    .footer{
+      width: 100%;
+      height: 9rem;
+      background: #111130;
+      margin-top: 55vh;
+      position: absolute;
+    }
+    .footer a{
+      margin-top: 3vh;
+    }
 }
 
 @media only screen and (max-device-width: 1440px) and (max-device-height: 1080px) and (orientation: landscape) {
-  /*Inicio de Seccion Principal*/
-  body {
-    /*overflow-x: hidden;*/
-  }
-  .hero-section {
-    background-color: black;
-    height: 70vh;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  #particles-js {
-    height: 70vh;
-    width: 100%;
-    background: white;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .hero-section .hero-section-text {
-    color: #000000;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 5rem;
-    position: absolute;
-    top: 30vh;
-    left: auto;
-    right: 10vh;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: 20vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
-    background: black;
-    width: 62vh;
-    height: 35vh;
-  }
-  .seccion2 .grid-container-full {
-    background: #f7f7f7;
-    height: 90vh;
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    font-size: 2vh;
-  }
-  .Frase1 a {
-    font-size: 3.5vh;
-    color: black;
-  }
-  /*Fin de la Segunda Seccion*/
-  /*Inicio Tercera Sección: Proyectos */
-  .Frase2 {
-    margin-left: 6vh;
-    margin-top: 5vh;
-    color: white;
-  }
-  .im, .im1, .im2, .im3 {
-    position: relative;
-    width: 1vh;
-    height: 1vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease
-  }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
-    width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -23.5vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
-    text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
-  }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-  .Tercera .cell .t {
-    font-size: 4rem;
-    color: black;
-    font-weight: bold;
-    margin-left: 0vh;
-  }
-  /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1vh;
-  }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
-  }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: black;
-    text-align: center;
-  }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
-    font-size: 1rem;
-  }
-  .DP {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
-  }
-  .Tercera .grid-container-full {
-    background: white;
-    height: 70vh;
-    margin-top: -90vh;
-  }
-  .divs .tag {
-    visibility: hidden;
-  }
-  .MTV .pulse {
-    weight: 10rem;
-    height: 10rem;
-    margin-top: 2rem;
-    margin-left: 2rem;
-  }
-  .Tercera #MTV h4 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: black;
-    margin-top: 3rem;
-    text-align: center;
-  }
+
+    .Frase1 h5{
+      margin-top: 5vh;
+      margin-left: 5vw;
+    }
+    .Frase1 p{
+      margin-top: 19vh;
+      margin-left: 5vw;
+    }
+
+    .hero-section .hero-section-text h1 {
+      font-size: 10vh;
+      position: absolute;
+      vertical-align: middle;
+      top: 10%;
+      right: 7vw;
+    }
+
+    .secc{
+      background: purple;
+      position: absolute;
+      width: 100%;
+      height:100%;
+
+    }
+    .hero-section .secc .imagenprin {
+      width: 75%;
+      height: 100%;
+      margin-left: 0vh;
+      margin-right: auto;
+      position: absolute;
+
+      -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+      clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+    }
+    #particles-js{
+      top: 0vh;
+      position: absolute;
+      background: rgba(0,0,0,0);
+      height: 100%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      z-index: 9;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: right;
+      -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+      clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+    }
+    #pback{
+      top: 0vh;
+      position: absolute;
+      background: black;
+      height: 100%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      z-index: 0.5;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: right;
+      -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+      clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+    }
+    .hero-section .secc .nueva .hero-section-text h1{
+      z-index: 9;
+      position: absolute;
+      margin-top: 30vh;
+    }
+
+    .seccion2 .fondo{
+      background: black;
+      height: 100vh;
+      position: absolute;
+      margin-top: 90vh;
+      width: 100%;
+      z-index: 100;
+    }
+    .seccion2 .fondo .top1{
+      background: white;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      position: absolute;
+      -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+      clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+    }
+    .seccion2 .fondo .top1 a p{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      margin-top: 4vw;
+      font-size: 2.5vw;
+      font-family: Quicksand;
+    }
+    .seccion2 .fondo .right1{
+      background: #2B59C3;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+      -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+      clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+    }
+    .seccion2 .fondo .left1{
+      background: #253C78;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+      -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+      clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+    }
+    .seccion2 li{
+      color: white;
+      font-size: 2rem;
+      margin-left: 13vw;
+
+    }
+    .seccion2 .seccion21{
+      background: #111130;
+      height: 86vh;
+      position: absolute;
+      margin-top: 190vh;
+      width: 100%;
+      z-index: 100;
+    }
+    .seccion2 .seccion21 .Fondo .mid{
+      background: #7D11A0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+      clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+    }
+    .seccion2 .seccion21 .Fondo .triangle{
+      background: white;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+      clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+    }
+
+    #uno{
+      margin-top: -70vh;
+      clear: both;
+      float: right;
+    }
+    #margen{
+      margin-left: 20vh;
+    }
+
+    .divs{
+      position: absolute;
+      z-index: 1002;
+    }
+
+    .rellax{
+      position: absolute;
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+    }
+    .navbar{
+      position: fixed;
+      z-index: 1;
+      height: 4rem;
+      background: rgba(0,0,0,1);
+      width: 100%;
+    }
+    .navbar .boton .button{
+      margin-top: 0vh;
+      margin-right: 0vh;
+
+    }
+    .navbar .secciones{
+      top: 2vh;
+      margin-left: 2vw;
+      color: white;
+      font-family: Quicksand;
+      margin-top: 15vw;
+      text-align: center;
+      position: relative;
+    }
+
+    .prinimagen{
+      margin-left: -13vh;
+      max-width: 150%;
+      max-height: 150%;
+      width: auto;
+      height: auto;
+
+    }
+    .Tercera .t {
+      font-size: 3rem;
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      margin-left: 0vh;
+    }
+    .skill{
+      margin-top: 8vw;
+      margin-left: 10vw;
+      font-size: 3rem;
+      font-family: Quicksand;
+      color: white;
+    }
+
+    #Titulo4{
+      text-align: center;
+      font-family: Quicksand;
+      margin-bottom: 9vw;
+    }
+
+    .nombre{
+      margin-top: 32vh;
+    }
+
+    p{
+      color: white;
+      font-family: Quicksand;
+    }
+
+    #unica{
+      margin-top: 150vh;
+    }
+
+    .seccion{
+      width: 100%;
+      height: 10vh;
+    }
+    .footer{
+      width: 100%;
+      height: 9rem;
+      background: #111130;
+      margin-top: 50vh;
+      position: absolute;
+    }
+    .footer a{
+      margin-top: 3vh;
+    }
 }
 
 @media only screen and (max-device-width: 1366px) and (max-device-height: 768px) and (orientation: landscape) {
-
-}
-
-@media only screen and (max-device-width: 1280px) and (max-device-height: 720px) and (orientation: landscape) {
-  /*Inicio de Seccion Principal*/
-  body {
-    /*overflow-x: hidden;*/
+  .Frase1 h5{
+    margin-top: -3vw;
+    margin-left: 5vw;
   }
-  .hero-section {
-    background-color: black;
-    height: 70vh;
+  .Frase1 p{
+    margin-top: 9vw;
+    margin-left: 5vw;
+  }
+
+  .hero-section .hero-section-text h1 {
+    font-size: 10vh;
+    position: absolute;
+    vertical-align: middle;
+    top: 10%;
+    right: 7vw;
+  }
+
+  .secc{
+    background: purple;
+    position: absolute;
     width: 100%;
+    height:100%;
+
+  }
+  .hero-section .secc .imagenprin {
+    width: 75%;
+    height: 100%;
+    margin-left: 0vh;
+    margin-right: auto;
+    position: absolute;
+
+    -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+  }
+  #particles-js{
+    top: 0vh;
+    position: absolute;
+    background: rgba(0,0,0,0);
+    height: 100%;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    position: absolute;
+    z-index: 9;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
@@ -940,11 +828,14 @@
     -ms-flex-pack: center;
     justify-content: center;
     text-align: right;
+    -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
   }
-  #particles-js {
-    height: 70vh;
-    width: 100%;
-    background: white;
+  #pback{
+    top: 0vh;
+    position: absolute;
+    background: black;
+    height: 100%;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -957,768 +848,963 @@
     -ms-flex-pack: center;
     justify-content: center;
     text-align: right;
+    -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+    clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
   }
-  .hero-section .hero-section-text {
-    color: #000000;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
+  .hero-section .secc .nueva .hero-section-text h1{
+    z-index: 9;
     position: absolute;
-    top: 27vh;
-    left: auto;
-    right: 20vh;
-    font-size: 10vh;
+    margin-top: 30vh;
   }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: 20vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
+
+  .seccion2 .fondo{
     background: black;
-    width: 62vh;
-    height: 19rem;
-  }
-  .seccion2 .grid-container-full {
-    display: inline-block;
-    background: #f7f7f7;
-    height: 45vw;
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    font-size: 2vh;
-  }
-  .Frase1 a {
-    font-size: 3.5vh;
-    color: black;
-  }
-  /*Fin de la Segunda Seccion*/
-  /*Inicio Tercera Sección: Proyectos */
-  .Frase2 {
-    margin-left: 6vh;
-    margin-top: 5vh;
-    color: white;
-  }
-  .im, .im1, .im2, .im3 {
-    position: relative;
-    width: 1vh;
-    height: 1vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease
-  }
-  .im p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
+    height: 100vh;
     position: absolute;
+    margin-top: 90vh;
+    width: 100%;
+    z-index: 100;
   }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
+  .seccion2 .fondo .top1{
+    background: white;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
+    z-index: 1;
     position: absolute;
+    -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+    clip-path: polygon(0% 0, 50% 30%, 100% 0%);
   }
-  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
-    width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -24.2vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
+  .seccion2 .fondo .top1 a p{
+    width: 100%;
+    height: 100%;
     text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
+    margin-top: 4vw;
+    font-size: 2.5vw;
+    font-family: Quicksand;
   }
-  .im p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
+  .seccion2 .fondo .right1{
+    background: #2B59C3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+    clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
   }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
+  .seccion2 .fondo .left1{
+    background: #253C78;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
   }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-  .Tercera .cell .t {
+  .seccion2 li{
+    color: white;
+    font-size: 2rem;
+    margin-left: 13vw;
+
+  }
+  .seccion2 .seccion21{
+    background: #111130;
+    height: 86vh;
+    position: absolute;
+    margin-top: 190vh;
+    width: 100%;
+    z-index: 100;
+  }
+  .seccion2 .seccion21 .Fondo .mid{
+    background: #7D11A0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+    clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+  }
+  .seccion2 .seccion21 .Fondo .triangle{
+    background: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+    clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+  }
+
+  #uno{
+    margin-top: -70vh;
+    clear: both;
+    float: right;
+  }
+  #margen{
+    margin-left: 20vh;
+  }
+
+  .divs{
+    position: absolute;
+    z-index: 1002;
+  }
+
+  .rellax{
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+  }
+  .navbar{
+    position: fixed;
+    z-index: 1;
+    height: 4rem;
+    background: rgba(0,0,0,1);
+    width: 100%;
+  }
+  .navbar .boton .button{
+    margin-top: 0vh;
+    margin-right: 0vh;
+
+  }
+  .navbar .secciones{
+    top: 2vh;
+    margin-left: 2vw;
+    color: white;
+    font-family: Quicksand;
+    margin-top: 15vw;
+    text-align: center;
+    position: relative;
+  }
+
+  .prinimagen{
+    max-width: 120%;
+    max-height: 120%;
+    width: auto;
+    height: auto;
+
+  }
+  .Tercera .t {
     font-size: 3rem;
     color: black;
+    text-align: center;
     font-weight: bold;
     margin-left: 0vh;
   }
-  /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
+  .skill{
+    margin-top: 8vw;
+    margin-left: 10vw;
+    font-size: 3rem;
+    font-family: Quicksand;
+    color: white;
+  }
+
+  #Titulo4{
+    text-align: center;
+    font-family: Quicksand;
+    margin-bottom: 9vw;
+  }
+
+  .nombre{
+    margin-top: 32vh;
+  }
+
+  p{
+    color: white;
+    font-family: Quicksand;
+  }
+
+  #unica{
+    margin-top: 150vh;
+  }
+
+  .seccion{
+    width: 100%;
+    height: 10vh;
+  }
+  .footer{
+    width: 100%;
+    height: 9rem;
+    background: #111130;
+    margin-top: 55vh;
+    position: absolute;
+  }
+  .footer a{
+    margin-top: 3vh;
+  }
+}
+
+@media only screen and (max-device-width: 1280px) and (max-device-height: 720px) and (orientation: landscape) {
+  .Frase1 h5{
+    margin-top: -3vw;
+    margin-left: 5vw;
+  }
+  .Frase1 p{
+    margin-top: 9vw;
+    margin-left: 5vw;
+  }
+
+  .hero-section .hero-section-text h1 {
+    font-size: 10vh;
+    position: absolute;
+    vertical-align: middle;
+    top: 10%;
+    right: 7vw;
+  }
+
+  .secc{
+    background: purple;
+    position: absolute;
+    width: 100%;
+    height:100%;
+
+  }
+  .hero-section .secc .imagenprin {
+    width: 75%;
+    height: 100%;
+    margin-left: 0vh;
     margin-right: auto;
-    margin-top: -1vh;
+    position: absolute;
+
+    -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
   }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
+  #particles-js{
+    top: 0vh;
+    position: absolute;
+    background: rgba(0,0,0,0);
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    z-index: 9;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: right;
+    -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
   }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: black;
+  #pback{
+    top: 0vh;
+    position: absolute;
+    background: black;
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    z-index: 0.5;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: right;
+    -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+    clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+  }
+  .hero-section .secc .nueva .hero-section-text h1{
+    z-index: 9;
+    position: absolute;
+    margin-top: 30vh;
+  }
+
+  .seccion2 .fondo{
+    background: black;
+    height: 100vh;
+    position: absolute;
+    margin-top: 90vh;
+    width: 100%;
+    z-index: 100;
+  }
+  .seccion2 .fondo .top1{
+    background: white;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+    clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+  }
+  .seccion2 .fondo .top1 a p{
+    width: 100%;
+    height: 100%;
     text-align: center;
+    margin-top: 4vw;
+    font-size: 2.5vw;
+    font-family: Quicksand;
   }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
-    font-size: 1rem;
-  }
-  .DP {
+  .seccion2 .fondo .right1{
+    background: #2B59C3;
     position: absolute;
     height: 100%;
     width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
+    z-index: 2;
+    -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+    clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
   }
-  .MTV .pulse {
-    weight: 9rem;
-    height: 9rem;
-    margin-left: 2vh;
+  .seccion2 .fondo .left1{
+    background: #253C78;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
   }
-  .Tercera #MTV h4 {
-    font-weight: bold;
+  .seccion2 li{
+    color: white;
     font-size: 2rem;
-    color: black;
-    margin-top: 0rem;
-    text-align: center;
+    margin-left: 13vw;
+
   }
-  .Tercera .grid-container-full {
+  .seccion2 .seccion21{
+    background: #111130;
+    height: 86vh;
+    position: absolute;
+    margin-top: 190vh;
+    width: 100%;
+    z-index: 100;
+  }
+  .seccion2 .seccion21 .Fondo .mid{
+    background: #7D11A0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+    clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+  }
+  .seccion2 .seccion21 .Fondo .triangle{
     background: white;
-    height: 100vh;
-    margin-top: -55vh;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+    clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+  }
+
+  #uno{
+    margin-top: -70vh;
+    clear: both;
+    float: right;
+  }
+  #margen{
+    margin-left: 20vh;
+  }
+
+  .divs{
+    position: absolute;
+    z-index: 1002;
+  }
+
+  .rellax{
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+  }
+  .navbar{
+    position: fixed;
+    z-index: 1;
+    height: 4rem;
+    background: rgba(0,0,0,1);
+    width: 100%;
+  }
+  .navbar .boton .button{
+    margin-top: 0vh;
+    margin-right: 0vh;
+
+  }
+  .navbar .secciones{
+    top: 2vh;
+    margin-left: 2vw;
+    color: white;
+    font-family: Quicksand;
+    margin-top: 15vw;
+    text-align: center;
+    position: relative;
+  }
+
+  .prinimagen{
+    max-width: 120%;
+    max-height: 120%;
+    width: auto;
+    height: auto;
+
+  }
+  .Tercera .t {
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 0vh;
+  }
+  .skill{
+    margin-top: 8vw;
+    margin-left: 10vw;
+    font-size: 3rem;
+    font-family: Quicksand;
+    color: white;
+  }
+
+  #Titulo4{
+    text-align: center;
+    font-family: Quicksand;
+    margin-bottom: 9vw;
+  }
+
+  .nombre{
+    margin-top: 32vh;
+  }
+
+  p{
+    color: white;
+    font-family: Quicksand;
+  }
+
+  #unica{
+    margin-top: 150vh;
+  }
+
+  .seccion{
+    width: 100%;
+    height: 10vh;
+  }
+  .footer{
+    width: 100%;
+    height: 9rem;
+    background: #111130;
+    margin-top: 58vh;
+    position: absolute;
+  }
+  .footer a{
+    margin-top: 3vh;
   }
 }
 
 @media only screen and (max-device-width: 1024px) and (max-device-height: 768px) and (orientation: landscape) {
-  /*Inicio de Seccion Principal*/
-  body {
-    /*overflow-x: hidden;*/
-  }
-  .hero-section {
-    background-color: black;
-    height: 70vh;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  #particles-js {
-    height: 70vh;
-    width: 100%;
-    background: white;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .hero-section .hero-section-text {
-    color: #000000;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 8vh;
-    position: absolute;
-    top: 27vh;
-    left: auto;
-    right: 12vh;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: 20vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
-    background: black;
-    width: 62vh;
-    height: 45vh;
-  }
-  .seccion2 .grid-container-full {
-    background: #f7f7f7;
-    height: 85vh;
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    font-size: 2vh;
-  }
-  .Frase1 a {
-    font-size: 3.5vh;
-    color: black;
-  }
-  .Frase1 h5 {
-    font-size: 1.2rem;
-  }
-  /*Fin de la Segunda Seccion*/
-  /*Inicio Tercera Sección: Proyectos */
-  .Frase2 {
-    margin-left: 6vh;
-    margin-top: 5vh;
-    color: white;
-  }
-  .im, .im1, .im2, .im3 {
-    position: relative;
-    width: 1vh;
-    height: 1vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease
-  }
-  .im p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
-    width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -24.2vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
-    text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
-  }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-  .t {
-    font-size: 5vh;
-    color: black;
-    font-weight: bold;
-    margin-left: 13vh;
-  }
-  /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1vh;
-  }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
-  }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: black;
-    text-align: center;
-  }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
-    font-size: 1rem;
-  }
-  .DP {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
-  }
-  .Tercera .grid-container-full {
-    background: white;
-    height: 80vh;
-    margin-top: -90vh;
-  }
+
+      .Frase1 h5{
+        margin-top: 15vh;
+        margin-left: 2vw;
+      }
+      .Frase1 p{
+        margin-top: 30vh;
+        margin-left: 2vw;
+      }
+
+      .hero-section .hero-section-text h1 {
+        font-size: 10vh;
+        position: absolute;
+        vertical-align: middle;
+        top: 10%;
+        right: 7vw;
+      }
+
+      .secc{
+        background: purple;
+        position: absolute;
+        width: 100%;
+        height:100%;
+
+      }
+      .hero-section .secc .imagenprin {
+        width: 75%;
+        height: 100%;
+        margin-left: 0vh;
+        margin-right: auto;
+        position: absolute;
+
+        -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+      }
+      #particles-js{
+        top: 0vh;
+        position: absolute;
+        background: rgba(0,0,0,0);
+        height: 100%;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        z-index: 9;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: right;
+        -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+        clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+      }
+      #pback{
+        top: 0vh;
+        position: absolute;
+        background: black;
+        height: 100%;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        z-index: 0.5;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: right;
+        -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+        clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+      }
+      .hero-section .secc .nueva .hero-section-text h1{
+        z-index: 9;
+        position: absolute;
+        margin-top: 30vh;
+      }
+
+      .seccion2 .fondo{
+        background: black;
+        height: 100vh;
+        position: absolute;
+        margin-top: 90vh;
+        width: 100%;
+        z-index: 100;
+      }
+      .seccion2 .fondo .top1{
+        background: white;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+        clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+      }
+      .seccion2 .fondo .top1 a p{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-top: 4vw;
+        font-size: 2.5vw;
+        font-family: Quicksand;
+      }
+      .seccion2 .fondo .right1{
+        background: #2B59C3;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+        clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+      }
+      .seccion2 .fondo .left1{
+        background: #253C78;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+        clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+      }
+      .seccion2 li{
+        color: white;
+        font-size: 2rem;
+        margin-left: 13vw;
+
+      }
+      .seccion2 .seccion21{
+        background: #111130;
+        height: 86vh;
+        position: absolute;
+        margin-top: 190vh;
+        width: 100%;
+        z-index: 100;
+      }
+      .seccion2 .seccion21 .Fondo .mid{
+        background: #7D11A0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+        clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+      }
+      .seccion2 .seccion21 .Fondo .triangle{
+        background: white;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+        clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+      }
+
+      #uno{
+        margin-top: -70vh;
+        clear: both;
+        float: right;
+      }
+      #margen{
+        margin-left: 20vh;
+      }
+
+      .divs{
+        position: absolute;
+        z-index: 1002;
+      }
+
+      .rellax{
+        position: absolute;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+      }
+      .navbar{
+        position: fixed;
+        z-index: 1;
+        height: 4rem;
+        background: rgba(0,0,0,1);
+        width: 100%;
+      }
+      .navbar .boton .button{
+        margin-top: 0vh;
+        margin-right: 0vh;
+
+      }
+      .navbar .secciones{
+        top: 2vh;
+        margin-left: 2vw;
+        color: white;
+        font-family: Quicksand;
+        margin-top: 15vw;
+        text-align: center;
+        position: relative;
+      }
+
+      .prinimagen{
+        margin-left: -13vh;
+        max-width: 150%;
+        max-height: 150%;
+        width: auto;
+        height: auto;
+
+      }
+      .Tercera .t {
+        font-size: 3rem;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 0vh;
+      }
+      .skill{
+        margin-top: 8vw;
+        margin-left: 10vw;
+        font-size: 3rem;
+        font-family: Quicksand;
+        color: white;
+      }
+
+      #Titulo4{
+        text-align: center;
+        font-family: Quicksand;
+        margin-bottom: 9vw;
+      }
+
+      .nombre{
+        margin-top: 32vh;
+      }
+
+      p{
+        color: white;
+        font-family: Quicksand;
+      }
+
+      #unica{
+        margin-top: 150vh;
+      }
+
+      .seccion{
+        width: 100%;
+        height: 10vh;
+      }
+      .footer{
+        width: 100%;
+        height: 9rem;
+        background: #111130;
+        margin-top: 55vh;
+        position: absolute;
+      }
+      .footer a{
+        margin-top: 3vh;
+      }
 }
 
 @media only screen and (max-device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape) {
-  /*Inicio de Seccion Principal*/
-  body {
-    /*overflow-x: hidden;*/
-  }
-  .hero-section {
-    background-color: black;
-    height: 70vh;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  #particles-js {
-    height: 70vh;
-    width: 100%;
-    background: white;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  .hero-section .hero-section-text {
-    color: #000000;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 8vh;
-    position: absolute;
-    top: 27vh;
-    left: auto;
-    right: 12vh;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    margin-left: 5vh;
-    margin-right: 5vh;
-    margin-top: 10vh;
-    color: black;
-  }
-  .Skills {
-    margin-top: 20vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
-    background: black;
-    width: 62vh;
-    height: 55vh;
-  }
-  .seccion2 .grid-container-full {
-    background: #f7f7f7;
-    height: 85vh;
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1 p {
-    margin-top: 3vh;
-    font-size: 2vh;
-  }
-  .Frase1 a {
-    font-size: 3.5vh;
-    color: black;
-  }
-  .Frase1 h5 {
-    font-size: 1.2rem;
-  }
-  /*Fin de la Segunda Seccion*/
-  /*Inicio Tercera Sección: Proyectos */
-  .Frase2 {
-    margin-left: 6vh;
-    margin-top: 5vh;
-    color: white;
-  }
-  .im, .im1, .im2, .im3 {
-    position: relative;
-    width: 1vh;
-    height: 1vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease
-  }
-  .im p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  #cs {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40vh;
-    width: 30vh;
-    background: url("../img/tacom.png") no-repeat center top;
-    background-size: cover;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 35vh;
-    width: 5vh;
-    margin-left: 23vh;
-    margin-top: -3vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -24.2vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
-    text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  .im p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
-  }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-  .t {
-    font-size: 5vh;
-    color: black;
-    font-weight: bold;
-    margin-left: 13vh;
-  }
-  /*Fin de la Cuarta Seccion*/
-  .cell a {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1vh;
-  }
-  .cell b {
-    margin-left: 17%;
-    margin-right: 83%;
-    margin-top: -1vh;
-  }
-  .Tercera .cell h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: black;
-    text-align: center;
-  }
-  .Tercera .cell p {
-    color: black;
-    text-align: center;
-    font-size: 1rem;
-  }
-  .DP {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url("../img/posada.jpg") no-repeat right top;
-  }
-  .Tercera .grid-container-full {
-    background: white;
-    height: 0vh;
-    margin-top: -90vh;
-  }
+
+        .Frase1 h5{
+          margin-top: 15vh;
+          margin-left: 2vw;
+        }
+        .Frase1 p{
+          margin-top: 30vh;
+          margin-left: 2vw;
+        }
+
+        .hero-section .hero-section-text h1 {
+          font-size: 10vh;
+          position: absolute;
+          vertical-align: middle;
+          top: 10%;
+          right: 7vw;
+        }
+
+        .secc{
+          background: purple;
+          position: absolute;
+          width: 100%;
+          height:100%;
+
+        }
+        .hero-section .secc .imagenprin {
+          width: 75%;
+          height: 100%;
+          margin-left: 0vh;
+          margin-right: auto;
+          position: absolute;
+
+          -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+        }
+        #particles-js{
+          top: 0vh;
+          position: absolute;
+          background: rgba(0,0,0,0);
+          height: 100%;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          position: absolute;
+          z-index: 9;
+          -webkit-align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          text-align: right;
+          -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+          clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+        }
+        #pback{
+          top: 0vh;
+          position: absolute;
+          background: black;
+          height: 100%;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          position: absolute;
+          z-index: 0.5;
+          -webkit-align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          text-align: right;
+          -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+          clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+        }
+        .hero-section .secc .nueva .hero-section-text h1{
+          z-index: 9;
+          position: absolute;
+          margin-top: 30vh;
+        }
+
+        .seccion2 .fondo{
+          background: black;
+          height: 100vh;
+          position: absolute;
+          margin-top: 90vh;
+          width: 100%;
+          z-index: 100;
+        }
+        .seccion2 .fondo .top1{
+          background: white;
+          height: 100%;
+          width: 100%;
+          z-index: 1;
+          position: absolute;
+          -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+          clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+        }
+        .seccion2 .fondo .top1 a p{
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          margin-top: 4vw;
+          font-size: 2.5vw;
+          font-family: Quicksand;
+        }
+        .seccion2 .fondo .right1{
+          background: #2B59C3;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          z-index: 2;
+          -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+          clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+        }
+        .seccion2 .fondo .left1{
+          background: #253C78;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          z-index: 2;
+          -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+          clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+        }
+        .seccion2 li{
+          color: white;
+          font-size: 1.5rem;
+          margin-left: 13vw;
+
+        }
+        .seccion2 .seccion21{
+          background: #111130;
+          height: 86vh;
+          position: absolute;
+          margin-top: 190vh;
+          width: 100%;
+          z-index: 100;
+        }
+        .seccion2 .seccion21 .Fondo .mid{
+          background: #7D11A0;
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+          clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+        }
+        .seccion2 .seccion21 .Fondo .triangle{
+          background: white;
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+          clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+        }
+
+        #uno{
+          margin-top: -70vh;
+          clear: both;
+          float: right;
+        }
+        #margen{
+          margin-left: 20vh;
+        }
+
+        .divs{
+          position: absolute;
+          z-index: 1002;
+        }
+
+        .rellax{
+          position: absolute;
+          width: 100%;
+          max-width: 100%;
+          min-width: 100%;
+          width: 100%;
+        }
+        .navbar{
+          position: fixed;
+          z-index: 1;
+          height: 4rem;
+          background: rgba(0,0,0,1);
+          width: 100%;
+        }
+        .navbar .boton .button{
+          margin-top: 0vh;
+          margin-right: 0vh;
+
+        }
+        .navbar .secciones{
+          top: 2vh;
+          margin-left: 2vw;
+          color: white;
+          font-family: Quicksand;
+          margin-top: 15vw;
+          text-align: center;
+          position: relative;
+        }
+
+        .prinimagen{
+          margin-left: -13vh;
+          max-width: 150%;
+          max-height: 150%;
+          width: auto;
+          height: auto;
+
+        }
+        .Tercera .t {
+          font-size: 3rem;
+          color: black;
+          text-align: center;
+          font-weight: bold;
+          margin-left: 0vh;
+        }
+        .skill{
+          margin-top: 8vw;
+          margin-left: 10vw;
+          font-size: 3rem;
+          font-family: Quicksand;
+          color: white;
+        }
+
+        #Titulo4{
+          text-align: center;
+          font-family: Quicksand;
+          margin-bottom: 9vw;
+        }
+
+        .nombre{
+          margin-top: 32vh;
+        }
+
+        p{
+          color: white;
+          font-family: Quicksand;
+        }
+
+        #unica{
+          margin-top: 150vh;
+        }
+
+        .seccion{
+          width: 100%;
+          height: 10vh;
+        }
+        .footer{
+          width: 100%;
+          height: 9rem;
+          background: #111130;
+          margin-top: 70vh;
+          position: absolute;
+        }
+        .footer a{
+          margin-top: 3vh;
+        }
 }
 
 /*Image*/
 @media only screen and (min-device-width: 767px){
   /*Inicio de Seccion Principal*/
   body {
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
   }
   .hero-section {
     background-color: white;
@@ -2031,6 +2117,7 @@
   }
 
 }
+
 @media only screen and (max-device-width: 767px){
   .hero-section .prinimagen {
     width: 70vh;
@@ -2042,7 +2129,7 @@
   }
 }
 
-/*Boton*/
+
 @media only screen{
   .boton .button {
     color: white;
@@ -2058,22 +2145,19 @@
   .boton .button:hover {
     color: white;
     position: absolute;
-    top: 1rem;
+    top: .4vh;
     left: auto;
-    right: 1rem;
+    right: .4vh;
+    font-size: 1rem;
     width: 9rem;
     height: 3.5rem;
     opacity: 1;
     background-color: #4286f4;
   }
-}
-
-@media only screen{
   .footer{
     width: 100%;
     height: 6rem;
     background: #111130;
-    margin-top: 65vh;
     position: absolute;
   }
 
