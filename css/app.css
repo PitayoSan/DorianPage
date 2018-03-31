@@ -1,292 +1,28 @@
 @media only screen and (orientation:landscape){
-@media only screen and (max-device-width: 1920px) and (max-device-height:1080px) {
-
-  .Frase1 h5{
-    width: 80%;
-    margin-top: -3vw;
-    margin-left: 5vw;
-    font-size: 2rem;
-  }
-  .Frase1 p{
-    width: 80%;
-    margin-top: 6vw;
-    margin-left: 5vw;
-    font-size: 1vw;
-  }
-  .hero-section{
-    height: 100vh;
-    width: 100%;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 10vh;
-    position: absolute;
-    vertical-align: middle;
-    top: 10%;
-    right: 7vw;
-  }
-
-  .secc{
-    background: purple;
-    position: absolute;
-    width: 100%;
-    height:100%;
-
-  }
-  .hero-section .secc .imagenprin {
-    width: 75%;
-    height: 100%;
-    margin-left: 0vh;
-    margin-right: auto;
-    position: absolute;
-
-    -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
-    clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
-  }
-  #particles-js{
-    top: 0vh;
-    position: absolute;
-    background: rgba(0,0,0,0);
-    height: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 9;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-    -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
-    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
-  }
-  #pback{
-    top: 0vh;
-    position: absolute;
-    background: black;
-    height: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-    -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
-    clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
-  }
-  .hero-section .secc .nueva .hero-section-text h1{
-    z-index: 9;
-    position: absolute;
-    margin-top: 30vh;
-  }
-
-  .seccion2 .fondo{
-    background: black;
-    height: 100vh;
-    position: absolute;
-    margin-top: 90vh;
-    width: 100%;
-    z-index: 100;
-  }
-  .seccion2 .fondo .top1{
-    background: white;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    position: absolute;
-    -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
-    clip-path: polygon(0% 0, 50% 30%, 100% 0%);
-  }
-  .seccion2 .fondo .top1 a p{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin-top: 4vw;
-    font-size: 2.5vw;
-    font-family: Quicksand;
-  }
-  .seccion2 .fondo .right1{
-    background: #2B59C3;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
-    clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
-  }
-  .seccion2 .fondo .left1{
-    background: #253C78;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
-    clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
-  }
-  .seccion2 li{
-    color: white;
-    font-size: 2rem;
-    margin-left: 13vw;
-
-  }
-  .seccion2 .seccion21{
-    background: #111130;
-    height: 86vh;
-    position: absolute;
-    margin-top: 190vh;
-    width: 100%;
-    z-index: 100;
-  }
-  .seccion2 .seccion21 .Fondo .mid{
-    background: #7D11A0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
-    clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
-  }
-  .seccion2 .seccion21 .Fondo .triangle{
-    background: white;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
-    clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
-  }
-
-  #uno{
-    margin-top: -70vh;
-    clear: both;
-    float: right;
-  }
-  #margen{
-    margin-left: 20vh;
-  }
-
-  .divs{
-    position: absolute;
-    z-index: 1002;
-  }
-
-  .rellas{
-    position: absolute;
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-    width: 100%;
-  }
-  .navbar{
-    position: fixed;
-    z-index: 100000;
-    height: 4rem;
-    background: rgba(0,0,0,1);
-    width: 100%;
-  }
-  .navbar .boton .button{
-    margin-top: 0vh;
-    margin-right: 0vh;
-
-  }
-  .navbar .secciones{
-    top: 2vh;
-    margin-left: 2vw;
-    color: white;
-    font-family: Quicksand;
-    margin-top: 15vw;
-    text-align: center;
-    position: relative;
-  }
-
-  .prinimagen{
-    max-width: 120%;
-    max-height: 120%;
-    width: auto;
-    height: auto;
-
-  }
-  .Tercera{
-    margin-top: 470vh;
-  }
-  .Tercera .t {
-    font-size: 3rem;
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    margin-left: 0vh;
-  }
-  .skill{
-    margin-top: 8vw;
-    margin-left: 10vw;
-    font-size: 3rem;
-    font-family: Quicksand;
-    color: white;
-  }
-
-  #Titulo4{
-    text-align: center;
-    font-family: Quicksand;
-    margin-bottom: 9vw;
-  }
-
-  .nombre{
-    margin-top: 32vh;
-  }
-
-  p{
-    color: white;
-    font-family: Quicksand;
-  }
-
-  #unica{
-    margin-top: 150vh;
-  }
-
-  .seccion{
-    width: 100%;
-    height: 10vh;
-  }
-  .footer{
-    width: 100%;
-    height: 9rem;
-    background: #111130;
-    margin-top: 55vh;
-    position: absolute;
-  }
-  .footer a{
-    margin-top: 3vh;
-  }
-}
-
-@media only screen and (max-device-width: 1600px) and (max-device-height:900px) {
+  @media only screen and (max-device-width: 1920px) and (max-device-height:1080px) {
 
     .Frase1 h5{
+      width: 80%;
       margin-top: -3vw;
       margin-left: 5vw;
       font-size: 2rem;
     }
     .Frase1 p{
       width: 80%;
-      margin-top: 7vw;
+      margin-top: 6vw;
       margin-left: 5vw;
       font-size: 1vw;
     }
-    .Tercera{
-      margin-top: 470vh;
+    .hero-section{
+      height: 100vh;
+      width: 100%;
     }
     .hero-section .hero-section-text h1 {
       font-size: 10vh;
       position: absolute;
       vertical-align: middle;
       top: 10%;
-      right: 6vw;
+      right: 7vw;
     }
 
     .secc{
@@ -440,7 +176,7 @@
       z-index: 1002;
     }
 
-    .rellax{
+    .rellas{
       position: absolute;
       width: 100%;
       max-width: 100%;
@@ -449,7 +185,7 @@
     }
     .navbar{
       position: fixed;
-      z-index: 1000000;
+      z-index: 100000;
       height: 4rem;
       background: rgba(0,0,0,1);
       width: 100%;
@@ -475,6 +211,9 @@
       width: auto;
       height: auto;
 
+    }
+    .Tercera{
+      margin-top: 470vh;
     }
     .Tercera .t {
       font-size: 3rem;
@@ -524,20 +263,542 @@
     .footer a{
       margin-top: 3vh;
     }
-}
+  }
 
-@media only screen and (max-device-width: 1440px) and (max-device-height:1080px) {
+  @media only screen and (max-device-width: 1600px) and (max-device-height:900px) {
 
+      .Frase1 h5{
+        margin-top: -3vw;
+        margin-left: 5vw;
+        font-size: 2rem;
+      }
+      .Frase1 p{
+        width: 80%;
+        margin-top: 7vw;
+        margin-left: 5vw;
+        font-size: 1vw;
+      }
+      .Tercera{
+        margin-top: 470vh;
+      }
+      .hero-section .hero-section-text h1 {
+        font-size: 10vh;
+        position: absolute;
+        vertical-align: middle;
+        top: 10%;
+        right: 6vw;
+      }
+
+      .secc{
+        background: purple;
+        position: absolute;
+        width: 100%;
+        height:100%;
+
+      }
+      .hero-section .secc .imagenprin {
+        width: 75%;
+        height: 100%;
+        margin-left: 0vh;
+        margin-right: auto;
+        position: absolute;
+
+        -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+      }
+      #particles-js{
+        top: 0vh;
+        position: absolute;
+        background: rgba(0,0,0,0);
+        height: 100%;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        z-index: 9;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: right;
+        -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+        clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+      }
+      #pback{
+        top: 0vh;
+        position: absolute;
+        background: black;
+        height: 100%;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        z-index: 0.5;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: right;
+        -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+        clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+      }
+      .hero-section .secc .nueva .hero-section-text h1{
+        z-index: 9;
+        position: absolute;
+        margin-top: 30vh;
+      }
+
+      .seccion2 .fondo{
+        background: black;
+        height: 100vh;
+        position: absolute;
+        margin-top: 90vh;
+        width: 100%;
+        z-index: 100;
+      }
+      .seccion2 .fondo .top1{
+        background: white;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+        clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+      }
+      .seccion2 .fondo .top1 a p{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-top: 4vw;
+        font-size: 2.5vw;
+        font-family: Quicksand;
+      }
+      .seccion2 .fondo .right1{
+        background: #2B59C3;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+        clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+      }
+      .seccion2 .fondo .left1{
+        background: #253C78;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+        clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+      }
+      .seccion2 li{
+        color: white;
+        font-size: 2rem;
+        margin-left: 13vw;
+
+      }
+      .seccion2 .seccion21{
+        background: #111130;
+        height: 86vh;
+        position: absolute;
+        margin-top: 190vh;
+        width: 100%;
+        z-index: 100;
+      }
+      .seccion2 .seccion21 .Fondo .mid{
+        background: #7D11A0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+        clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+      }
+      .seccion2 .seccion21 .Fondo .triangle{
+        background: white;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+        clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+      }
+
+      #uno{
+        margin-top: -70vh;
+        clear: both;
+        float: right;
+      }
+      #margen{
+        margin-left: 20vh;
+      }
+
+      .divs{
+        position: absolute;
+        z-index: 1002;
+      }
+
+      .rellax{
+        position: absolute;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+      }
+      .navbar{
+        position: fixed;
+        z-index: 1000000;
+        height: 4rem;
+        background: rgba(0,0,0,1);
+        width: 100%;
+      }
+      .navbar .boton .button{
+        margin-top: 0vh;
+        margin-right: 0vh;
+
+      }
+      .navbar .secciones{
+        top: 2vh;
+        margin-left: 2vw;
+        color: white;
+        font-family: Quicksand;
+        margin-top: 15vw;
+        text-align: center;
+        position: relative;
+      }
+
+      .prinimagen{
+        max-width: 120%;
+        max-height: 120%;
+        width: auto;
+        height: auto;
+
+      }
+      .Tercera .t {
+        font-size: 3rem;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 0vh;
+      }
+      .skill{
+        margin-top: 8vw;
+        margin-left: 10vw;
+        font-size: 3rem;
+        font-family: Quicksand;
+        color: white;
+      }
+
+      #Titulo4{
+        text-align: center;
+        font-family: Quicksand;
+        margin-bottom: 9vw;
+      }
+
+      .nombre{
+        margin-top: 32vh;
+      }
+
+      p{
+        color: white;
+        font-family: Quicksand;
+      }
+
+      #unica{
+        margin-top: 150vh;
+      }
+
+      .seccion{
+        width: 100%;
+        height: 10vh;
+      }
+      .footer{
+        width: 100%;
+        height: 9rem;
+        background: #111130;
+        margin-top: 55vh;
+        position: absolute;
+      }
+      .footer a{
+        margin-top: 3vh;
+      }
+  }
+
+  @media only screen and (max-device-width: 1440px) and (max-device-height:1080px) {
+
+      .Frase1 h5{
+        font-size: 2rem;
+        margin-top: 5vh;
+        margin-left: 5vw;
+      }
+      .Frase1 p{
+        font-size: 1vw;
+        width: 80%;
+        margin-top: 20vh;
+        margin-left: 5vw;
+      }
+      .Tercera{
+        margin-top: 470vh;
+      }
+      .hero-section .hero-section-text h1 {
+        font-size: 10vh;
+        position: absolute;
+        vertical-align: middle;
+        top: 10%;
+        right: 7vw;
+      }
+
+      .secc{
+        background: purple;
+        position: absolute;
+        width: 100%;
+        height:100%;
+
+      }
+      .hero-section .secc .imagenprin {
+        width: 75%;
+        height: 100%;
+        margin-left: 0vh;
+        margin-right: auto;
+        position: absolute;
+
+        -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+      }
+      #particles-js{
+        top: 0vh;
+        position: absolute;
+        background: rgba(0,0,0,0);
+        height: 100%;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        z-index: 9;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: right;
+        -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+        clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+      }
+      #pback{
+        top: 0vh;
+        position: absolute;
+        background: black;
+        height: 100%;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        z-index: 0.5;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: right;
+        -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+        clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+      }
+      .hero-section .secc .nueva .hero-section-text h1{
+        z-index: 9;
+        position: absolute;
+        margin-top: 30vh;
+      }
+
+      .seccion2 .fondo{
+        background: black;
+        height: 100vh;
+        position: absolute;
+        margin-top: 90vh;
+        width: 100%;
+        z-index: 100;
+      }
+      .seccion2 .fondo .top1{
+        background: white;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+        clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+      }
+      .seccion2 .fondo .top1 a p{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-top: 4vw;
+        font-size: 2.5vw;
+        font-family: Quicksand;
+      }
+      .seccion2 .fondo .right1{
+        background: #2B59C3;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+        clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+      }
+      .seccion2 .fondo .left1{
+        background: #253C78;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+        clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+      }
+      .seccion2 li{
+        color: white;
+        font-size: 2rem;
+        margin-left: 13vw;
+
+      }
+      .seccion2 .seccion21{
+        background: #111130;
+        height: 86vh;
+        position: absolute;
+        margin-top: 190vh;
+        width: 100%;
+        z-index: 100;
+      }
+      .seccion2 .seccion21 .Fondo .mid{
+        background: #7D11A0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+        clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+      }
+      .seccion2 .seccion21 .Fondo .triangle{
+        background: white;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+        clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+      }
+
+      #uno{
+        margin-top: -70vh;
+        clear: both;
+        float: right;
+      }
+      #margen{
+        margin-left: 20vh;
+      }
+
+      .divs{
+        position: absolute;
+        z-index: 1002;
+      }
+
+      .rellax{
+        position: absolute;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+      }
+      .navbar{
+        position: fixed;
+        z-index: 100000;
+        height: 4rem;
+        background: rgba(0,0,0,1);
+        width: 100%;
+      }
+      .navbar .boton .button{
+        margin-top: 0vh;
+        margin-right: 0vh;
+
+      }
+      .navbar .secciones{
+        top: 2vh;
+        margin-left: 2vw;
+        color: white;
+        font-family: Quicksand;
+        margin-top: 15vw;
+        text-align: center;
+        position: relative;
+      }
+
+      .prinimagen{
+        margin-left: -13vh;
+        max-width: 150%;
+        max-height: 150%;
+        width: auto;
+        height: auto;
+
+      }
+      .Tercera .t {
+        font-size: 3rem;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 0vh;
+      }
+      .skill{
+        margin-top: 8vw;
+        margin-left: 10vw;
+        font-size: 3rem;
+        font-family: Quicksand;
+        color: white;
+      }
+
+      #Titulo4{
+        text-align: center;
+        font-family: Quicksand;
+        margin-bottom: 9vw;
+      }
+
+      .nombre{
+        margin-top: 32vh;
+      }
+
+      p{
+        color: white;
+        font-family: Quicksand;
+      }
+
+      #unica{
+        margin-top: 150vh;
+      }
+
+      .seccion{
+        width: 100%;
+        height: 10vh;
+      }
+      .footer{
+        width: 100%;
+        height: 9rem;
+        background: #111130;
+        margin-top: 50vh;
+        position: absolute;
+      }
+      .footer a{
+        margin-top: 3vh;
+      }
+  }
+
+  @media only screen and (max-device-width: 1366px) and (max-device-height:768px) {
     .Frase1 h5{
-      font-size: 2rem;
-      margin-top: 5vh;
+      margin-top: -4vw;
       margin-left: 5vw;
+      font-size: 1.5rem;
     }
     .Frase1 p{
-      font-size: 1vw;
       width: 80%;
-      margin-top: 20vh;
+      margin-top: 5vw;
       margin-left: 5vw;
+      font-size: 1vw;
     }
     .Tercera{
       margin-top: 470vh;
@@ -731,9 +992,8 @@
     }
 
     .prinimagen{
-      margin-left: -13vh;
-      max-width: 150%;
-      max-height: 150%;
+      max-width: 120%;
+      max-height: 120%;
       width: auto;
       height: auto;
 
@@ -780,810 +1040,288 @@
       width: 100%;
       height: 9rem;
       background: #111130;
-      margin-top: 50vh;
+      margin-top: 55vh;
       position: absolute;
     }
     .footer a{
       margin-top: 3vh;
     }
-}
-
-@media only screen and (max-device-width: 1366px) and (max-device-height:768px) {
-  .Frase1 h5{
-    margin-top: -4vw;
-    margin-left: 5vw;
-    font-size: 1.5rem;
-  }
-  .Frase1 p{
-    width: 80%;
-    margin-top: 5vw;
-    margin-left: 5vw;
-    font-size: 1vw;
-  }
-  .Tercera{
-    margin-top: 470vh;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 10vh;
-    position: absolute;
-    vertical-align: middle;
-    top: 10%;
-    right: 7vw;
   }
 
-  .secc{
-    background: purple;
-    position: absolute;
-    width: 100%;
-    height:100%;
+  @media only screen and (max-device-width: 1280px) and (max-device-height:720px) {
+    .Frase1 h5{
+      margin-top: -3vw;
+      margin-left: 5vw;
+    }
+    .Frase1 p{
+      width: 80%;
+      margin-top: 6vw;
+      margin-left: 5vw;
+      font-size: 1vw;
+    }
+    .Tercera{
+      margin-top: 470vh;
+    }
+    .hero-section .hero-section-text h1 {
+      font-size: 10vh;
+      position: absolute;
+      vertical-align: middle;
+      top: 10%;
+      right: 7vw;
+    }
 
-  }
-  .hero-section .secc .imagenprin {
-    width: 75%;
-    height: 100%;
-    margin-left: 0vh;
-    margin-right: auto;
-    position: absolute;
+    .secc{
+      background: purple;
+      position: absolute;
+      width: 100%;
+      height:100%;
 
-    -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
-    clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
-  }
-  #particles-js{
-    top: 0vh;
-    position: absolute;
-    background: rgba(0,0,0,0);
-    height: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 9;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-    -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
-    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
-  }
-  #pback{
-    top: 0vh;
-    position: absolute;
-    background: black;
-    height: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-    -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
-    clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
-  }
-  .hero-section .secc .nueva .hero-section-text h1{
-    z-index: 9;
-    position: absolute;
-    margin-top: 30vh;
-  }
+    }
+    .hero-section .secc .imagenprin {
+      width: 75%;
+      height: 100%;
+      margin-left: 0vh;
+      margin-right: auto;
+      position: absolute;
 
-  .seccion2 .fondo{
-    background: black;
-    height: 100vh;
-    position: absolute;
-    margin-top: 90vh;
-    width: 100%;
-    z-index: 100;
-  }
-  .seccion2 .fondo .top1{
-    background: white;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    position: absolute;
-    -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
-    clip-path: polygon(0% 0, 50% 30%, 100% 0%);
-  }
-  .seccion2 .fondo .top1 a p{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin-top: 4vw;
-    font-size: 2.5vw;
-    font-family: Quicksand;
-  }
-  .seccion2 .fondo .right1{
-    background: #2B59C3;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
-    clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
-  }
-  .seccion2 .fondo .left1{
-    background: #253C78;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
-    clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
-  }
-  .seccion2 li{
-    color: white;
-    font-size: 2rem;
-    margin-left: 13vw;
+      -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+      clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+    }
+    #particles-js{
+      top: 0vh;
+      position: absolute;
+      background: rgba(0,0,0,0);
+      height: 100%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      z-index: 9;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: right;
+      -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+      clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+    }
+    #pback{
+      top: 0vh;
+      position: absolute;
+      background: black;
+      height: 100%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      z-index: 0.5;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: right;
+      -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+      clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+    }
+    .hero-section .secc .nueva .hero-section-text h1{
+      z-index: 9;
+      position: absolute;
+      margin-top: 30vh;
+    }
 
-  }
-  .seccion2 .seccion21{
-    background: #111130;
-    height: 86vh;
-    position: absolute;
-    margin-top: 190vh;
-    width: 100%;
-    z-index: 100;
-  }
-  .seccion2 .seccion21 .Fondo .mid{
-    background: #7D11A0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
-    clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
-  }
-  .seccion2 .seccion21 .Fondo .triangle{
-    background: white;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
-    clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
-  }
+    .seccion2 .fondo{
+      background: black;
+      height: 100vh;
+      position: absolute;
+      margin-top: 90vh;
+      width: 100%;
+      z-index: 100;
+    }
+    .seccion2 .fondo .top1{
+      background: white;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      position: absolute;
+      -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+      clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+    }
+    .seccion2 .fondo .top1 a p{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      margin-top: 4vw;
+      font-size: 2.5vw;
+      font-family: Quicksand;
+    }
+    .seccion2 .fondo .right1{
+      background: #2B59C3;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+      -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+      clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+    }
+    .seccion2 .fondo .left1{
+      background: #253C78;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+      -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+      clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+    }
+    .seccion2 li{
+      color: white;
+      font-size: 2rem;
+      margin-left: 13vw;
 
-  #uno{
-    margin-top: -70vh;
-    clear: both;
-    float: right;
-  }
-  #margen{
-    margin-left: 20vh;
-  }
+    }
+    .seccion2 .seccion21{
+      background: #111130;
+      height: 86vh;
+      position: absolute;
+      margin-top: 190vh;
+      width: 100%;
+      z-index: 100;
+    }
+    .seccion2 .seccion21 .Fondo .mid{
+      background: #7D11A0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+      clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+    }
+    .seccion2 .seccion21 .Fondo .triangle{
+      background: white;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+      clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+    }
 
-  .divs{
-    position: absolute;
-    z-index: 1002;
-  }
+    #uno{
+      margin-top: -70vh;
+      clear: both;
+      float: right;
+    }
+    #margen{
+      margin-left: 20vh;
+    }
 
-  .rellax{
-    position: absolute;
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-    width: 100%;
-  }
-  .navbar{
-    position: fixed;
-    z-index: 100000;
-    height: 4rem;
-    background: rgba(0,0,0,1);
-    width: 100%;
-  }
-  .navbar .boton .button{
-    margin-top: 0vh;
-    margin-right: 0vh;
+    .divs{
+      position: absolute;
+      z-index: 1002;
+    }
 
-  }
-  .navbar .secciones{
-    top: 2vh;
-    margin-left: 2vw;
-    color: white;
-    font-family: Quicksand;
-    margin-top: 15vw;
-    text-align: center;
-    position: relative;
-  }
+    .rellax{
+      position: absolute;
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+    }
+    .navbar{
+      position: fixed;
+      z-index: 100000;
+      height: 4rem;
+      background: rgba(0,0,0,1);
+      width: 100%;
+    }
+    .navbar .boton .button{
+      margin-top: 0vh;
+      margin-right: 0vh;
 
-  .prinimagen{
-    max-width: 120%;
-    max-height: 120%;
-    width: auto;
-    height: auto;
+    }
+    .navbar .secciones{
+      top: 2vh;
+      margin-left: 2vw;
+      color: white;
+      font-family: Quicksand;
+      margin-top: 15vw;
+      text-align: center;
+      position: relative;
+    }
 
-  }
-  .Tercera .t {
-    font-size: 3rem;
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    margin-left: 0vh;
-  }
-  .skill{
-    margin-top: 8vw;
-    margin-left: 10vw;
-    font-size: 3rem;
-    font-family: Quicksand;
-    color: white;
-  }
+    .prinimagen{
+      max-width: 120%;
+      max-height: 120%;
+      width: auto;
+      height: auto;
 
-  #Titulo4{
-    text-align: center;
-    font-family: Quicksand;
-    margin-bottom: 9vw;
-  }
+    }
+    .Tercera .t {
+      font-size: 3rem;
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      margin-left: 0vh;
+    }
+    .skill{
+      margin-top: 8vw;
+      margin-left: 10vw;
+      font-size: 3rem;
+      font-family: Quicksand;
+      color: white;
+    }
 
-  .nombre{
-    margin-top: 32vh;
-  }
+    #Titulo4{
+      text-align: center;
+      font-family: Quicksand;
+      margin-bottom: 9vw;
+    }
 
-  p{
-    color: white;
-    font-family: Quicksand;
-  }
+    .nombre{
+      margin-top: 32vh;
+    }
 
-  #unica{
-    margin-top: 150vh;
-  }
+    p{
+      color: white;
+      font-family: Quicksand;
+    }
 
-  .seccion{
-    width: 100%;
-    height: 10vh;
-  }
-  .footer{
-    width: 100%;
-    height: 9rem;
-    background: #111130;
-    margin-top: 55vh;
-    position: absolute;
-  }
-  .footer a{
-    margin-top: 3vh;
-  }
-}
+    #unica{
+      margin-top: 150vh;
+    }
 
-@media only screen and (max-device-width: 1280px) and (max-device-height:720px) {
-  .Frase1 h5{
-    margin-top: -3vw;
-    margin-left: 5vw;
-  }
-  .Frase1 p{
-    width: 80%;
-    margin-top: 6vw;
-    margin-left: 5vw;
-    font-size: 1vw;
-  }
-  .Tercera{
-    margin-top: 470vh;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 10vh;
-    position: absolute;
-    vertical-align: middle;
-    top: 10%;
-    right: 7vw;
-  }
-
-  .secc{
-    background: purple;
-    position: absolute;
-    width: 100%;
-    height:100%;
-
-  }
-  .hero-section .secc .imagenprin {
-    width: 75%;
-    height: 100%;
-    margin-left: 0vh;
-    margin-right: auto;
-    position: absolute;
-
-    -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
-    clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
-  }
-  #particles-js{
-    top: 0vh;
-    position: absolute;
-    background: rgba(0,0,0,0);
-    height: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 9;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-    -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
-    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
-  }
-  #pback{
-    top: 0vh;
-    position: absolute;
-    background: black;
-    height: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-    -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
-    clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
-  }
-  .hero-section .secc .nueva .hero-section-text h1{
-    z-index: 9;
-    position: absolute;
-    margin-top: 30vh;
+    .seccion{
+      width: 100%;
+      height: 10vh;
+    }
+    .footer{
+      width: 100%;
+      height: 9rem;
+      background: #111130;
+      margin-top: 58vh;
+      position: absolute;
+    }
+    .footer a{
+      margin-top: 3vh;
+    }
   }
 
-  .seccion2 .fondo{
-    background: black;
-    height: 100vh;
-    position: absolute;
-    margin-top: 90vh;
-    width: 100%;
-    z-index: 100;
-  }
-  .seccion2 .fondo .top1{
-    background: white;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    position: absolute;
-    -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
-    clip-path: polygon(0% 0, 50% 30%, 100% 0%);
-  }
-  .seccion2 .fondo .top1 a p{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin-top: 4vw;
-    font-size: 2.5vw;
-    font-family: Quicksand;
-  }
-  .seccion2 .fondo .right1{
-    background: #2B59C3;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
-    clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
-  }
-  .seccion2 .fondo .left1{
-    background: #253C78;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
-    clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
-  }
-  .seccion2 li{
-    color: white;
-    font-size: 2rem;
-    margin-left: 13vw;
+  @media only screen and (max-device-width: 1024px) and (max-device-height:768px) {
 
-  }
-  .seccion2 .seccion21{
-    background: #111130;
-    height: 86vh;
-    position: absolute;
-    margin-top: 190vh;
-    width: 100%;
-    z-index: 100;
-  }
-  .seccion2 .seccion21 .Fondo .mid{
-    background: #7D11A0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
-    clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
-  }
-  .seccion2 .seccion21 .Fondo .triangle{
-    background: white;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
-    clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
-  }
-
-  #uno{
-    margin-top: -70vh;
-    clear: both;
-    float: right;
-  }
-  #margen{
-    margin-left: 20vh;
-  }
-
-  .divs{
-    position: absolute;
-    z-index: 1002;
-  }
-
-  .rellax{
-    position: absolute;
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-    width: 100%;
-  }
-  .navbar{
-    position: fixed;
-    z-index: 100000;
-    height: 4rem;
-    background: rgba(0,0,0,1);
-    width: 100%;
-  }
-  .navbar .boton .button{
-    margin-top: 0vh;
-    margin-right: 0vh;
-
-  }
-  .navbar .secciones{
-    top: 2vh;
-    margin-left: 2vw;
-    color: white;
-    font-family: Quicksand;
-    margin-top: 15vw;
-    text-align: center;
-    position: relative;
-  }
-
-  .prinimagen{
-    max-width: 120%;
-    max-height: 120%;
-    width: auto;
-    height: auto;
-
-  }
-  .Tercera .t {
-    font-size: 3rem;
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    margin-left: 0vh;
-  }
-  .skill{
-    margin-top: 8vw;
-    margin-left: 10vw;
-    font-size: 3rem;
-    font-family: Quicksand;
-    color: white;
-  }
-
-  #Titulo4{
-    text-align: center;
-    font-family: Quicksand;
-    margin-bottom: 9vw;
-  }
-
-  .nombre{
-    margin-top: 32vh;
-  }
-
-  p{
-    color: white;
-    font-family: Quicksand;
-  }
-
-  #unica{
-    margin-top: 150vh;
-  }
-
-  .seccion{
-    width: 100%;
-    height: 10vh;
-  }
-  .footer{
-    width: 100%;
-    height: 9rem;
-    background: #111130;
-    margin-top: 58vh;
-    position: absolute;
-  }
-  .footer a{
-    margin-top: 3vh;
-  }
-}
-
-@media only screen and (max-device-width: 1024px) and (max-device-height:768px) {
-
-      .Frase1 h5{
-        margin-top: 6vh;
-        margin-left: 2vw;
-      }
-      .Frase1 p{
-        width: 83%;
-        margin-top: 25vh;
-        margin-left: 2vw;
-        font-size: 1vw;
-      }
-      .Tercera{
-        margin-top: 470vh;
-      }
-      .hero-section .hero-section-text h1 {
-        font-size: 10vh;
-        position: absolute;
-        vertical-align: middle;
-        top: 10%;
-        right: 7vw;
-      }
-
-      .secc{
-        background: purple;
-        position: absolute;
-        width: 100%;
-        height:100%;
-
-      }
-      .hero-section .secc .imagenprin {
-        width: 75%;
-        height: 100%;
-        margin-left: 0vh;
-        margin-right: auto;
-        position: absolute;
-
-        -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
-        clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
-      }
-      #particles-js{
-        top: 0vh;
-        position: absolute;
-        background: rgba(0,0,0,0);
-        height: 100%;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        position: absolute;
-        z-index: 9;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: right;
-        -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
-        clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
-      }
-      #pback{
-        top: 0vh;
-        position: absolute;
-        background: black;
-        height: 100%;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        position: absolute;
-        z-index: 0.5;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: right;
-        -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
-        clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
-      }
-      .hero-section .secc .nueva .hero-section-text h1{
-        z-index: 9;
-        position: absolute;
-        margin-top: 30vh;
-      }
-
-      .seccion2 .fondo{
-        background: black;
-        height: 100vh;
-        position: absolute;
-        margin-top: 90vh;
-        width: 100%;
-        z-index: 100;
-      }
-      .seccion2 .fondo .top1{
-        background: white;
-        height: 100%;
-        width: 100%;
-        z-index: 1;
-        position: absolute;
-        -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
-        clip-path: polygon(0% 0, 50% 30%, 100% 0%);
-      }
-      .seccion2 .fondo .top1 a p{
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        margin-top: 4vw;
-        font-size: 2.5vw;
-        font-family: Quicksand;
-      }
-      .seccion2 .fondo .right1{
-        background: #2B59C3;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        z-index: 2;
-        -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
-        clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
-      }
-      .seccion2 .fondo .left1{
-        background: #253C78;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        z-index: 2;
-        -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
-        clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
-      }
-      .seccion2 li{
-        color: white;
-        font-size: 2rem;
-        margin-left: 13vw;
-
-      }
-      .seccion2 .seccion21{
-        background: #111130;
-        height: 86vh;
-        position: absolute;
-        margin-top: 190vh;
-        width: 100%;
-        z-index: 100;
-      }
-      .seccion2 .seccion21 .Fondo .mid{
-        background: #7D11A0;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
-        clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
-      }
-      .seccion2 .seccion21 .Fondo .triangle{
-        background: white;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
-        clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
-      }
-
-      #uno{
-        margin-top: -70vh;
-        clear: both;
-        float: right;
-      }
-      #margen{
-        margin-left: 20vh;
-      }
-
-      .divs{
-        position: absolute;
-        z-index: 1002;
-      }
-
-      .rellax{
-        position: absolute;
-        width: 100%;
-        max-width: 100%;
-        min-width: 100%;
-        width: 100%;
-      }
-      .navbar{
-        position: fixed;
-        z-index: 10000;
-        height: 4rem;
-        background: rgba(0,0,0,1);
-        width: 100%;
-      }
-      .navbar .boton .button{
-        margin-top: 0vh;
-        margin-right: 0vh;
-
-      }
-      .navbar .secciones{
-        top: 2vh;
-        margin-left: 2vw;
-        color: white;
-        font-family: Quicksand;
-        margin-top: 15vw;
-        text-align: center;
-        position: relative;
-      }
-
-      .prinimagen{
-        margin-left: -13vh;
-        max-width: 150%;
-        max-height: 150%;
-        width: auto;
-        height: auto;
-
-      }
-      .Tercera .t {
-        font-size: 3rem;
-        color: black;
-        text-align: center;
-        font-weight: bold;
-        margin-left: 0vh;
-      }
-      .skill{
-        margin-top: 8vw;
-        margin-left: 10vw;
-        font-size: 3rem;
-        font-family: Quicksand;
-        color: white;
-      }
-
-      #Titulo4{
-        text-align: center;
-        font-family: Quicksand;
-        margin-bottom: 9vw;
-      }
-
-      .nombre{
-        margin-top: 32vh;
-      }
-
-      p{
-        color: white;
-        font-family: Quicksand;
-      }
-
-      #unica{
-        margin-top: 150vh;
-      }
-
-      .seccion{
-        width: 100%;
-        height: 10vh;
-      }
-      .footer{
-        width: 100%;
-        height: 9rem;
-        background: #111130;
-        margin-top: 55vh;
-        position: absolute;
-      }
-      .footer a{
-        margin-top: 3vh;
-      }
-}
-
-@media only screen and (max-device-width: 1024px) and (max-device-height:600px) {
+        .Frase1 h5{
+          margin-top: 6vh;
+          margin-left: 2vw;
+        }
+        .Frase1 p{
+          width: 83%;
+          margin-top: 25vh;
+          margin-left: 2vw;
+          font-size: 1vw;
+        }
         .Tercera{
           margin-top: 470vh;
         }
-        .Frase1 h5{
-          margin-top: -5vh;
-          margin-left: 5vw;
-          font-size: 1.3rem;
-        }
-        .Frase1 p{
-          width: 80%;
-          margin-top: 8vw;
-          margin-left: 5vw;
-          font-size: 1vw;
-        }
-
         .hero-section .hero-section-text h1 {
           font-size: 10vh;
           position: absolute;
@@ -1700,7 +1438,7 @@
         }
         .seccion2 li{
           color: white;
-          font-size: 1.5rem;
+          font-size: 2rem;
           margin-left: 13vw;
 
         }
@@ -1822,19 +1560,1398 @@
           width: 100%;
           height: 9rem;
           background: #111130;
-          margin-top: 70vh;
+          margin-top: 55vh;
           position: absolute;
         }
         .footer a{
           margin-top: 3vh;
         }
-}
-}
+  }
 
+  @media only screen and (max-device-width: 1024px) and (max-device-height:600px) {
+          .Tercera{
+            margin-top: 470vh;
+          }
+          .Frase1 h5{
+            margin-top: -5vh;
+            margin-left: 5vw;
+            font-size: 1.3rem;
+          }
+          .Frase1 p{
+            width: 80%;
+            margin-top: 8vw;
+            margin-left: 5vw;
+            font-size: 1vw;
+          }
 
+          .hero-section .hero-section-text h1 {
+            font-size: 10vh;
+            position: absolute;
+            vertical-align: middle;
+            top: 10%;
+            right: 7vw;
+          }
+
+          .secc{
+            background: purple;
+            position: absolute;
+            width: 100%;
+            height:100%;
+
+          }
+          .hero-section .secc .imagenprin {
+            width: 75%;
+            height: 100%;
+            margin-left: 0vh;
+            margin-right: auto;
+            position: absolute;
+
+            -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+          }
+          #particles-js{
+            top: 0vh;
+            position: absolute;
+            background: rgba(0,0,0,0);
+            height: 100%;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            position: absolute;
+            z-index: 9;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            text-align: right;
+            -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+            clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+          }
+          #pback{
+            top: 0vh;
+            position: absolute;
+            background: black;
+            height: 100%;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            position: absolute;
+            z-index: 0.5;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            text-align: right;
+            -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+            clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+          }
+          .hero-section .secc .nueva .hero-section-text h1{
+            z-index: 9;
+            position: absolute;
+            margin-top: 30vh;
+          }
+
+          .seccion2 .fondo{
+            background: black;
+            height: 100vh;
+            position: absolute;
+            margin-top: 90vh;
+            width: 100%;
+            z-index: 100;
+          }
+          .seccion2 .fondo .top1{
+            background: white;
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+            position: absolute;
+            -webkit-clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+            clip-path: polygon(0% 0, 50% 30%, 100% 0%);
+          }
+          .seccion2 .fondo .top1 a p{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            margin-top: 4vw;
+            font-size: 2.5vw;
+            font-family: Quicksand;
+          }
+          .seccion2 .fondo .right1{
+            background: #2B59C3;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: 2;
+            -webkit-clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+            clip-path: polygon(0% 0, 50% 30%, 50% 100%, 0% 100%);
+          }
+          .seccion2 .fondo .left1{
+            background: #253C78;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: 2;
+            -webkit-clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+            clip-path: polygon(100% 0, 50% 30%, 50% 100%, 100% 100%);
+          }
+          .seccion2 li{
+            color: white;
+            font-size: 1.5rem;
+            margin-left: 13vw;
+
+          }
+          .seccion2 .seccion21{
+            background: #111130;
+            height: 86vh;
+            position: absolute;
+            margin-top: 190vh;
+            width: 100%;
+            z-index: 100;
+          }
+          .seccion2 .seccion21 .Fondo .mid{
+            background: #7D11A0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+            clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+          }
+          .seccion2 .seccion21 .Fondo .triangle{
+            background: white;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            -webkit-clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+            clip-path: polygon(0% 100%, 50% 70%, 100% 100%);
+          }
+
+          #uno{
+            margin-top: -70vh;
+            clear: both;
+            float: right;
+          }
+          #margen{
+            margin-left: 20vh;
+          }
+
+          .divs{
+            position: absolute;
+            z-index: 1002;
+          }
+
+          .rellax{
+            position: absolute;
+            width: 100%;
+            max-width: 100%;
+            min-width: 100%;
+            width: 100%;
+          }
+          .navbar{
+            position: fixed;
+            z-index: 10000;
+            height: 4rem;
+            background: rgba(0,0,0,1);
+            width: 100%;
+          }
+          .navbar .boton .button{
+            margin-top: 0vh;
+            margin-right: 0vh;
+
+          }
+          .navbar .secciones{
+            top: 2vh;
+            margin-left: 2vw;
+            color: white;
+            font-family: Quicksand;
+            margin-top: 15vw;
+            text-align: center;
+            position: relative;
+          }
+
+          .prinimagen{
+            margin-left: -13vh;
+            max-width: 150%;
+            max-height: 150%;
+            width: auto;
+            height: auto;
+
+          }
+          .Tercera .t {
+            font-size: 3rem;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            margin-left: 0vh;
+          }
+          .skill{
+            margin-top: 8vw;
+            margin-left: 10vw;
+            font-size: 3rem;
+            font-family: Quicksand;
+            color: white;
+          }
+
+          #Titulo4{
+            text-align: center;
+            font-family: Quicksand;
+            margin-bottom: 9vw;
+          }
+
+          .nombre{
+            margin-top: 32vh;
+          }
+
+          p{
+            color: white;
+            font-family: Quicksand;
+          }
+
+          #unica{
+            margin-top: 150vh;
+          }
+
+          .seccion{
+            width: 100%;
+            height: 10vh;
+          }
+          .footer{
+            width: 100%;
+            height: 9rem;
+            background: #111130;
+            margin-top: 70vh;
+            position: absolute;
+          }
+          .footer a{
+            margin-top: 3vh;
+          }
+  }
+  @media only screen and (min-device-width: 720px){
+    /*Inicio de Seccion Principal*/
+    .rellas{
+      position: absolute;
+    }
+    body {
+      overflow-x: hidden;
+    }
+    .hero-section {
+      background-color: white;
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: right;
+    }
+    #particles-js{
+      visibility: visible;
+      height: 70vh;
+      width: 100%;
+      background: white;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      z-index: 0.5;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: right;
+    }
+    #pback {
+      height: 70vh;
+      width: 100%;
+      background: white;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      z-index: 0.5;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: right;
+    }
+    #pbackmov{
+      display: none;
+      visibility: hidden;
+    }
+    #pbackmov2{
+      display: none;
+      visibility: hidden;
+    }
+    .hero-section .hero-section-text {
+      color: #ffffff;
+      text-shadow: 1px 1px 2px #0a0a0a;
+    }
+    .hero-section .hero-section-text h1 {
+      font-size: 10vh;
+      position: absolute;
+      vertical-align: middle;
+      top: 10%;
+    }
+    /*Fin de Seccion Principal*/
+    /*Inicio de Segunda Seccion: Skills*/
+    .Frase1 {
+      color: black;
+    }
+    .Skills {
+      margin-top: 11.5vh;
+      margin-right: 0vh;
+      color: white;
+      border: solid 1px black;
+      background: black;
+      width: 62vh;
+      height: 20rem;
+    }
+    .seccion2{
+      margin-top: 7%;
+    }
+    .seccion2 .grid-container-full {
+      height: 34rem;
+      width: 100%;
+      margin-top: 50%;
+      position: absolute;
+      z-index: 1001;
+      background-color: rgba(0, 0, 0, 0);
+    }
+    .Skills h1 {
+      margin-left: 6vh;
+      margin-right: 0vh;
+      margin-top: 0vh;
+    }
+    .Skills ul li {
+      margin-top: 2vh;
+      margin-left: 6vh;
+    }
+    .Frase1{
+      width: 50%;
+      position: absolute;
+      margin-top: 17vw;
+    }
+    /*Fin de la Segunda Seccion*/
+
+    /*Inicio Tercera Sección: Proyectos */
+    .proy{
+      margin-top: 290vh;
+    }
+    .Frase2 {
+      color: white;
+    }
+    .im1,.im2{
+      position: relative;
+      width: 40vh;
+      height: 60vh;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      opacity: 1;
+      background-color: rgba(0, 0, 0, .9);
+      -webkit-transition: all 3s ease;
+      -moz-transition: all 3s ease;
+      -ms-transition: all 3s ease;
+      -o-transition: all 3s ease;
+      transition: all 3s ease
+    }
+    .im0, .im3{
+      position: relative;
+      margin-left: -123%;
+      width: 40vh;
+      height: 60vh;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      opacity: 1;
+      background-color: rgba(0, 0, 0, .9);
+      -webkit-transition: all 3s ease;
+      -moz-transition: all 3s ease;
+      -ms-transition: all 3s ease;
+      -o-transition: all 3s ease;
+      transition: all 3s ease;
+    }
+    .ima {
+      padding-bottom: 0px;
+      padding-top: 34vh;
+      padding-left: 1vh;
+      color: white;
+      font-size: 4vh;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    .im1 p, .im0 p, .im2 p, .im3 p {
+      padding-bottom: 0px;
+      padding-top: 35vh;
+      padding-left: 3vh;
+      color: white;
+      font-size: 4vh;
+      position: absolute;
+    }
+    .im0:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
+      transition: all .5s ease;
+      background-color: rgba(0, 0, 0, 1);
+      -webkit-opacity: .5;
+      -moz-opacity: .5;
+      filter: alpha(opacity=50);
+      opacity: .5;
+    }
+    .im0 .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
+      transition: all .5s ease-out;
+      background-color: rgba(0, 0, 0, 1);
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      filter: alpha(opacity=100);
+      opacity: 1;
+    }
+    .im0:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
+      transition: all .5s ease;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      filter: alpha(opacity=100);
+      opacity: 1;
+    }
+    .im0 .button, .im1 .button, .im2 .button, .im3 .button {
+      transition: all .5s ease-out;
+      -webkit-opacity: .5;
+      -moz-opacity: .5;
+      filter: alpha(opacity=50);
+      opacity: .5;
+    }
+    .im0:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
+      transition: all .5s ease-out;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      filter: alpha(opacity=100);
+      opacity: 1;
+    }
+    .im0 .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+      transition: all .5s ease-out;
+      -webkit-opacity: 0;
+      -moz-opacity: 0;
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+    .im0 .button, .im1 .button, .im2 .button, .im3 .button {
+      height: 40vh;
+      width: 5vh;
+      margin-left: 31vh;
+      margin-top: -1vh;
+      position: absolute;
+      opacity: .5;
+      z-index: 1000;
+    }
+    .im0 .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
+      background-color: red;
+    }
+    .im0 .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+      margin-left: -24.5vh;
+      margin-top: -3vh;
+      width: 15vh;
+      color: white;
+      text-align: center;
+      font-size: 2vh;
+      transform: rotate(-90deg);
+      opacity: 0;
+    }
+    .im0 p, .im1 p, .im2 p, .im3 p {
+      text-shadow: 1px 1px 2px #0a0a0a;
+    }
+    .Proyectos p {
+      padding-bottom: 0px;
+      padding-top: 30vh;
+      font-size: 6vh;
+    }
+    /*Fin de la Tercera seccion*/
+    /*Inicio Cuarta Seccion: Awards*/
+
+    /*Fin de la Cuarta Seccion*/
+    .Tercera .grid-container-full {
+      height: 80vh;
+      position: absolute;
+      margin-top: -10vh;
+    }
+    .divs .tag {
+      visibility: hidden;
+    }
+
+    .secc{
+      background: purple;
+      position: absolute;
+      width: 100%;
+      height:100%;
+
+    }
+    .hero-section .secc .imagenprin {
+      width: 75%;
+      height: 100%;
+      margin-left: 0vh;
+      margin-right: auto;
+      position: absolute;
+
+      -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+      clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+    }
+    #particles-js{
+      top: 0vh;
+      position: absolute;
+      background: rgba(0,0,0,0);
+      height: 100%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      z-index: 9;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: right;
+      -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+      clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
+    }
+    #pback{
+      top: 0vh;
+      position: absolute;
+      background: black;
+      height: 100%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      z-index: 0.5;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: right;
+      -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+      clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
+    }
+    .hero-section .secc .nueva .hero-section-text h1{
+      z-index: 9;
+      position: absolute;
+      margin-top: 30vh;
+    }
+    .boton .button {
+      color: white;
+      position: absolute;
+      top: .4vh;
+      left: auto;
+      right: .4vh;
+      font-size: 1rem;
+      width: 9rem;
+      height: 3.5rem;
+      opacity: 1;
+    }
+    .boton .button:hover {
+      color: white;
+      position: absolute;
+      top: .4vh;
+      left: auto;
+      right: .4vh;
+      font-size: 1rem;
+      width: 9rem;
+      height: 3.5rem;
+      opacity: 1;
+      background-color: #4286f4;
+    }
+    .footer{
+      width: 100%;
+      height: 6rem;
+      background: #111130;
+      position: absolute;
+    }
+
+    .social-icon-button {
+      border-radius: 3.6rem;
+      width: 3.6rem;
+      height: 3.6rem;
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      font-size: 2rem;
+      background: none;
+    }
+    .social-icon-button + .social-icon-button {
+      margin-left: 0.25rem;
+    }
+    .social-icon-button .fab {
+      background: none;
+      position: absolute;
+      color: #ffffff;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              z-index: 1;
+              line-height: 3.6rem;
+              transition: all 0.3s ease-in-out;
+    }
+    .social-icon-button span {
+      display: block;
+      border-radius: 0;
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      transition: all 0.3s ease-in-out;
+    }
+    .social-icon-button:hover .fab {
+      color: #fefefe;
+    }
+    .social-icon-button:hover span {
+      display: block;
+      border-radius: 3.6rem;
+      width: 3.6rem;
+      height: 3.6rem;
+    }
+    .social-icon-button.gplus {
+      color: #dd4b39;
+    }
+    .social-icon-button.gplus span {
+      background-color: #dd4b39;
+    }
+    .social-icon-button.twitter {
+      color: #007bb5;
+    }
+    .social-icon-button.twitter span {
+      background-color: #007bb5;
+    }
+    .social-icon-button.facebook {
+      color: #3b5998;
+    }
+    .social-icon-button.facebook span {
+      background-color: #3b5998;
+    }
+  }
+}
 
 @media only screen and (orientation:portrait){
-@media only screen and (max-device-width:414px) and (max-device-height:736px) {
+
+  @media only screen and (orientation:portrait) and (max-device-width:1024px) and (max-device-height: 1366px)
+  {
+      #particles-js
+      {
+          display: none;  visibility: hidden;
+      }
+      .Frase1
+      {
+          width: 100%;
+      }
+      .Frase1 h5
+      {
+          font-size: 3vw;  font-weight: bold;  width: 80%;  margin-top: -5vw;  margin-left: 5vw;  text-align: justify;
+      }
+      .Frase1 p
+      {
+          font-size: 3vw;  width: 86%;  margin-top: 12vw;  margin-left: 5vw;  text-align: justify;
+      }
+      .hero-section
+      {
+          height: 108vh;  background: #111130;
+      }
+      .hero-section .hero-section-text h1
+      {
+          font-family: Quicksand; font-size: 10vh;  position: absolute;  top: 0vh;  right: 16vw;  text-align: center;  vertical-align: middle;
+      }
+
+      .secc
+      {
+          position: absolute;  width: 100%;  height: 100%;
+      }
+      .hero-section .secc .imagenprin
+      {
+          position: absolute;  width: 75%;  height: 100%;  margin-right: auto;  margin-left: 0vh;          -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);                  clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+      }
+      #pbackmov
+      {
+          position: absolute;  z-index: 2;  width: 100%;  height: 150%;  background: #311e59;          -webkit-clip-path: polygon(100% 0%, 0% 50%, 100% 100%);                  clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
+      }
+      #pbackmov2
+      {
+          position: absolute;  z-index: 3;  width: 100%;  height: 150%;  background: #7d11a0;          -webkit-clip-path: polygon(0% 0%, 100% 50%, 100% 100%, 0% 100%);                  clip-path: polygon(0% 0%, 100% 50%, 100% 100%, 0% 100%);
+      }
+      .hero-section .secc .nueva .hero-section-text h1
+      {
+          position: absolute; z-index: 9;  margin-top: 33vh;  margin-left: 32%;  text-align: justify;
+      }
+
+      .seccion2 .fondo
+      {
+          position: absolute;  z-index: 100;  width: 100%;  height: 100vh;  margin-top: 90vh;  background: black;
+      }
+      .seccion2 .fondo .top1
+      {
+          position: absolute;  z-index: 1;  width: 100%;  height: 100%;  background: white;          -webkit-clip-path: polygon(0% 0%, 100% 0% , 100% 100%, 0% 100%);                  clip-path: polygon(0% 0%, 100% 0% , 100% 100%, 0% 100%);
+      }
+      .seccion2 .fondo .top1 a p
+      {
+          font-family: Quicksand;  font-size: 2.5vw;  width: 100%;  height: 100%;  margin-top: 4vw;  text-align: center;
+      }
+      .seccion2 .fondo .right1
+      {
+          position: absolute;  z-index: 2;  width: 100%;  height: 100%;  background: #2b59c3;          -webkit-clip-path: polygon(0% 0, 0% 100%, 100% 100%, 100% 0%);                  clip-path: polygon(0% 0, 0% 100%, 100% 100%, 100% 0%);
+      }
+      .seccion2 .fondo .left1
+      {
+          position: absolute;  z-index: 0;  width: 100%;  height: 100%;  background: #253c78;
+      }
+      .seccion2 li
+      {
+          font-family: Quicksand;  font-size: 7vw;  margin-left: 13vw;  color: white;
+      }
+      .seccion2 .seccion21
+      {
+          position: absolute;  z-index: 100;  width: 100%;  height: 86vh;  margin-top: 190vh;  background: #111130;
+      }
+      .seccion2 .seccion21 .Fondo .mid
+      {
+          position: absolute;  width: 100%;  height: 100%;  background: #7d11a0;          -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);                  clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+      }
+      .seccion2 .seccion21 .Fondo .triangle
+      {
+          position: absolute;  display: none;  visibility: hidden;  width: 100%;  height: 100%;  background: white;
+      }
+      .im3,
+      .im2
+      {
+          margin-top: -15vh;
+      }
+      #uno
+      {
+          float: right;  clear: both;  margin-top: -70vh;
+      }
+      #margen
+      {
+          margin-left: 20vh;
+      }
+
+      .divs
+      {
+          position: absolute;  z-index: 1002;
+      }
+
+      .rellax
+      {
+          position: absolute;  width: 100%;  width: 100%;  min-width: 100%;  max-width: 100%;
+      }
+      .navbar
+      {
+          position: absolute;  z-index: 100000;  width: 100%;  height: 4rem;  background: rgba(0,0,0,0);
+      }
+      .navbar .boton .button
+      {font-size: 2.5vw; width: 25vw; height: 9vw;
+          margin-top: 3vh;  margin-right: 3vh;
+      }
+      .navbar .secciones
+      {
+          font-family: Quicksand;  position: relative;  top: 2vh;  display: none;  visibility: hidden;  margin-top: 15vh;  margin-left: 2vw;  text-align: center;  color: white;
+      }
+
+      .prinimagen
+      {
+          display: none;  visibility: hidden;
+      }
+      .Tercera
+      {
+          position: absolute;  width: 100%; margin-top: 415vh;
+          ;
+      }
+      .Tercera .t
+      {
+          font-size: 7vw; font-weight: bold; margin-left: 0vh;  text-align: center;
+      }
+      .skill
+      {
+          font-family: Quicksand;  font-size: 9vw;  margin-top: 20vw;  margin-left: 10vw;  color: white;
+      }
+      .Tercera h4
+      {
+          font-size: 4vw;  font-weight: bold;  text-align: justify;
+      }
+      .Tercera p
+      {
+          font-size: 3vw;  text-align: justify;
+      }
+
+      #Titulo4
+      {
+          font-family: Quicksand;  font-size: 6vw;  margin-bottom: 15vw;  text-align: center;
+      }
+
+      .nombre
+      {
+          margin-top: 32vh;
+      }
+      .im1 .button p
+      {
+          font-size: 2vh;  width: 15vh;  margin-top: 2.5vh;  margin-left: -14.5vh;  transform: rotate(-90deg);  text-align: center;  opacity: 0;  color: white;
+      }
+      .im0 .button p
+      {
+          font-size: 2vh;  width: 15vh;  margin-top: 4.5vh;  margin-left: -14.5vh;  transform: rotate(-90deg);  text-align: center;  opacity: 0;  color: white;
+      }
+      .im2 .button p
+      {
+          font-size: 2vh;  width: 15vh;  margin-top: 4.5vh;  margin-left: -11.5vh;  transform: rotate(-90deg);  text-align: center;  opacity: 0;  color: white;
+      }
+      .im3 .button p
+      {
+          font-size: 2vh;  width: 15vh;  margin-top: 4.5vh;  margin-left: -11.5vh;  transform: rotate(-90deg);  text-align: center;  opacity: 0;  color: white;
+      }
+      .im0 .button,
+      .im1 .button,
+      .im2 .button,
+      .im3 .button
+      {
+          position: absolute;  z-index: 1000;  width: 5vh;  height: 30vh;  margin-top: -1vh;  margin-left: 23vh;  opacity: .5;
+      }
+
+
+      p
+      {
+          font-family: Quicksand;  color: white;
+      }
+
+
+      .im1,
+      .im2
+      {
+          position: relative;  width: 40vw;  height: 40vh;  margin-left: -15vw;  -webkit-transition: all 3s ease;        -moz-transition: all 3s ease;          -ms-transition: all 3s ease;            -o-transition: all 3s ease;                  transition: all 3s ease;                  opacity: 1;  background-color: rgba(0, 0, 0, .9);  -webkit-opacity: 1;        -moz-opacity: 1;
+      }
+      .im0,
+      .im3
+      {
+          position: relative;  width: 40vw;  height: 40vh;  margin-left: -18vw;  -webkit-transition: all 3s ease;        -moz-transition: all 3s ease;          -ms-transition: all 3s ease;            -o-transition: all 3s ease;                  transition: all 3s ease;                  opacity: 1;  background-color: rgba(0, 0, 0, .9);  -webkit-opacity: 1;        -moz-opacity: 1;
+      }
+      .im2 p,
+      .im3 p
+      {
+          font-size: 4vh;  position: absolute;  padding-top: 11vh;  padding-bottom: 0;  padding-left: 1vh;  color: white;
+      }
+      .im0 p,
+      .im1 p
+      {
+          font-size: 4vh;  position: absolute;  padding-top: 17vh;  padding-bottom: 0;  padding-left: 1vh;  color: white;
+      }
+      .im0:hover .imagen,
+      .im1:hover .imagen,
+      .im2:hover .imagen,
+      .im3:hover .imagen
+      {
+          transition: all .5s ease;                  opacity: .5;  background-color: rgba(0, 0, 0, 1);  -webkit-opacity: .5;        -moz-opacity: .5;  filter: alpha(opacity=50);
+      }
+      .im0 .imagen,
+      .im1 .imagen,
+      .im2 .imagen,
+      .im3 .imagen
+      {
+          transition: all .5s ease-out;                  opacity: 1;  background-color: rgba(0, 0, 0, 1);  -webkit-opacity: 1;        -moz-opacity: 1;  filter: alpha(opacity=100);
+      }
+      .im0:hover .button,
+      .im1:hover .button,
+      .im2:hover .button,
+      .im3:hover .button
+      {
+          transition: all .5s ease;                  opacity: 1;  -webkit-opacity: 1;        -moz-opacity: 1;  filter: alpha(opacity=100);
+      }
+      .im0 .button,
+      .im1 .button,
+      .im2 .button,
+      .im3 .button
+      {
+          transition: all .5s ease-out;                  opacity: .5;  -webkit-opacity: .5;        -moz-opacity: .5;  filter: alpha(opacity=50);
+      }
+      .im0:hover .button p,
+      .im1:hover .button p,
+      .im2:hover .button p,
+      .im3:hover .button p
+      {
+          transition: all .5s ease-out;                  opacity: 1;  -webkit-opacity: 1;        -moz-opacity: 1;  filter: alpha(opacity=100);
+      }
+      .im0 .button p,
+      .im1 .button p,
+      .im2 .button p,
+      .im3 .button p
+      {
+          transition: all .5s ease-out;                  opacity: 0;  -webkit-opacity: 0;        -moz-opacity: 0;  filter: alpha(opacity=0);
+      }
+      .im0 .button:hover,
+      .im1 .button:hover,
+      .im2 .button:hover,
+      .im3 .button:hover
+      {
+          background-color: red;
+      }
+      .im0 p,
+      .im1 p,
+      .im2 p,
+      .im3 p
+      {
+          text-shadow: 1px 1px 2px #0a0a0a;
+      }
+
+      #unica
+      {
+          margin-top: 150vh;
+      }
+      .proy
+      {
+          height: 130vh;
+      }
+      .seccion
+      {
+          width: 100%;  height: 10vh;
+      }
+      .footer
+      {
+          position: absolute;  width: 100%;  height: 9rem;  margin-top: 469vh;  background: #111130;
+      }
+      .footer a
+      {
+          margin-top: 3vh;
+      }
+      .boton .button
+      {
+          font-size: 1rem;  position: absolute;  top: .4vh;  right: .4vh;  left: auto;  width: 9rem;  height: 3.5rem;  opacity: 1;  color: white;
+      }
+      .boton .button:hover
+      {
+          font-size: 1rem;  position: absolute;  top: .4vh;  right: .4vh;  left: auto;  width: 9rem;  height: 3.5rem;  opacity: 1;  color: white;  background-color: #4286f4;
+      }
+
+      .backgroundeffect
+      {
+          z-index: 1;  width: 200%;  height: 100%;
+      }
+
+      .social-icon-button
+      {
+          font-size: 2rem;  position: relative;  display: inline-block;  width: 3.6rem;  height: 3.6rem;  text-align: center;  border-radius: 3.6rem;  background: none;
+      }
+      .social-icon-button + .social-icon-button
+      {
+          margin-left: .25rem;
+      }
+      .social-icon-button .fab
+      {
+          line-height: 3.6rem;  position: absolute;  z-index: 1;  top: 50%;  left: 50%;  transition: all .3s ease-in-out;                  -webkit-transform: translate(-50%, -50%);              -ms-transform: translate(-50%, -50%);                  transform: translate(-50%, -50%);  color: #fff;  background: none;
+      }
+      .social-icon-button span
+      {
+          position: absolute;  top: 50%;  left: 50%;  display: block;  width: 0;  height: 0;  transition: all .3s ease-in-out;                  -webkit-transform: translate(-50%, -50%);              -ms-transform: translate(-50%, -50%);                  transform: translate(-50%, -50%);  border-radius: 0;
+      }
+      .social-icon-button:hover .fab
+      {
+          color: #fefefe;
+      }
+      .social-icon-button:hover span
+      {
+          display: block;  width: 3.6rem;  height: 3.6rem;  border-radius: 3.6rem;
+      }
+      .social-icon-button.gplus
+      {
+          margin-left: 2vh; color: #dd4b39;
+      }
+      .social-icon-button.gplus span
+      {
+          background-color: #dd4b39;
+      }
+      .social-icon-button.twitter
+      {
+          margin-left: -2vh; color: #007bb5;
+      }
+      .social-icon-button.twitter span
+      {
+          background-color: #007bb5;
+      }
+      .social-icon-button.facebook
+      {
+          margin-left: -6vh; color: #3b5998;
+      }
+      .social-icon-button.facebook span
+      {
+          background-color: #3b5998;
+      }
+  }
+  @media only screen and (orientation:portrait) and (max-device-width:768px) and (max-device-height:1024px)
+  {
+      #particles-js
+      {
+          display: none;  visibility: hidden;
+      }
+      .Frase1
+      {
+          width: 100%;
+      }
+      .Frase1 h5
+      {
+          font-size: 3vw;         font-weight: bold;  width: 80%;  margin-top: -5vw;  margin-left: 5vw;  text-align: justify;
+      }
+      .Frase1 p
+      {
+          font-size: 3vw;         width: 86%;  margin-top: 12vw;  margin-left: 5vw;  text-align: justify;
+      }
+      .hero-section
+      {
+          height: 108vh;  background: #111130;
+      }
+      .hero-section .hero-section-text h1
+      {
+          font-family: Quicksand; font-size: 10vh;  position: absolute;  top: 0vh;  right: 16vw;         text-align: center;  vertical-align: middle;
+      }
+
+      .secc
+      {
+          position: absolute;  width: 100%;  height: 100%;
+      }
+      .hero-section .secc .imagenprin
+      {
+          position: absolute;  width: 75%;  height: 100%;  margin-right: auto;  margin-left: 0vh;          -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);                  clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+      }
+      #pbackmov
+      {
+          position: absolute;  z-index: 2;         width: 100%;  height: 150%;  background: #311e59;          -webkit-clip-path: polygon(100% 0%, 0% 50%, 100% 100%);                  clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
+      }
+      #pbackmov2
+      {
+          position: absolute;  z-index: 3;         width: 100%;  height: 150%;  background: #7d11a0;          -webkit-clip-path: polygon(0% 0%, 100% 50%, 100% 100%, 0% 100%);                  clip-path: polygon(0% 0%, 100% 50%, 100% 100%, 0% 100%);
+      }
+      .hero-section .secc .nueva .hero-section-text h1
+      {
+          position: absolute; z-index: 9;  margin-top: 33vh;  margin-left: 32%;         text-align: justify;
+      }
+
+      .seccion2 .fondo
+      {
+          position: absolute;  z-index: 100;         width: 100%;  height: 100vh;  margin-top: 90vh;  background: black;
+      }
+      .seccion2 .fondo .top1
+      {
+          position: absolute;  z-index: 1;  width: 100%;  height: 100%;  background: white;          -webkit-clip-path: polygon(0% 0%, 100% 0% , 100% 100%, 0% 100%);                  clip-path: polygon(0% 0%, 100% 0% , 100% 100%, 0% 100%);
+      }
+      .seccion2 .fondo .top1 a p
+      {
+          font-family: Quicksand;         font-size: 2.5vw;  width: 100%;  height: 100%;  margin-top: 4vw;  text-align: center;
+      }
+      .seccion2 .fondo .right1
+      {
+          position: absolute;  z-index: 2;  width: 100%;  height: 100%;  background: #2b59c3;          -webkit-clip-path: polygon(0% 0, 0% 100%, 100% 100%, 100% 0%);                  clip-path: polygon(0% 0, 0% 100%, 100% 100%, 100% 0%);
+      }
+      .seccion2 .fondo .left1
+      {
+          position: absolute;  z-index: 0;         width: 100%;  height: 100%;  background: #253c78;
+      }
+      .seccion2 li
+      {
+          font-family: Quicksand;  font-size: 7vw;  margin-left: 13vw;  color: white;
+      }
+      .seccion2 .seccion21
+      {
+          position: absolute;  z-index: 100;         width: 100%;  height: 86vh;  margin-top: 190vh;  background: #111130;
+      }
+      .seccion2 .seccion21 .Fondo .mid
+      {
+          position: absolute;  width: 100%;  height: 100%;  background: #7d11a0;          -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);                  clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+      }
+      .seccion2 .seccion21 .Fondo .triangle
+      {
+          position: absolute;  display: none;  visibility: hidden;  width: 100%;  height: 100%;  background: white;
+      }
+      .im3,
+      .im2
+      {
+          margin-top: -15vh;
+      }
+      #uno
+      {
+          float: right;         clear: both;  margin-top: -70vh;
+      }
+      #margen
+      {
+          margin-left: 20vh;
+      }
+
+      .divs
+      {
+          position: absolute;  z-index: 1002;
+      }
+
+      .rellax
+      {
+          position: absolute;  width: 100%;  width: 100%;         min-width: 100%;  max-width: 100%;
+      }
+      .navbar
+      {
+          position: absolute;  z-index: 100000;  width: 100%;         height: 4rem;  background: rgba(0,0,0,0);
+      }
+      .navbar .boton .button
+      {
+          margin-top: 3vh;  margin-right: 3vh;
+      }
+      .navbar .secciones
+      {
+          font-family: Quicksand;  position: relative;         top: 2vh;  display: none;  visibility: hidden;  margin-top: 15vh;  margin-left: 2vw;  text-align: center;  color: white;
+      }
+
+      .prinimagen
+      {
+          display: none;  visibility: hidden;
+      }
+      .Tercera
+      {
+          position: absolute;  width: 100%;  margin-top: 415vh;
+
+      }
+      .Tercera .t
+      {
+          font-size: 7vw; font-weight: bold; margin-left: 0vh;         text-align: center;
+      }
+      .skill
+      {
+          font-family: Quicksand;  font-size: 9vw;  margin-top: 20vw;  margin-left: 10vw;  color: white;
+      }
+      .Tercera h4
+      {
+          font-size: 4vw;  font-weight: bold;  text-align: justify;
+      }
+      .Tercera p
+      {
+          font-size: 3vw;  text-align: justify;
+      }
+
+      #Titulo4
+      {
+          font-family: Quicksand;  font-size: 6vw;  margin-bottom: 15vw;         text-align: center;
+      }
+
+      .im1 .button p
+      {
+          font-size: 2vh;  width: 15vh;  margin-top: 2.5vh;  margin-left: -15vh;  transform: rotate(-90deg);  text-align: center;  opacity: 0;  color: white;
+      }
+      .im0 .button p
+      {
+          font-size: 2vh;  width: 15vh;  margin-top: 4.5vh;  margin-left: -15vh;  transform: rotate(-90deg);  text-align: center;  opacity: 0;  color: white;
+      }
+      .im2 .button p
+      {
+          font-size: 2vh;  width: 15vh;  margin-top: 4.5vh;  margin-left: -11.5vh;  transform: rotate(-90deg);  text-align: center;  opacity: 0;  color: white;
+      }
+      .im3 .button p
+      {
+          font-size: 2vh;  width: 15vh;  margin-top: 4.5vh;  margin-left: -12vh;  transform: rotate(-90deg);  text-align: center;  opacity: 0;  color: white;
+      }
+      .im0 .button,
+      .im1 .button,
+      .im2 .button,
+      .im3 .button
+      {
+          position: absolute;  z-index: 1000;  width: 5vh;  height: 30vh;  margin-top: -1vh;  margin-left: 23vh;  opacity: .5;
+      }
+
+      .nombre
+      {
+          margin-top: 32vh;
+      }
+      .im0 .button,
+      .im1 .button,
+      .im2 .button,
+      .im3 .button
+      {
+          position: absolute;  z-index: 1000;         width: 5vh;  height: 30vh;  margin-top: -1vh;  margin-left: 23vh;  opacity: .5;
+      }
+
+      p
+      {
+          font-family: Quicksand;  color: white;
+      }
+
+
+      .im1,
+      .im2
+      {
+          position: relative;  width: 40vw;  height: 40vh;  margin-left: -15vw;          -webkit-transition: all 3s ease;             -moz-transition: all 3s ease;              -ms-transition: all 3s ease;               -o-transition: all 3s ease;                  transition: all 3s ease;                        opacity: 1;  background-color: rgba(0, 0, 0, .9);     -webkit-opacity: 1;        -moz-opacity: 1;
+      }
+      .im0,
+      .im3
+      {
+          position: relative;  width: 40vw;  height: 40vh;  margin-left: -18vw;          -webkit-transition: all 3s ease;             -moz-transition: all 3s ease;              -ms-transition: all 3s ease;               -o-transition: all 3s ease;                  transition: all 3s ease;                        opacity: 1;  background-color: rgba(0, 0, 0, .9);     -webkit-opacity: 1;        -moz-opacity: 1;
+      }
+      .im2 p,
+      .im3 p
+      {
+          font-size: 4vh;  position: absolute;  padding-top: 11vh;  padding-bottom: 0;  padding-left: 1vh;  color: white;
+      }
+      .im0 p,
+      .im1 p
+      {
+          font-size: 4vh;  position: absolute;  padding-top: 17vh;  padding-bottom: 0;  padding-left: 1vh;  color: white;
+      }
+      .im0:hover .imagen,
+      .im1:hover .imagen,
+      .im2:hover .imagen,
+      .im3:hover .imagen
+      {
+          transition: all .5s ease;             opacity: .5;  background-color: rgba(0, 0, 0, 1);     -webkit-opacity: .5;        -moz-opacity: .5;  filter: alpha(opacity=50);
+      }
+      .im0 .imagen,
+      .im1 .imagen,
+      .im2 .imagen,
+      .im3 .imagen
+      {
+          transition: all .5s ease-out;             opacity: 1;  background-color: rgba(0, 0, 0, 1);     -webkit-opacity: 1;        -moz-opacity: 1;  filter: alpha(opacity=100);
+      }
+      .im0:hover .button,
+      .im1:hover .button,
+      .im2:hover .button,
+      .im3:hover .button
+      {
+          transition: all .5s ease;             opacity: 1;        -webkit-opacity: 1;        -moz-opacity: 1;  filter: alpha(opacity=100);
+      }
+      .im0 .button,
+      .im1 .button,
+      .im2 .button,
+      .im3 .button
+      {
+          transition: all .5s ease-out;             opacity: .5;        -webkit-opacity: .5;        -moz-opacity: .5;  filter: alpha(opacity=50);
+      }
+      .im0:hover .button p,
+      .im1:hover .button p,
+      .im2:hover .button p,
+      .im3:hover .button p
+      {
+          transition: all .5s ease-out;             opacity: 1;        -webkit-opacity: 1;        -moz-opacity: 1;  filter: alpha(opacity=100);
+      }
+      .im0 .button p,
+      .im1 .button p,
+      .im2 .button p,
+      .im3 .button p
+      {
+          transition: all .5s ease-out;             opacity: 0;        -webkit-opacity: 0;        -moz-opacity: 0;  filter: alpha(opacity=0);
+      }
+      .im0 .button:hover,
+      .im1 .button:hover,
+      .im2 .button:hover,
+      .im3 .button:hover
+      {
+          background-color: red;
+      }
+      .im0 p,
+      .im1 p,
+      .im2 p,
+      .im3 p
+      {
+          text-shadow: 1px 1px 2px #0a0a0a;
+      }
+
+      #unica
+      {
+          margin-top: 150vh;
+      }
+      .proy
+      {
+          height: 130vh;
+      }
+      .seccion
+      {
+          width: 100%;  height: 10vh;
+      }
+      .footer
+      {
+          position: absolute;  width: 100%;  height: 9rem;  margin-top: 469vh;  background: #111130;
+      }
+      .footer a
+      {
+          margin-top: 3vh;
+      }
+      .boton .button
+      {
+          font-size: 1rem;  position: absolute;  top: .4vh;  right: .4vh;  left: auto;  width: 9rem;  height: 3.5rem;  opacity: 1;  color: white;
+      }
+      .boton .button:hover
+      {
+          font-size: 1rem;  position: absolute;  top: .4vh;  right: .4vh;  left: auto;  width: 9rem;  height: 3.5rem;  opacity: 1;  color: white;  background-color: #4286f4;
+      }
+
+      .backgroundeffect
+      {
+          z-index: 1;  width: 200%;  height: 100%;
+      }
+
+      .social-icon-button
+      {
+          font-size: 2rem;  position: relative;  display: inline-block;  width: 3.6rem;  height: 3.6rem;  text-align: center;  border-radius: 3.6rem;  background: none;
+      }
+      .social-icon-button + .social-icon-button
+      {
+          margin-left: .25rem;
+      }
+      .social-icon-button .fab
+      {
+          line-height: 3.6rem;  position: absolute;  z-index: 1;  top: 50%;  left: 50%;  transition: all .3s ease-in-out;          -webkit-transform: translate(-50%, -50%);              -ms-transform: translate(-50%, -50%);                  transform: translate(-50%, -50%);  color: #fff;  background: none;
+      }
+      .social-icon-button span
+      {
+          position: absolute;  top: 50%;  left: 50%;  display: block;  width: 0;  height: 0;  transition: all .3s ease-in-out;          -webkit-transform: translate(-50%, -50%);              -ms-transform: translate(-50%, -50%);                  transform: translate(-50%, -50%);  border-radius: 0;
+      }
+      .social-icon-button:hover .fab
+      {
+          color: #fefefe;
+      }
+      .social-icon-button:hover span
+      {
+          display: block;  width: 3.6rem;  height: 3.6rem;         border-radius: 3.6rem;
+      }
+      .social-icon-button.gplus
+      {
+          margin-left: 8vh; color: #dd4b39;
+      }
+      .social-icon-button.gplus span
+      {
+          background-color: #dd4b39;
+      }
+      .social-icon-button.twitter
+      {
+          margin-left: -3vh; color: #007bb5;
+      }
+      .social-icon-button.twitter span
+      {
+          background-color: #007bb5;
+      }
+      .social-icon-button.facebook
+      {
+          margin-left: -8vh; color: #3b5998;
+      }
+      .social-icon-button.facebook span
+      {
+          background-color: #3b5998;
+      }
+  }
+
+  @media only screen and (orientation:portrait) and (max-device-width:414px) and (max-device-height:736px) {
 
           .Frase1{
             width: 100%;
@@ -2211,9 +3328,9 @@
           .social-icon-button.facebook span {
               background-color: #3b5998;
             }
-}
+  }
 
-@media only screen and (max-device-width:412px) and (max-device-height:732px) {
+  @media only screen and (orientation:portrait) and (max-device-width:412px) and (max-device-height:732px) {
 
             .Frase1{
               width: 100%;
@@ -2590,9 +3707,9 @@
             .social-icon-button.facebook span {
                 background-color: #3b5998;
               }
-}
+  }
 
-@media only screen and (max-device-width:375px) and (max-device-height:812px) {
+  @media only screen and (orientation:portrait) and (max-device-width:375px) and (max-device-height:812px) {
         .Frase1{
           width: 100%;
         }
@@ -2977,9 +4094,9 @@
         .social-icon-button.facebook span {
             background-color: #3b5998;
           }
-}
+  }
 
-@media only screen and (max-device-width:375px) and (max-device-height:667px) {
+  @media only screen and (orientation:portrait) and (max-device-width:375px) and (max-device-height:667px) {
       body{
         width: 100%;
       }
@@ -3359,9 +4476,9 @@
       .social-icon-button.facebook span {
           background-color: #3b5998;
         }
-}
+  }
 
-@media only screen and (max-device-width:360px) and (max-device-height:640px) {
+  @media only screen and (orientation:portrait) and (max-device-width:360px) and (max-device-height:640px) {
 
     .Frase1{
       width: 100%;
@@ -3736,9 +4853,9 @@
     .social-icon-button.facebook span {
       background-color: #3b5998;
     }
-}
+  }
 
-@media only screen and (max-device-width:320px) and (max-device-height:568px) {
+  @media only screen and (orientation:portrait) and (max-device-width:320px) and (max-device-height:568px) {
 
     .Frase1{
       width: 100%;
@@ -4113,688 +5230,531 @@
     .social-icon-button.facebook span {
       background-color: #3b5998;
     }
-}
-}
-
-
-@media only screen and (min-device-width: 720px){
-  /*Inicio de Seccion Principal*/
-  .rellas{
-    position: absolute;
-  }
-  body {
-    overflow-x: hidden;
-  }
-  .hero-section {
-    background-color: white;
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  #particles-js{
-    visibility: visible;
-    height: 70vh;
-    width: 100%;
-    background: white;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  #pback {
-    height: 70vh;
-    width: 100%;
-    background: white;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-  }
-  #pbackmov{
-    display: none;
-    visibility: hidden;
-  }
-  #pbackmov2{
-    display: none;
-    visibility: hidden;
-  }
-  .hero-section .hero-section-text {
-    color: #ffffff;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 10vh;
-    position: absolute;
-    vertical-align: middle;
-    top: 10%;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    color: black;
-  }
-  .Skills {
-    margin-top: 11.5vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
-    background: black;
-    width: 62vh;
-    height: 20rem;
-  }
-  .seccion2{
-    margin-top: 7%;
-  }
-  .seccion2 .grid-container-full {
-    height: 34rem;
-    width: 100%;
-    margin-top: 50%;
-    position: absolute;
-    z-index: 1001;
-    background-color: rgba(0, 0, 0, 0);
-  }
-  .Skills h1 {
-    margin-left: 6vh;
-    margin-right: 0vh;
-    margin-top: 0vh;
-  }
-  .Skills ul li {
-    margin-top: 2vh;
-    margin-left: 6vh;
-  }
-  .Frase1{
-    width: 50%;
-    position: absolute;
-    margin-top: 17vw;
-  }
-  /*Fin de la Segunda Seccion*/
-
-  /*Inicio Tercera Sección: Proyectos */
-  .proy{
-    margin-top: 290vh;
-  }
-  .Frase2 {
-    color: white;
-  }
-  .im1,.im2{
-    position: relative;
-    width: 40vh;
-    height: 60vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease
-  }
-  .im0, .im3{
-    position: relative;
-    margin-left: -123%;
-    width: 40vh;
-    height: 60vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease;
-  }
-  .ima {
-    padding-bottom: 0px;
-    padding-top: 34vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .im1 p, .im0 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 35vh;
-    padding-left: 3vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im0:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im0 .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im0:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im0 .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im0:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im0 .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  .im0 .button, .im1 .button, .im2 .button, .im3 .button {
-    height: 40vh;
-    width: 5vh;
-    margin-left: 31vh;
-    margin-top: -1vh;
-    position: absolute;
-    opacity: .5;
-    z-index: 1000;
-  }
-  .im0 .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
-  .im0 .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    margin-left: -24.5vh;
-    margin-top: -3vh;
-    width: 15vh;
-    color: white;
-    text-align: center;
-    font-size: 2vh;
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  .im0 p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .Proyectos p {
-    padding-bottom: 0px;
-    padding-top: 30vh;
-    font-size: 6vh;
-  }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
-
-  /*Fin de la Cuarta Seccion*/
-  .Tercera .grid-container-full {
-    height: 80vh;
-    position: absolute;
-    margin-top: -10vh;
-  }
-  .divs .tag {
-    visibility: hidden;
   }
 
-  .secc{
-    background: purple;
-    position: absolute;
-    width: 100%;
-    height:100%;
+  @media only screen and (orientation:portrait) and (max-device-width: 720px){
+
+    #pback {
+      display:none;
+      visibility: hidden;
+    }
+    .hero-section .hero-section-text {
+      color: #ffffff;
+      text-shadow: 1px 1px 2px #0a0a0a;
+    }
+    .hero-section .hero-section-text h1 {
+      font-size: 10vh;
+      position: absolute;
+      vertical-align: middle;
+    }
+    /*Fin de Seccion Principal*/
+    /*Inicio de Segunda Seccion: Skills*/
+    .Frase1 {
+      color: black;
+    }
+    .Skills {
+      margin-top: 11.5vh;
+      margin-right: 0vh;
+      color: white;
+      border: solid 1px black;
+      background: black;
+      width: 62vh;
+      height: 20rem;
+    }
+    .seccion2{
+      margin-top: 7%;
+    }
+    .seccion2 .grid-container-full {
+      height: 34rem;
+      width: 100%;
+      margin-top: 50%;
+      position: absolute;
+      z-index: 1001;
+      background-color: rgba(0, 0, 0, 0);
+    }
+    .Frase1{
+      position: absolute;
+      margin-top: 17vw;
+    }
+    .Frase1 p {
+      font-family: Quicksand;
+    }
+    .Frase1 a {
+      font-size: 3.5vw;
+      color: black;
+      width: 50%;
+      font-family: Quicksand;
+    }
+    .Frase1 h5 {
+      color: black;
+      position: absolute;
+      font-family: Quicksand;
+    }
+    /*Fin de la Segunda Seccion*/
+
+    /*Inicio Tercera Sección: Proyectos */
+    .proy{
+      margin-top: 290vh;
+      width: 100%;
+    }
+    .Frase2 {
+      color: white;
+    }
+    .im1,.im2{
+      position: relative;
+      margin-left: -15vw;
+      width: 40vw;
+      height: 40vh;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      opacity: 1;
+      background-color: rgba(0, 0, 0, .9);
+      -webkit-transition: all 3s ease;
+      -moz-transition: all 3s ease;
+      -ms-transition: all 3s ease;
+      -o-transition: all 3s ease;
+      transition: all 3s ease;
+    }
+    .im0,.im3{
+      position: relative;
+      margin-left: -20vw;
+      width: 40vw;
+      height: 40vh;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      opacity: 1;
+      background-color: rgba(0, 0, 0, .9);
+      -webkit-transition: all 3s ease;
+      -moz-transition: all 3s ease;
+      -ms-transition: all 3s ease;
+      -o-transition: all 3s ease;
+      transition: all 3s ease;
+    }
+    .im1 p, .im2 p, .im3 p {
+      padding-bottom: 0px;
+      padding-top: 11vh;
+      padding-left: 1vh;
+      color: white;
+      font-size: 4vh;
+      position: absolute;
+    }
+    .im0 p{
+      padding-bottom: 0px;
+      padding-top: 17vh;
+      padding-left: 1vh;
+      color: white;
+      font-size: 4vh;
+      position: absolute;
+    }
+    .im0:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
+      transition: all .5s ease;
+      background-color: rgba(0, 0, 0, 1);
+      -webkit-opacity: .5;
+      -moz-opacity: .5;
+      filter: alpha(opacity=50);
+      opacity: .5;
+    }
+    .im0 .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
+      transition: all .5s ease-out;
+      background-color: rgba(0, 0, 0, 1);
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      filter: alpha(opacity=100);
+      opacity: 1;
+    }
+    .im0:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
+      transition: all .5s ease;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      filter: alpha(opacity=100);
+      opacity: 1;
+    }
+    .im0 .button, .im1 .button, .im2 .button, .im3 .button {
+      transition: all .5s ease-out;
+      -webkit-opacity: .5;
+      -moz-opacity: .5;
+      filter: alpha(opacity=50);
+      opacity: .5;
+    }
+    .im0:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
+      transition: all .5s ease-out;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      filter: alpha(opacity=100);
+      opacity: 1;
+    }
+    .im0 .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+      transition: all .5s ease-out;
+      -webkit-opacity: 0;
+      -moz-opacity: 0;
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+
+    .im0 .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
+      background-color: red;
+    }
+
+    .im0 p, .im1 p, .im2 p, .im3 p {
+      text-shadow: 1px 1px 2px #0a0a0a;
+    }
+    /*Fin de la Tercera seccion*/
+    /*Inicio Cuarta Seccion: Awards*/
+
+    /*Fin de la Cuarta Seccion*/
+    .Tercera .grid-container-full {
+      height: 80vh;
+      position: absolute;
+      margin-top: -10vh;
+    }
+
+    .secc{
+      background: #111130;
+      position: absolute;
+      width: 100%;
+      height:100%;
+
+    }
+    .hero-section .secc .imagenprin {
+      width: 75%;
+      height: 100%;
+      margin-left: 0vh;
+      margin-right: auto;
+      position: absolute;
+
+      -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+      clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+    }
+    #particles-js{
+      display: none;
+      visibility: hidden;
+    }
+    .hero-section .secc .nueva .hero-section-text h1{
+      z-index: 9;
+      position: absolute;
+    }
+    .prinimagen{
+      display: none;
+      visibility: hidden;
+    }
+    .navbar{
+      z-index: 10000;
+      background: rgba(0,0,0,0);
+    }
+    .navbar .boton .button{
+      margin-top: 3vh;
+      margin-right: 3vh;
+      position: absolute;
+    }
+    .navbar .secciones{
+      display: none;
+      visibility: hidden;
+    }
+
+    .seccion2 .seccion21 .Fondo .mid{
+      background: #7D11A0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+      clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+    }
+    .seccion2 .seccion21 .Fondo .triangle{
+      background: white;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+    .proy{
+      z-index: 1;
+    }
+
+    .boton .button {
+      color: white;
+      position: absolute;
+      top: .4vh;
+      left: auto;
+      right: .4vh;
+      font-size: 1rem;
+      width: 9rem;
+      height: 3.5rem;
+      opacity: 1;
+    }
+    .boton .button:hover {
+      color: white;
+      position: absolute;
+      top: .4vh;
+      left: auto;
+      right: .4vh;
+      font-size: 1rem;
+      width: 9rem;
+      height: 3.5rem;
+      opacity: 1;
+      background-color: #4286f4;
+    }
 
   }
-  .hero-section .secc .imagenprin {
-    width: 75%;
-    height: 100%;
-    margin-left: 0vh;
-    margin-right: auto;
-    position: absolute;
+  @media only screen and (orientation:portrait) and (min-device-width: 720px){
 
-    -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
-    clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
-  }
-  #particles-js{
-    top: 0vh;
-    position: absolute;
-    background: rgba(0,0,0,0);
-    height: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 9;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-    -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
-    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 75% 100%, 37.5% 20%);
-  }
-  #pback{
-    top: 0vh;
-    position: absolute;
-    background: black;
-    height: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    z-index: 0.5;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: right;
-    -webkit-clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
-    clip-path: polygon(15% 0%, 32% 0%, 50% 15%, 90% 100%, 75% 100%, 37.5% 20%);
-  }
-  .hero-section .secc .nueva .hero-section-text h1{
-    z-index: 9;
-    position: absolute;
-    margin-top: 30vh;
-  }
-  .boton .button {
-    color: white;
-    position: absolute;
-    top: .4vh;
-    left: auto;
-    right: .4vh;
-    font-size: 1rem;
-    width: 9rem;
-    height: 3.5rem;
-    opacity: 1;
-  }
-  .boton .button:hover {
-    color: white;
-    position: absolute;
-    top: .4vh;
-    left: auto;
-    right: .4vh;
-    font-size: 1rem;
-    width: 9rem;
-    height: 3.5rem;
-    opacity: 1;
-    background-color: #4286f4;
-  }
-  .footer{
-    width: 100%;
-    height: 6rem;
-    background: #111130;
-    position: absolute;
-  }
+    #pback {
+      display:none;
+      visibility: hidden;
+    }
+    .hero-section .hero-section-text {
+      color: #ffffff;
+      text-shadow: 1px 1px 2px #0a0a0a;
+    }
+    .hero-section .hero-section-text h1 {
+      font-size: 10vh;
+      position: absolute;
+      vertical-align: middle;
+    }
+    /*Fin de Seccion Principal*/
+    /*Inicio de Segunda Seccion: Skills*/
+    .Frase1 {
+      color: black;
+    }
+    .Skills {
+      margin-top: 11.5vh;
+      margin-right: 0vh;
+      color: white;
+      border: solid 1px black;
+      background: black;
+      width: 62vh;
+      height: 20rem;
+    }
+    .seccion2{
+      margin-top: 7%;
+    }
+    .seccion2 .grid-container-full {
+      height: 34rem;
+      width: 100%;
+      margin-top: 50%;
+      position: absolute;
+      z-index: 1001;
+      background-color: rgba(0, 0, 0, 0);
+    }
+    .Frase1{
+      position: absolute;
+      margin-top: 17vw;
+    }
+    .Frase1 p {
+      font-family: Quicksand;
+    }
+    .Frase1 a {
+      font-size: 3.5vw;
+      color: black;
+      width: 50%;
+      font-family: Quicksand;
+    }
+    .Frase1 h5 {
+      color: black;
+      position: absolute;
+      font-family: Quicksand;
+    }
+    /*Fin de la Segunda Seccion*/
 
-  .social-icon-button {
-    border-radius: 3.6rem;
-    width: 3.6rem;
-    height: 3.6rem;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    font-size: 2rem;
-    background: none;
-  }
-  .social-icon-button + .social-icon-button {
-    margin-left: 0.25rem;
-  }
-  .social-icon-button .fab {
-    background: none;
-    position: absolute;
-    color: #ffffff;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            z-index: 1;
-            line-height: 3.6rem;
-            transition: all 0.3s ease-in-out;
-  }
-  .social-icon-button span {
-    display: block;
-    border-radius: 0;
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    transition: all 0.3s ease-in-out;
-  }
-  .social-icon-button:hover .fab {
-    color: #fefefe;
-  }
-  .social-icon-button:hover span {
-    display: block;
-    border-radius: 3.6rem;
-    width: 3.6rem;
-    height: 3.6rem;
-  }
-  .social-icon-button.gplus {
-    color: #dd4b39;
-  }
-  .social-icon-button.gplus span {
-    background-color: #dd4b39;
-  }
-  .social-icon-button.twitter {
-    color: #007bb5;
-  }
-  .social-icon-button.twitter span {
-    background-color: #007bb5;
-  }
-  .social-icon-button.facebook {
-    color: #3b5998;
-  }
-  .social-icon-button.facebook span {
-    background-color: #3b5998;
-  }
-}
+    /*Inicio Tercera Sección: Proyectos */
+    .proy{
+      margin-top: 290vh;
+      width: 100%;
+    }
+    .Frase2 {
+      color: white;
+    }
+    .im1,.im2{
+      position: relative;
+      margin-left: -15vw;
+      width: 40vw;
+      height: 40vh;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      opacity: 1;
+      background-color: rgba(0, 0, 0, .9);
+      -webkit-transition: all 3s ease;
+      -moz-transition: all 3s ease;
+      -ms-transition: all 3s ease;
+      -o-transition: all 3s ease;
+      transition: all 3s ease;
+    }
+    .im0,.im3{
+      position: relative;
+      margin-left: -20vw;
+      width: 40vw;
+      height: 40vh;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      opacity: 1;
+      background-color: rgba(0, 0, 0, .9);
+      -webkit-transition: all 3s ease;
+      -moz-transition: all 3s ease;
+      -ms-transition: all 3s ease;
+      -o-transition: all 3s ease;
+      transition: all 3s ease;
+    }
+    .im1 p, .im2 p, .im3 p {
+      padding-bottom: 0px;
+      padding-top: 11vh;
+      padding-left: 1vh;
+      color: white;
+      font-size: 4vh;
+      position: absolute;
+    }
+    .im0 p{
+      padding-bottom: 0px;
+      padding-top: 17vh;
+      padding-left: 1vh;
+      color: white;
+      font-size: 4vh;
+      position: absolute;
+    }
+    .im0:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
+      transition: all .5s ease;
+      background-color: rgba(0, 0, 0, 1);
+      -webkit-opacity: .5;
+      -moz-opacity: .5;
+      filter: alpha(opacity=50);
+      opacity: .5;
+    }
+    .im0 .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
+      transition: all .5s ease-out;
+      background-color: rgba(0, 0, 0, 1);
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      filter: alpha(opacity=100);
+      opacity: 1;
+    }
+    .im0:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
+      transition: all .5s ease;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      filter: alpha(opacity=100);
+      opacity: 1;
+    }
+    .im0 .button, .im1 .button, .im2 .button, .im3 .button {
+      transition: all .5s ease-out;
+      -webkit-opacity: .5;
+      -moz-opacity: .5;
+      filter: alpha(opacity=50);
+      opacity: .5;
+    }
+    .im0:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
+      transition: all .5s ease-out;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      filter: alpha(opacity=100);
+      opacity: 1;
+    }
+    .im0 .button p, .im1 .button p, .im2 .button p, .im3 .button p {
+      transition: all .5s ease-out;
+      -webkit-opacity: 0;
+      -moz-opacity: 0;
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
 
-@media only screen and (max-device-width: 720px){
+    .im0 .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
+      background-color: red;
+    }
 
-  #pback {
-    display:none;
-    visibility: hidden;
-  }
-  .hero-section .hero-section-text {
-    color: #ffffff;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  .hero-section .hero-section-text h1 {
-    font-size: 10vh;
-    position: absolute;
-    vertical-align: middle;
-  }
-  /*Fin de Seccion Principal*/
-  /*Inicio de Segunda Seccion: Skills*/
-  .Frase1 {
-    color: black;
-  }
-  .Skills {
-    margin-top: 11.5vh;
-    margin-right: 0vh;
-    color: white;
-    border: solid 1px black;
-    background: black;
-    width: 62vh;
-    height: 20rem;
-  }
-  .seccion2{
-    margin-top: 7%;
-  }
-  .seccion2 .grid-container-full {
-    height: 34rem;
-    width: 100%;
-    margin-top: 50%;
-    position: absolute;
-    z-index: 1001;
-    background-color: rgba(0, 0, 0, 0);
-  }
-  .Frase1{
-    position: absolute;
-    margin-top: 17vw;
-  }
-  .Frase1 p {
-    font-family: Quicksand;
-  }
-  .Frase1 a {
-    font-size: 3.5vw;
-    color: black;
-    width: 50%;
-    font-family: Quicksand;
-  }
-  .Frase1 h5 {
-    color: black;
-    position: absolute;
-    font-family: Quicksand;
-  }
-  /*Fin de la Segunda Seccion*/
+    .im0 p, .im1 p, .im2 p, .im3 p {
+      text-shadow: 1px 1px 2px #0a0a0a;
+    }
+    /*Fin de la Tercera seccion*/
+    /*Inicio Cuarta Seccion: Awards*/
 
-  /*Inicio Tercera Sección: Proyectos */
-  .proy{
-    margin-top: 290vh;
-    width: 100%;
-  }
-  .Frase2 {
-    color: white;
-  }
-  .im1,.im2{
-    position: relative;
-    margin-left: -15vw;
-    width: 40vw;
-    height: 40vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease;
-  }
-  .im0,.im3{
-    position: relative;
-    margin-left: -20vw;
-    width: 40vw;
-    height: 40vh;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .9);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease;
-  }
-  .im1 p, .im2 p, .im3 p {
-    padding-bottom: 0px;
-    padding-top: 11vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im0 p{
-    padding-bottom: 0px;
-    padding-top: 17vh;
-    padding-left: 1vh;
-    color: white;
-    font-size: 4vh;
-    position: absolute;
-  }
-  .im0:hover .imagen, .im1:hover .imagen, .im2:hover .imagen, .im3:hover .imagen {
-    transition: all .5s ease;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im0 .imagen, .im1 .imagen, .im2 .imagen, .im3 .imagen {
-    transition: all .5s ease-out;
-    background-color: rgba(0, 0, 0, 1);
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im0:hover .button, .im1:hover .button, .im2:hover .button, .im3:hover .button {
-    transition: all .5s ease;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im0 .button, .im1 .button, .im2 .button, .im3 .button {
-    transition: all .5s ease-out;
-    -webkit-opacity: .5;
-    -moz-opacity: .5;
-    filter: alpha(opacity=50);
-    opacity: .5;
-  }
-  .im0:hover .button p, .im1:hover .button p, .im2:hover .button p, .im3:hover .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  .im0 .button p, .im1 .button p, .im2 .button p, .im3 .button p {
-    transition: all .5s ease-out;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
+    /*Fin de la Cuarta Seccion*/
+    .Tercera .grid-container-full {
+      height: 80vh;
+      position: absolute;
+      margin-top: -10vh;
+    }
 
-  .im0 .button:hover, .im1 .button:hover, .im2 .button:hover, .im3 .button:hover {
-    background-color: red;
-  }
+    .secc{
+      background: #111130;
+      position: absolute;
+      width: 100%;
+      height:100%;
 
-  .im0 p, .im1 p, .im2 p, .im3 p {
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  /*Fin de la Tercera seccion*/
-  /*Inicio Cuarta Seccion: Awards*/
+    }
+    .hero-section .secc .imagenprin {
+      width: 75%;
+      height: 100%;
+      margin-left: 0vh;
+      margin-right: auto;
+      position: absolute;
 
-  /*Fin de la Cuarta Seccion*/
-  .Tercera .grid-container-full {
-    height: 80vh;
-    position: absolute;
-    margin-top: -10vh;
-  }
+      -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+      clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
+    }
+    #particles-js{
+      display: none;
+      visibility: hidden;
+    }
+    .hero-section .secc .nueva .hero-section-text h1{
+      z-index: 9;
+      position: absolute;
+    }
+    .prinimagen{
+      display: none;
+      visibility: hidden;
+    }
+    .navbar{
+      z-index: 10000;
+      background: rgba(0,0,0,0);
+    }
+    .navbar .boton .button{
+      margin-top: 3vh;
+      margin-right: 3vh;
+      position: absolute;
+    }
+    .navbar .secciones{
+      display: none;
+      visibility: hidden;
+    }
 
-  .secc{
-    background: #111130;
-    position: absolute;
-    width: 100%;
-    height:100%;
+    .seccion2 .seccion21 .Fondo .mid{
+      background: #7D11A0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+      clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
+    }
+    .seccion2 .seccion21 .Fondo .triangle{
+      background: white;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+    .proy{
+      z-index: 1;
+    }
 
-  }
-  .hero-section .secc .imagenprin {
-    width: 75%;
-    height: 100%;
-    margin-left: 0vh;
-    margin-right: auto;
-    position: absolute;
+    .boton .button {
+      color: white;
+      position: absolute;
+      top: .4vh;
+      left: auto;
+      right: .4vh;
+      font-size: 1rem;
+      width: 9rem;
+      height: 3.5rem;
+      opacity: 1;
+    }
+    .boton .button:hover {
+      color: white;
+      position: absolute;
+      top: .4vh;
+      left: auto;
+      right: .4vh;
+      font-size: 1rem;
+      width: 9rem;
+      height: 3.5rem;
+      opacity: 1;
+      background-color: #4286f4;
+    }
 
-    -webkit-clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
-    clip-path: polygon(0% 0, 20% 0%, 50% 20%, 100% 100%, 0% 100%);
-  }
-  #particles-js{
-    display: none;
-    visibility: hidden;
-  }
-  .hero-section .secc .nueva .hero-section-text h1{
-    z-index: 9;
-    position: absolute;
-  }
-  .prinimagen{
-    display: none;
-    visibility: hidden;
-  }
-  .navbar{
-    z-index: 10000;
-    background: rgba(0,0,0,0);
-  }
-  .navbar .boton .button{
-    margin-top: 3vh;
-    margin-right: 3vh;
-    position: absolute;
-  }
-  .navbar .secciones{
-    display: none;
-    visibility: hidden;
-  }
-
-  .seccion2 .seccion21 .Fondo .mid{
-    background: #7D11A0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    -webkit-clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
-    clip-path: polygon(0% 80%, 0% 100%, 100% 100%, 100% 0%);
-  }
-  .seccion2 .seccion21 .Fondo .triangle{
-    background: white;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
-  .proy{
-    z-index: 1;
-  }
-
-  .boton .button {
-    color: white;
-    position: absolute;
-    top: .4vh;
-    left: auto;
-    right: .4vh;
-    font-size: 1rem;
-    width: 9rem;
-    height: 3.5rem;
-    opacity: 1;
-  }
-  .boton .button:hover {
-    color: white;
-    position: absolute;
-    top: .4vh;
-    left: auto;
-    right: .4vh;
-    font-size: 1rem;
-    width: 9rem;
-    height: 3.5rem;
-    opacity: 1;
-    background-color: #4286f4;
   }
 
 }
